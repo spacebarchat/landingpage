@@ -1,9 +1,9 @@
 :root {
-  --bg-main: #2C2F33;
+  --bg-main: #2c2f33;
 }
 
 body {
-  font-family: 'Sans', sans-serif !important;
+  font-family: "Sans", sans-serif !important;
 }
 
 .navbar {
@@ -14,8 +14,9 @@ body {
   transition: background-color 0.5s;
 }
 
-.navbar li a, .navbar .github-btn {
-  color: black !important;
+.navbar li a,
+.navbar .github-btn {
+  color: blackt;
   font-weight: 200 !important;
 }
 
@@ -27,7 +28,8 @@ body {
   background-color: var(--bg-main) !important;
 }
 
-.scrolled li a, .scrolled .github-btn {
+.scrolled li a,
+.scrolled .github-btn {
   color: white !important;
 }
 
@@ -45,7 +47,8 @@ body {
   text-decoration: none;
 }
 
-.github-btn:hover, .github-btn:focus {
+.github-btn:hover,
+.github-btn:focus {
   background-color: transparent;
 }
 
@@ -56,7 +59,7 @@ body {
     background-color: var(--bg-main) !important;
     margin-top: 1em;
   }
-  
+
   .navbar-collapse li a {
     color: white !important;
   }
@@ -69,7 +72,8 @@ body {
   }
 }
 
-.marginc, .navbar .container-fluid {
+.marginc,
+.navbar .container-fluid {
   margin: 0 auto;
   max-width: 1140px;
 }
@@ -91,8 +95,12 @@ body {
 }
 
 .contain.first {
-  padding-top: 14rem;
-  padding-bottom: 14rem;
+  padding-top: calc(
+    100vh / 2 - 100px
+  ); /* screen height / 2 + (navbar height + warning height) */
+  padding-bottom: calc(
+    100vh / 2 - 100px
+  );
 }
 
 .descquote {

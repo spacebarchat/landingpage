@@ -6,10 +6,10 @@ This repository use [PNPM](https://pnpm.io) as dependanceries manager.
 
 ### Install
 For testing:
-`pnpm install --dev`
+`pnpm install`
 
 For production:
-`pnpm install`
+`pnpm install --prod`
 
 ### Launch
 For testing:

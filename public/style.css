@@ -5,22 +5,22 @@
 }
 
 body {
-  font-family: "Sans", sans-serif !important;
+	font-family: "Sans", sans-serif !important;
 }
 
 .navbar {
-  background-color: white;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  font-size: 18px;
-  text-transform: uppercase;
-  transition: background-color 0.5s;
+	background-color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 18px;
+	text-transform: uppercase;
+	transition: background-color 0.5s;
 }
 
 .navbar li a,
 .navbar .github-btn {
-  color: black;
-  font-weight: 200 !important;
+	color: black;
+	font-weight: 200 !important;
 }
 
 .navbar li a:hover {
@@ -29,15 +29,20 @@ body {
 
 .scrolled {
   background-color: var(--bg-nav) !important;
+	color: #7289da !important;
+}
+
+.scrolled {
+	background-color: var(--bg-main) !important;
 }
 
 .scrolled li a,
 .scrolled .github-btn {
-  color: white !important;
+	color: white !important;
 }
 
 .navbar .navbar-toggler {
-  background-color: white !important;
+	background-color: white !important;
 }
 
 .github-btn {
@@ -52,7 +57,7 @@ body {
 
 .github-btn:hover,
 .github-btn:focus {
-  background-color: transparent;
+	background-color: transparent;
 }
 
 @media (max-width: 991px) {
@@ -63,51 +68,51 @@ body {
     margin-top: 1em;
   }
 
-  .navbar-collapse li a {
-    color: white !important;
-  }
+	.navbar-collapse li a {
+		color: white !important;
+	}
 }
 
 @media (max-width: 600px) {
-  .navbar {
-    padding-left: initial;
-    padding-right: initial;
-  }
+	.navbar {
+		padding-left: initial;
+		padding-right: initial;
+	}
 }
 
 .marginc,
 .navbar .container-fluid {
-  margin: 0 auto;
-  max-width: 1140px;
+	margin: 0 auto;
+	max-width: 1140px;
 }
 
 .main {
-  margin-top: 80px;
-  text-align: center;
-  background-color: white;
+	margin-top: 80px;
+	text-align: center;
+	background-color: white;
 }
 
 .alert {
-  margin: 0 !important;
+	margin: 0 !important;
 }
 
 .contain {
-  margin: 0 auto;
+	margin: 0 auto;
 }
 
 .contain.first {
-  padding-top: calc(100vh / 3);
-  padding-bottom: calc(100vh / 3);
-  background-color: var(--bg-main);
-  color: white;
+	padding-top: calc(100vh / 3);
+	padding-bottom: calc(100vh / 3);
+	background-color: var(--bg-main);
+	color: white;
 }
 
 .descquote {
-  margin: 0;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 64px;
-  font-family: "Poppins", sans-serif;
+	margin: 0;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 64px;
+	font-family: "Poppins", sans-serif;
 }
 
 .descquote span {

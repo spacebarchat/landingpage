@@ -8,9 +8,9 @@ app.use(express.static("public"));
 app.use("/bootstrap", express.static("node_modules/bootstrap/dist"));
 
 app.get("/", (req, res) => {
-  res.render("home", { title: "Home" });
+	res.render("home", { title: "Home" });
 });
 
 app.listen(port, () => {
-  console.log(`App listening at http://localhost:${port}`);
+	console.log(`App listening at http://localhost:${port}`);
 });

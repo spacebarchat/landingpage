@@ -4,7 +4,7 @@
   "description": "The official landing page for Fosscord.",
   "main": "app.js",
   "scripts": {
-    "start": "node ./server.js",
+    "run": "node ./server.js",
     "test": "nodemon ./server.js localhost 80"
   },
   "repository": {

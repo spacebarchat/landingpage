@@ -16,4 +16,4 @@ For testing:
 `pnpm test`
 
 For production:
-`pnpm start`
+`pnpm run`

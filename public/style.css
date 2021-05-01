@@ -94,8 +94,8 @@ body {
 }
 
 .contain.first {
-  padding-top: calc(100vh / 3.31);
-  padding-bottom: calc(100vh / 3.31);
+  padding-top: calc(100vh / 3);
+  padding-bottom: calc(100vh / 3);
   background-color: var(--bg-main);
   color: white;
 }

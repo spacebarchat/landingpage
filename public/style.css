@@ -1,5 +1,7 @@
 :root {
-	--bg-main: #2c2f33;
+	--bg-one: #2c2f33;
+  --bg-two: #212326;
+  --primary: #7289da;
 }
 
 body {
@@ -22,11 +24,11 @@ body {
 }
 
 .navbar li a:hover {
-	color: #7289da !important;
+	color: var(--primary) !important;
 }
 
 .scrolled {
-	background-color: var(--bg-main) !important;
+	background-color: var(--bg-two) !important;
 }
 
 .scrolled li a,
@@ -43,7 +45,7 @@ body {
 	padding: 6px 6px 5px 6px;
 	transition: 0.3s;
 	display: inline-block;
-	border: 2px solid #7289da;
+	border: 2px solid var(--primary);
 	color: inherit !important;
 	text-decoration: none;
 }
@@ -57,7 +59,7 @@ body {
 	.navbar-collapse {
 		border-radius: 15px;
 		padding: 0.5em;
-		background-color: var(--bg-main) !important;
+		background-color: var(--bg-two) !important;
 		margin-top: 1em;
 	}
 
@@ -96,7 +98,7 @@ body {
 .contain.first {
 	padding-top: calc(100vh / 3);
 	padding-bottom: calc(100vh / 3);
-	background-color: var(--bg-main);
+	background-color: var(--bg-one);
 	color: white;
 }
 
@@ -109,5 +111,5 @@ body {
 }
 
 .descquote span {
-	color: #7289da;
+	color: var(--primary);
 }

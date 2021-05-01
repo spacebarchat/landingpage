@@ -1,13 +1,15 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@popperjs/core': ^2.9.2
   bootstrap: ^5.0.0-beta3
   express: ^4.17.1
   nodemon: ^2.0.7
   pug: ^3.0.2
 
 dependencies:
-  bootstrap: 5.0.0-beta3
+  '@popperjs/core': 2.9.2
+  bootstrap: 5.0.0-beta3_@popperjs+core@2.9.2
   express: 4.17.1
   pug: 3.0.2
 
@@ -31,6 +33,10 @@ packages:
     dependencies:
       '@babel/helper-validator-identifier': 7.14.0
       to-fast-properties: 2.0.0
+    dev: false
+
+  /@popperjs/core/2.9.2:
+    resolution: {integrity: sha512-VZMYa7+fXHdwIq1TDhSXoVmSPEGM/aa+6Aiq3nVVJ9bXr24zScr+NlKFKC3iPljA7ho/GAZr+d2jOf5GIRC30Q==}
     dev: false
 
   /@sindresorhus/is/0.14.0:
@@ -138,10 +144,12 @@ packages:
       type-is: 1.6.18
     dev: false
 
-  /bootstrap/5.0.0-beta3:
+  /bootstrap/5.0.0-beta3_@popperjs+core@2.9.2:
     resolution: {integrity: sha512-0urccjfIOzhrb9qJysN8XW/DRw6rg3zH7qLeKIp4Zyl8+Ens4JWB0NC0cB5AhnSFPd2tftRggjwCMxablo6Tpg==}
     peerDependencies:
       '@popperjs/core': ^2.9.1
+    dependencies:
+      '@popperjs/core': 2.9.2
     dev: false
 
   /boxen/4.2.0:

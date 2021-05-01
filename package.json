@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/fosscord/fosscord-landingpage#readme",
   "dependencies": {
+    "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.0-beta3",
     "express": "^4.17.1",
     "pug": "^3.0.2"

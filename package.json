@@ -1,0 +1,28 @@
+{
+  "name": "fosscord-landingpage",
+  "version": "1.0.0",
+  "description": "The official landing page for Fosscord.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "nodemon ./server.js localhost 80"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fosscord/fosscord-landingpage.git"
+  },
+  "author": "Fosscord authors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fosscord/fosscord-landingpage/issues"
+  },
+  "homepage": "https://github.com/fosscord/fosscord-landingpage#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

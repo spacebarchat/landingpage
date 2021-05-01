@@ -42,7 +42,7 @@ body {
 
 .github-btn {
     border-radius: 4px;
-    padding: 6px 6px 5px 6px;
+    padding: 6px 6px 5px 6px !important;
     transition: 0.3s;
     display: inline-block;
     border: 2px solid var(--primary);
@@ -53,19 +53,6 @@ body {
 .github-btn:hover,
 .github-btn:focus {
     background-color: transparent;
-}
-
-@media (max-width: 991px) {
-    .navbar-collapse {
-        border-radius: 15px;
-        padding: 0.5em;
-        background-color: var(--bg-two) !important;
-        margin-top: 1em;
-    }
-
-    .navbar-collapse li a {
-        color: white !important;
-    }
 }
 
 @media (max-width: 600px) {

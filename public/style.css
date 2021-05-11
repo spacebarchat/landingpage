@@ -95,8 +95,8 @@ header {
 }
 
 .contain.two .left {
-	color: black;
-    padding-left: 3em;
+        color: black;
+        padding-left: 3em;
 }
 
 .contain.two h3 {
@@ -104,11 +104,11 @@ header {
 }
 
 .contain.two .right {
-    padding-left: 5em;
+    	padding-left: 5em;
 }
 
 .contain.two ul {
-    display: inline-block;
+   	text-align: left;
 }
 
 .descquote {

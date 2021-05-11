@@ -1,102 +1,130 @@
 :root {
-    --bg-one: #2c2f33;
-    --bg-two: #212326;
-    --primary: #7289da;
+	--bg-one: #000000;
+	--bg-two: #212326;
+	--primary: #7289da;
 }
 
 body {
-    font-family: "Sans", sans-serif !important;
+	font-family: "Sans", sans-serif !important;
+	background-color: var(--bg-one);
+}
+
+header {
+	background-color: var(--bg-one);
 }
 
 .navbar {
-    background-color: white;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    font-size: 18px;
-    text-transform: uppercase;
-    transition: background-color 0.5s;
+	background-color: var(--bg-one);
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 18px;
+	text-transform: uppercase;
+	transition: background-color 0.5s;
 }
 
 .navbar li a,
 .navbar .github-btn {
-    color: black;
-    font-weight: 200 !important;
+	color: white !important;
+	font-weight: 300 !important;
 }
 
 .navbar li a:hover {
-    color: var(--primary) !important;
+	color: var(--primary) !important;
 }
 
 .scrolled {
-    background-color: var(--bg-two) !important;
-}
-
-.scrolled li a,
-.scrolled .github-btn {
-    color: white !important;
+	background-color: var(--bg-two) !important;
 }
 
 .navbar .navbar-toggler {
-    background-color: white !important;
+	background-color: white !important;
 }
 
 .github-btn {
-    border-radius: 4px;
-    padding: 6px 6px 5px 6px !important;
-    transition: 0.3s;
-    display: inline-block;
-    border: 2px solid var(--primary);
-    color: inherit !important;
-    text-decoration: none;
+	border-radius: 4px;
+	padding: 6px 6px 5px 6px !important;
+	transition: 0.3s;
+	display: inline-block;
+	border: 2px solid var(--primary);
+	color: inherit !important;
+	text-decoration: none;
 }
 
 .github-btn:hover,
 .github-btn:focus {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 @media (max-width: 600px) {
-    .navbar {
-        padding-left: initial;
-        padding-right: initial;
-    }
+	.navbar {
+		padding-left: initial;
+		padding-right: initial;
+	}
 }
 
-.marginc,
+.margin,
 .navbar .container-fluid {
-    margin: 0 auto;
-    max-width: 1140px;
+	margin: 0 auto;
+	max-width: 1140px;
 }
 
 .main {
-    margin-top: 80px;
-    text-align: center;
-    background-color: white;
+	margin-top: 80px;
+	text-align: center;
+	background-color: white;
 }
 
 .alert {
-    margin: 0 !important;
+	margin: 0 !important;
 }
 
-.contain {
-    margin: 0 auto;
+.contain.two {
+	padding: 2em;
 }
 
-.contain.first {
-    padding-top: calc(100vh / 3);
-    padding-bottom: calc(100vh / 3);
-    background-color: var(--bg-one);
-    color: white;
+.contain figcaption {
+	margin: 0.5em;
+	font-size: large;
+}
+
+.contain.one {
+	padding-top: 28vh;
+	padding-bottom: 40.1vh;
+	background-color: var(--bg-one);
+	color: white;
+}
+
+.contain.two .left {
+	color: black;
+    padding-left: 3em;
+}
+
+.contain.two h3 {
+	margin-top: 25%;
+}
+
+.contain.two .right {
+    padding-left: 5em;
+}
+
+.contain.two ul {
+    display: inline-block;
 }
 
 .descquote {
-    margin: 0;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 64px;
-    font-family: "Poppins", sans-serif;
+	margin: 0;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 64px;
+	font-family: "Poppins", sans-serif;
 }
 
 .descquote span {
-    color: var(--primary);
+	color: var(--primary);
+}
+
+footer {
+	background-color: var(--bg-two);
+	color: white;
+	padding: 10em;
 }

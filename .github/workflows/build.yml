@@ -1,0 +1,24 @@
+name: Github Pages Publish
+
+on:
+    push:
+        branches:
+            - master
+    workflow_dispatch:
+        branches:
+            - master
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v2
+              with:
+                  node-version: "14"
+
+            - uses: sterlingwes/gh-pages-deploy-action@v1.1
+              with:
+                  access-token: ${{ secrets.ACCESS_TOKEN }}
+                  source-directory: dist
+                  build-command: npm run build

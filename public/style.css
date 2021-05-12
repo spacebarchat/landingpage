@@ -78,10 +78,6 @@ header {
 	margin: 0 !important;
 }
 
-.contain.two {
-	padding: 2em;
-}
-
 .contain figcaption {
 	margin: 0.5em;
 	font-size: large;
@@ -92,6 +88,11 @@ header {
 	padding-bottom: 40.1vh;
 	background-color: var(--bg-one);
 	color: white;
+}
+
+.contain.two {
+	padding: 2em;
+	background-color: var(--bg-two);
 }
 
 .contain.two .left {

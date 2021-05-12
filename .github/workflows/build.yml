@@ -22,3 +22,4 @@ jobs:
                   access-token: ${{ secrets.ACCESS_TOKEN }}
                   source-directory: dist
                   build-command: npm run build
+                  deploy-branch: build

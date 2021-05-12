@@ -1,6 +1,6 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/fosscord/fosscord-landingpage)
 [![Github Pages Publish](https://github.com/fosscord/fosscord-landingpage/actions/workflows/build.yml/badge.svg)](https://github.com/fosscord/fosscord-landingpage/actions/workflows/build.yml)
-# [Fosscord landing page](https://fosscord.github.io/fosscord-landingpage)
+# [Fosscord landing page](https://fosscord.com)
 The official website of Fosscord.
 
 ## Setup

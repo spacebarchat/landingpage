@@ -85,9 +85,9 @@ header {
 
 .contain.one {
 	padding-top: 28vh;
-	padding-bottom: 40.1vh;
-	background-color: var(--bg-one);
-	color: white;
+	padding-bottom: 35.1vh;
+	background-color: white;
+	color: black;
 }
 
 .contain.two {

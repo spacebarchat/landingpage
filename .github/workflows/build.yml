@@ -1,24 +1,25 @@
 name: Github Pages Publish
 
 on:
-    push:
-        branches:
-            - master
-    workflow_dispatch:
-        branches:
-            - master
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+    branches:
+      - master
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v2
-            - uses: actions/setup-node@v2
-              with:
-                  node-version: "14"
-
-            - uses: sterlingwes/gh-pages-deploy-action@v1.1
-              with:
-                  access-token: ${{ secrets.ACCESS_TOKEN }}
-                  source-directory: dist
-                  build-command: npm run build
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - run: npm run build
+      - run: echo docs.fosscord.com >> site/CNAME
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.3
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: dist # The folder the action should deploy.

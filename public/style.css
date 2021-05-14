@@ -121,7 +121,7 @@ header {
 }
 
 footer {
-	background-color: var(--bg-two);
+	background-color: var(--bg-one);
 	color: white;
 	padding: 10em;
 }

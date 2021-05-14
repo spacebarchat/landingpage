@@ -1,6 +1,7 @@
 :root {
-	--bg-one: #000000;
-	--bg-two: #212326;
+	--bg-one: #202225;
+    --bg-two: #2f3136;
+	--bg-three: #202225;
 	--primary: #7289da;
 }
 
@@ -33,7 +34,7 @@ header {
 }
 
 .scrolled {
-	background-color: var(--bg-two) !important;
+	background-color: #0f0f0f !important;
 }
 
 .navbar .navbar-toggler {
@@ -85,14 +86,14 @@ header {
 
 .contain.one {
 	padding-top: 28vh;
-	padding-bottom: 40.1vh;
-	background-color: var(--bg-one);
+	padding-bottom: 35.1vh;
+	background-color: var(--bg-two);
 	color: white;
 }
 
 .contain.two {
 	padding: 2em;
-	background-color: var(--bg-two);
+	background-color: var(--bg-three);
 }
 
 .contain.two .left {
@@ -121,7 +122,7 @@ header {
 }
 
 footer {
-	background-color: var(--bg-one);
+	background-color: var(--bg-two);
 	color: white;
 	padding: 10em;
 }

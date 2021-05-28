@@ -2,24 +2,23 @@ extends layout.pug
 block content
     div.contain.one
         div.margin
-            figure
-                blockquote
-                    p.descquote <span>"</span>Free open source selfhostable chat, voice and video platform<span>"</span>
-                figcaption We are Fosscord
-                a.btn.btn-primary(href="https://dev.fosscord.com") Open dev version
+            h1.title Fosscord
+            h5 A free, open source and selfhostable chat, voice and video platform
+            a.btn(href="https://dev.fosscord.com") Open web-client
     div.contain.two
         div.margin.d-flex
             div.left
                 h3 About Fosscord
-                p Fosscord is free open source software compatible to discord. It is a selfhostable Chat, Voice and Video platform similar to Slack and Rocket.chat.
-                ul
-                    li Discord-compatible
-                    li Selfhostable
-                    li Open Source
-                    li Configurable
-                    li Secure
-                    li Decentralized
-                    li Extendable
-                    li Themable
-            div.right.align-self-end
+                p Fosscord is a FOSS (free open source software) chat, voice and video platform compatible with the Discord API.
+                div Fosscord is
+                    ul.list.accent
+                        li.item Discord-compatible
+                        li.item Selfhostable
+                        li.item Open Source
+                        li.item Configurable
+                        li.item Secure
+                        li.item Decentralized
+                        li.item Extendable
+                        li.item Themable
+            div.right.align-self-auto
                 img.img-fluid(src="assets/conference.png")

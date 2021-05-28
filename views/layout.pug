@@ -4,16 +4,17 @@ html
 
     title #{title}
 
-    link(rel="icon" href="img/logo.png")
-    link(rel="apple-touch-icon" href="img/logo.png")
+    link(rel="icon" href="assets/logo.png")
+    link(rel="apple-touch-icon" href="assets/logo.png")
 
     link(rel="stylesheet" href="bootstrap.min.css")
     link(rel="stylesheet" href="style.css")
+    link(rel="stylesheet" href="list.css")
   body
     header
       <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="scrollc">
         <div class="container-fluid">
-          <img src="img/logo.png" width="40" height="40" class="d-inline-block align-text-top">
+          <img src="assets/logo.png" width="40" height="40">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -33,8 +34,8 @@ html
         </nav>
     div.main
       block content
-      <footer class="footer mt-auto py-3">
-        p Fosscord is a free open source software compatible to discord. It is a selfhostable Chat, Voice and Video platform which is Discord-compatible. <strong>Fosscord is not sponsored, endorsed or administered by, or associated with Discord.</strong>
+      <footer class="footer mt-auto">
+        p Fosscord is compatible to Discord's APIs. <strong>Fosscord is not sponsored, endorsed or administered by, or associated with Discord.</strong>
       </footer>
     script(src="bootstrap.min.js")
     script(src="script.js")

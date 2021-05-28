@@ -1,0 +1,129 @@
+:root {
+  --list-separator-color: #ffffff0f;
+  --list-primary-color: var(--primary);
+  --list-primary-hover-color: var(--primary-hover);
+  --list-primary-active-color: var(--primary-active);
+  --list-success-color: var(--success);
+  --list-success-hover-color: var(--success-hover);
+  --list-danger-color: var(--danger);
+  --list-danger-hover-color: var(--danger-hover);
+  --list-background-accent: var(--background-tertiary);
+  --list-selected-color: #fff;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  border-radius: 4px;
+}
+.list .separator {
+  margin: 8px 10px;
+  height: 1px;
+  background-color: var(--list-separator-color);
+}
+.list.accent {
+  background-color: var(--list-background-accent);
+  padding: 6px 8px;
+}
+.list.accent .item:hover, .list.accent .item.hover {
+  color: var(--list-selected-color);
+  background-color: var(--list-primary-color);
+}
+.list.accent .item:active, .list.accent .item.active {
+  background-color: var(--list-primary-active-color);
+}
+.list.collapsed .title i {
+  transform: rotate(-90deg);
+}
+.list.collapsed .item,
+.list.collapsed .title:not(.collapse),
+.list.collapsed .separator {
+  display: none;
+}
+.list .title {
+  padding-top: 0;
+}
+.list .title i {
+  margin-left: -13px;
+  color: inherit;
+  width: 10px;
+  height: 10px;
+  transition: transform 0.2s ease;
+}
+.list .item,
+.list .title {
+  padding: 6px 10px;
+}
+.list .item {
+  margin-bottom: 2px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: var(--interactive);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.list .item i {
+  --size: 15px;
+}
+.list .item i.left {
+  margin-right: 6px;
+}
+.list .item i.right {
+  margin-left: 6px;
+  --size: 12px;
+}
+.list .item .content {
+  flex-grow: 1;
+}
+.list .item:hover {
+  background-color: #4f545c29;
+  color: var(--interactive-hover);
+}
+.list .item:hover .visibleOnHover {
+  opacity: 1;
+}
+.list .item:active, .list .item.active {
+  background-color: #4f545c52;
+  color: var(--interactive-active);
+}
+.list .item.primary:hover, .list .item:hover {
+  background-color: var(--list-primary-hover-color);
+}
+.list .item.primary:active, .list .item.primary.active, .list .item:active, .list .item.active {
+  background-color: var(--list-primary-color);
+}
+.list .item.primary:active,
+.list .item.primary:active .icon, .list .item.primary.active,
+.list .item.primary.active .icon, .list .item.danger:active,
+.list .item.danger:active .icon, .list .item.danger.active,
+.list .item.danger.active .icon, .list .item.success:active,
+.list .item.success:active .icon, .list .item.success.active,
+.list .item.success.active .icon {
+  color: var(--list-selected-color);
+}
+.list .item.danger {
+  color: var(--list-danger-color);
+}
+.list .item.danger:hover {
+  background-color: var(--list-danger-hover-color);
+}
+.list .item.danger:active, .list .item.danger.active {
+  background-color: var(--list-danger-color);
+}
+.list .item.success {
+  color: var(--list-success-color);
+}
+.list .item.success:hover {
+  background-color: var(--list-success-hover-color);
+}
+.list .item.success:active, .list .item.success.active {
+  background-color: var(--list-success-color);
+}
+
+/*# sourceMappingURL=list.css.map */

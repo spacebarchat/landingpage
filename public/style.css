@@ -27,6 +27,7 @@ header {
 .navbar .github-btn {
 	color: white !important;
 	font-weight: 300 !important;
+	margin-left: 8px;
 }
 
 .navbar li a:hover {
@@ -42,8 +43,8 @@ header {
 }
 
 .github-btn {
-	border-radius: 4px;
-	padding: 6px 6px 5px 6px !important;
+	border-radius: .25rem;
+	padding: 5px 6px 2px 6px !important;
 	transition: 0.3s;
 	display: inline-block;
 	border: 2px solid var(--primary);
@@ -79,9 +80,13 @@ header {
 	margin: 0 !important;
 }
 
-.contain figcaption {
-	margin: 0.5em;
-	font-size: large;
+.contain.one h5 {
+	padding-bottom: 10px;
+}
+
+.contain.one .btn {
+	background-color: var(--primary);
+	color: white;
 }
 
 .contain.one {
@@ -97,19 +102,19 @@ header {
 }
 
 .contain.two .left {
-        color: white;
-        padding-left: 3em;
+	color: white;
+	text-align: left;
+	padding-left: 3em;
+	width: 30em;
 }
 
 .contain.two .right {
-    	padding-left: 5em;
+	color: white;
+	text-align: left;
+	padding-left: 5em;
 }
 
-.contain.two ul {
-   	text-align: left;
-}
-
-.descquote {
+.title {
 	margin: 0;
 	font-size: 56px;
 	font-weight: 700;
@@ -117,12 +122,19 @@ header {
 	font-family: "Poppins", sans-serif;
 }
 
-.descquote span {
-	color: var(--primary);
-}
-
 footer {
 	background-color: var(--bg-two);
 	color: white;
-	padding: 10em;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+ul.list.accent {
+	background-color: var(--bg-two) !important;
+}
+
+.item {
+	transition: 0.2s;
+	padding: .375rem .75rem !important;
+	font-size: 1rem !important;
 }

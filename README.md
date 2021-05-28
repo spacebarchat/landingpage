@@ -6,7 +6,7 @@ The official website of Fosscord.
 ## Setup
 First, clone the repository:
 
-`git clone git@github.com:fosscord/fosscord-landingpage.git`
+`git clone https://github.com/fosscord/fosscord-landingpage-next/edit/master/README.md`
 
 ### Install
 For testing:
@@ -16,10 +16,10 @@ For production:
 `npm install --prod`
 
 ### CLI usage
-To bundle the website:
+For bundle the website:
 `npm run build`
 
-To bundle the website in real-time:
+For render the site in real-time:
 `npm run watch`
 
 These commands will build the website in the `dist` folder.

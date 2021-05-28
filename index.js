@@ -28,11 +28,6 @@ fse.copy("./node_modules/bootstrap/dist/js/bootstrap.min.js", "./dist/bootstrap.
 	console.log("Successfully copied bootstrap.min.js from node_modules folder to dist folder");
 });
 
-fse.copy("./node_modules/@fosscord/ui/css/list.css", "./dist/list.css", (err) => {
-	if (err) throw err;
-	console.log("Successfully copied list.css from node_modules folder to dist folder");
-});
-
 // Compile pug views into html files
 function compile(template, finalFile, values) {
 	const temp = pug.compileFile("views/" + template + ".pug");

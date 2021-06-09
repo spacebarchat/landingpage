@@ -1,6 +1,6 @@
 :root {
 	--bg-one: #202225;
-    --bg-two: #2f3136;
+	--bg-two: #2f3136;
 	--bg-three: #202225;
 	--primary: #7289da;
 }
@@ -10,17 +10,12 @@ body {
 	background-color: var(--bg-one);
 }
 
-header {
-	background-color: var(--bg-one);
-}
-
 .navbar {
-	background-color: var(--bg-one);
+	background: rgba(17, 17, 17, 0.719);
 	padding-top: 1em;
 	padding-bottom: 1em;
 	font-size: 18px;
 	text-transform: uppercase;
-	transition: background-color 0.5s;
 }
 
 .navbar li a,
@@ -34,26 +29,27 @@ header {
 	color: var(--primary) !important;
 }
 
-.scrolled {
-	background-color: #0f0f0f !important;
-}
-
 .navbar .navbar-toggler {
 	background-color: white !important;
 }
 
-.github-btn {
-	border-radius: .25rem;
+.btn-primary {
+	border-radius: 0.25rem;
 	padding: 5px 6px 2px 6px !important;
 	transition: 0.3s;
 	display: inline-block;
+	background-color: var(--primary);
 	border: 2px solid var(--primary);
 	color: inherit !important;
 	text-decoration: none;
 }
 
-.github-btn:hover,
-.github-btn:focus {
+.navbar .btn {
+	margin-top: 2px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
 	background-color: transparent;
 }
 
@@ -90,26 +86,41 @@ header {
 }
 
 .contain.one {
-	padding-top: 28vh;
-	padding-bottom: 40vh;
+	padding-top: 30vh;
+	padding-bottom: 50vh;
 	background-color: var(--bg-two);
+	background-image: url("assets/social.png");
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: 50% 30%;
 	color: white;
+}
+
+.contain.one .margin {
+	background-color: rgba(0, 0, 0, 0.78);
+	padding: 1em;
+	border-radius: 10px;
+	max-width: 850px;
 }
 
 .contain.two {
-	padding: 2em;
-	background-color: var(--bg-three);
+	background-color: white;
+	color: black;
+	padding: 4em;
+}
+
+.contain.two ul {
+	color: white;
+	padding: 0.5em;
 }
 
 .contain.two .left {
-	color: white;
 	text-align: left;
 	padding-left: 3em;
 	width: 30em;
 }
 
 .contain.two .right {
-	color: white;
 	text-align: left;
 	padding-left: 5em;
 }
@@ -135,6 +146,6 @@ ul.list.accent {
 
 .item {
 	transition: 0.2s;
-	padding: .375rem .75rem !important;
+	padding: 0.375rem 0.75rem !important;
 	font-size: 1rem !important;
 }

@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@fosscord/ui': github:fosscord/fosscord-ui
   '@popperjs/core': ^2.9.2
   '@prettier/plugin-pug': ^1.14.0
   bootstrap: ^5.0.0-beta3
@@ -14,6 +15,7 @@ specifiers:
   webpack-node-externals: ^3.0.0
 
 dependencies:
+  '@fosscord/ui': github.com/fosscord/fosscord-ui/f59416cf151389f7add104dfca986639a95ce06b
   '@popperjs/core': 2.9.2
   bootstrap: 5.0.0-beta3_@popperjs+core@2.9.2
   fs-extra: 9.1.0
@@ -1888,3 +1890,9 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  github.com/fosscord/fosscord-ui/f59416cf151389f7add104dfca986639a95ce06b:
+    resolution: {tarball: https://codeload.github.com/fosscord/fosscord-ui/tar.gz/f59416cf151389f7add104dfca986639a95ce06b}
+    name: '@fosscord/ui'
+    version: 1.0.3
+    dev: false

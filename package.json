@@ -1,46 +1,47 @@
 {
-	"name": "fosscord-landingpage",
-	"version": "1.0.0",
-	"description": "The official landing page for Fosscord.",
-	"private": true,
-	"scripts": {
-		"build": "node index.js",
-		"watch": "nodemon index.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/fosscord/fosscord-landingpage.git"
-	},
-	"author": "Fosscord authors",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/fosscord/fosscord-landingpage/issues"
-	},
-	"homepage": "https://github.com/fosscord/fosscord-landingpage#readme",
-	"dependencies": {
-		"@fosscord/ui": "github:fosscord/fosscord-ui",
-		"@popperjs/core": "^2.9.2",
-		"bootstrap": "^5.0.0-beta3",
-		"fs-extra": "^9.1.0",
-		"glob": "^7.1.6",
-		"pug": "^3.0.2"
-	},
-	"devDependencies": {
-		"@prettier/plugin-pug": "^1.14.0",
-		"nodemon": "^2.0.7",
-		"prettier": "^2.2.1",
-		"webpack": "^5.36.2",
-		"webpack-cli": "^4.6.0",
-		"webpack-node-externals": "^3.0.0"
-	},
-	"nodemonConfig": {
-		"ignore": [
-			"docs/*"
-		],
-		"watch": [
-			"views/*",
-			"public/*"
-		],
-		"ext": "js,pug,css"
-	}
+  "name": "fosscord-landingpage",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~11.2.1",
+    "@angular/cdk": "^11.2.13",
+    "@angular/common": "~11.2.1",
+    "@angular/compiler": "~11.2.1",
+    "@angular/core": "~11.2.1",
+    "@angular/forms": "~11.2.1",
+    "@angular/material": "^11.2.13",
+    "@angular/platform-browser": "~11.2.1",
+    "@angular/platform-browser-dynamic": "~11.2.1",
+    "@angular/router": "~11.2.1",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.0.0",
+    "zone.js": "~0.11.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.1102.1",
+    "@angular/cli": "~11.2.1",
+    "@angular/compiler-cli": "~11.2.1",
+    "@types/jasmine": "~3.6.0",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^6.0.0",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "~6.1.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "protractor": "~7.0.0",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0",
+    "typescript": "~4.1.2"
+  }
 }

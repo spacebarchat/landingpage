@@ -1,10 +1,8 @@
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/75180178?s=100&v=4" alt="Sublime's custom image"/>
-</p>
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/fosscord/fosscord-landingpage)
-[![Github Pages Publish](https://github.com/fosscord/fosscord-landingpage/actions/workflows/build.yml/badge.svg)](https://github.com/fosscord/fosscord-landingpage/actions/workflows/build.yml)
+![](https://avatars.githubusercontent.com/u/75180178?s=200&v=4?style=centerme)
 
 # [Fosscord landing page](https://fosscord.com)
+
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/fosscord/fosscord-landingpage) [![Github Pages Publish](https://github.com/fosscord/fosscord-landingpage/actions/workflows/build.yml/badge.svg)](https://github.com/fosscord/fosscord-landingpage/actions/workflows/build.yml)
 
 The official website of Fosscord.
 

@@ -89,15 +89,14 @@ body {
 	padding-top: 30vh;
 	padding-bottom: 50vh;
 	background-color: var(--bg-two);
-	background-image: url("assets/social.png");
+	background-image: url("assets/fluid.png");
 	background-repeat: no-repeat;
-	background-size: 60%;
-	background-position: 50% 30%;
+	background-size: cover;
 	color: white;
 }
 
 .contain.one .margin {
-	background-color: rgba(0, 0, 0, 0.78);
+	background-color: rgba(0, 0, 0, 0.384);
 	padding: 1em;
 	border-radius: 10px;
 	max-width: 850px;

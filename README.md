@@ -1,5 +1,3 @@
-<center>
-
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/75180178?s=100&v=4" alt="Sublime's custom image"/>
 </p>

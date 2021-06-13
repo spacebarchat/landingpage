@@ -86,8 +86,8 @@ body {
 }
 
 .contain.one {
-	padding-top: 25vh;
-	padding-bottom: 35vh;
+	padding-top: 27vh;
+	padding-bottom: 36vh;
 	background-color: var(--bg-two);
 	background-image: url(assets/wave1.png), url(assets/wave2.png), url(assets/wave3.png);
 	background-position: 100% 102%, 100% 98%, 100% 94%;
@@ -107,6 +107,7 @@ body {
 	background-color: white;
 	color: black;
 	padding: 4em;
+	margin-top: 3em;
 }
 
 .contain.two ul {

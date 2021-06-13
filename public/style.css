@@ -39,7 +39,7 @@ body {
 	transition: 0.3s;
 	display: inline-block;
 	background-color: var(--primary);
-	border: 2px solid var(--primary);
+	border: 3px solid var(--primary);
 	color: inherit !important;
 	text-decoration: none;
 }
@@ -50,7 +50,7 @@ body {
 
 .btn-primary:hover,
 .btn-primary:focus {
-	background-color: transparent;
+	background-color: transparent !important;
 }
 
 @media (max-width: 600px) {
@@ -86,12 +86,13 @@ body {
 }
 
 .contain.one {
-	padding-top: 30vh;
-	padding-bottom: 50vh;
+	padding-top: 25vh;
+	padding-bottom: 35vh;
 	background-color: var(--bg-two);
-	background-image: url("assets/fluid.png");
+	background-image: url(assets/wave1.png), url(assets/wave2.png), url(assets/wave3.png);
+	background-position: 100% 102%, 100% 98%, 100% 94%;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	color: white;
 }
 

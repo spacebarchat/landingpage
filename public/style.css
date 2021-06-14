@@ -88,12 +88,27 @@ body {
 .contain.one {
 	padding-top: 27vh;
 	padding-bottom: 36vh;
-	background-color: var(--bg-two);
+	color: white;
+	background: linear-gradient(135deg, #c56cd6 0%, #3425af 100%);
+}
+
+.contain.one .bg {
+	position: relative;
+}
+
+.contain.one .bg:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
 	background-image: url(assets/wave1.png), url(assets/wave2.png), url(assets/wave3.png);
 	background-position: 100% 102%, 100% 98%, 100% 94%;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	color: white;
 }
 
 .contain.one .margin {

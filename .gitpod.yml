@@ -1,9 +1,7 @@
 tasks:
-  - init: npm install
+  - init: npm install && npm run watch
   - command: mkdir dist && cd dist && python3 -m http.server 8080
     name: Static Server
-  - command: npm run watch
-    name: Code Watcher
   
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:

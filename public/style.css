@@ -7,7 +7,7 @@
 
 body {
 	font-family: "Sans", sans-serif !important;
-	background-color: black;
+	background: linear-gradient(135deg, #c56cd6 0%, #3425af 100%);
 }
 
 .navbar {
@@ -69,7 +69,6 @@ body {
 .main {
 	margin-top: 80px;
 	text-align: center;
-	background-color: white;
 }
 
 .alert {
@@ -85,11 +84,17 @@ body {
 	color: white;
 }
 
+.bg {
+	background-image: url("assets/wave1.png"), url("assets/wave2.png"), url("assets/wave3.png");
+	background-repeat: repeat-x;
+	background-position: 100% 100%, 80% 94%, 40% 88%;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4081fc",endColorstr="#8d44fe",GradientType=1);
+}
+
 .contain.one {
 	padding-top: 34vh;
-	padding-bottom: 43vh;
+	padding-bottom: 30vh;
 	color: white;
-	background: linear-gradient(135deg, #c56cd6 0%, #3425af 100%);
 }
 
 .contain.one .margin {
@@ -103,6 +108,7 @@ body {
 	background-color: white;
 	color: black;
 	padding: 4em;
+	padding-top: 8rem;
 }
 
 .contain.two ul {

@@ -1,0 +1,140 @@
+:root {
+	--bg-one: #202225;
+    --bg-two: #2f3136;
+	--bg-three: #202225;
+	--primary: #7289da;
+}
+
+body {
+	font-family: "Sans", sans-serif !important;
+	background-color: var(--bg-one);
+}
+
+header {
+	background-color: var(--bg-one);
+}
+
+.navbar {
+	background-color: var(--bg-one);
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 18px;
+	text-transform: uppercase;
+	transition: background-color 0.5s;
+}
+
+.navbar li a,
+.navbar .github-btn {
+	color: white !important;
+	font-weight: 300 !important;
+	margin-left: 8px;
+}
+
+.navbar li a:hover {
+	color: var(--primary) !important;
+}
+
+.scrolled {
+	background-color: #0f0f0f !important;
+}
+
+.navbar .navbar-toggler {
+	background-color: white !important;
+}
+
+.github-btn {
+	border-radius: .25rem;
+	padding: 5px 6px 2px 6px !important;
+	transition: 0.3s;
+	display: inline-block;
+	border: 2px solid var(--primary);
+	color: inherit !important;
+	text-decoration: none;
+}
+
+.github-btn:hover,
+.github-btn:focus {
+	background-color: transparent;
+}
+
+@media (max-width: 600px) {
+	.navbar {
+		padding-left: initial;
+		padding-right: initial;
+	}
+}
+
+.margin,
+.navbar .container-fluid {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+.main {
+	margin-top: 80px;
+	text-align: center;
+	background-color: white;
+}
+
+.alert {
+	margin: 0 !important;
+}
+
+.contain.one h5 {
+	padding-bottom: 10px;
+}
+
+.contain.one .btn {
+	background-color: var(--primary);
+	color: white;
+}
+
+.contain.one {
+	padding-top: 28vh;
+	padding-bottom: 40vh;
+	background-color: var(--bg-two);
+	color: white;
+}
+
+.contain.two {
+	padding: 2em;
+	background-color: var(--bg-three);
+}
+
+.contain.two .left {
+	color: white;
+	text-align: left;
+	padding-left: 3em;
+	width: 30em;
+}
+
+.contain.two .right {
+	color: white;
+	text-align: left;
+	padding-left: 5em;
+}
+
+.title {
+	margin: 0;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 64px;
+	font-family: "Poppins", sans-serif;
+}
+
+footer {
+	background-color: var(--bg-two);
+	color: white;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+ul.list.accent {
+	background-color: var(--bg-two) !important;
+}
+
+.item {
+	transition: 0.2s;
+	padding: .375rem .75rem !important;
+	font-size: 1rem !important;
+}

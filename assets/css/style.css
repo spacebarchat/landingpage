@@ -4,6 +4,7 @@
 :root {
   --fosscord: #2e4eef;
   --fosscord-hover: #2e4eefa9;
+  --background-color: #23272a;
 }
 
 html {
@@ -17,6 +18,7 @@ body {
   line-height: 26px;
   color: #2e2e2e;
   -webkit-font-smoothing: antialiased;
+  text-align: justify;
 }
 
 nav,
@@ -192,6 +194,11 @@ h3 {
   transition: all 0.25s;
 }
 
+.btn:hover {
+  color: #fff;
+  background-color: #213ab8 !important;
+}
+
 .btn:active {
   box-shadow: none;
 }
@@ -307,6 +314,11 @@ h3 {
   color: #fff;
 }
 
+.full_size {
+  width: 100%;
+  height: 100%;
+}
+
 .action-3.link:hover {
   color: #1132d9;
 }
@@ -402,10 +414,6 @@ h3 {
   padding: 2rem;
 }
 
-.navigation_8 {
-  padding: 1rem;
-}
-
 .mt-10.mt-lg-0.col-lg-3.text-lg-right {
   display: flex;
   align-items: center;
@@ -429,7 +437,8 @@ h3 {
   line-height: 30px;
   margin-top: 0.25rem;
   margin-bottom: 1rem;
-  color: #6c757d !important;
+  font-weight: 600;
+  color: #5f5f5f !important;
 }
 
 #contribution_container {
@@ -448,14 +457,6 @@ h3 {
   color: #6c757d;
 }
 
-#section {
-  padding: 5rem;
-  background-color: white !important;
-}
-
-#main_announce {
-  padding-top: 5rem;
-}
 #concept_main_container {
   margin: 3rem;
   display: flex;
@@ -487,7 +488,6 @@ h3 {
 }
 #button_ {
   margin: 0.5rem;
-  margin-left: 0;
 }
 .footer {
   display: flex;
@@ -543,11 +543,7 @@ h3 {
 .icons:hover {
   fill: var(--fosscord-hover);
 }
-.navbar_container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
 .nav_link {
   margin-left: 1rem;
 }
@@ -562,17 +558,16 @@ h3 {
 .about_links {
   margin-right: 1rem;
 }
+
 @media screen and (max-width: 600px) {
   #main_header {
     font-size: 3rem;
   }
-  #main_announce {
-    padding-top: 0;
+
+  section {
+    text-align: center;
   }
-  #section {
-    padding: 0;
-    margin-bottom: 1rem;
-  }
+
   #concept_main_container,
   #contribute {
     margin: 0;

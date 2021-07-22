@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <navbar />
+  <div class="full_size">
     <hero />
     <announcement />
     <concept />

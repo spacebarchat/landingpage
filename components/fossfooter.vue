@@ -11,6 +11,7 @@
         <div class="fosscord_socials_container">
           <a
             href="https://instagram.com/fosscord/"
+            target="_blank"
             class="link color-dark f-32 mx-20 social_link"
           >
             <svg
@@ -28,6 +29,7 @@
           </a>
           <a
             href="https://twitter.com/fosscord/"
+            target="_blank"
             class="link color-dark f-32 mx-20 social_link"
           >
             <svg
@@ -54,22 +56,32 @@
         </div>
         <div class="footer_el_container">
           <h5 class="footer_el_header">Support</h5>
-          <a class="footer_el_link" href="mailto:null">Email</a>
-          <a class="footer_el_link" href="https://discord.gg/Ms5Ev7S6bF"
+          <a class="footer_el_link" target="_blank" href="mailto:null">Email</a>
+          <a
+            class="footer_el_link"
+            target="_blank"
+            href="https://discord.gg/Ms5Ev7S6bF"
             >Discord</a
           >
         </div>
         <div class="footer_el_container">
           <h5 class="footer_el_header">Developers</h5>
-          <a class="footer_el_link" href="https://translate.fosscord.com/"
+          <a
+            class="footer_el_link"
+            target="_blank"
+            href="https://translate.fosscord.com/"
             >Translate</a
           >
           <a
             class="footer_el_link"
+            target="_blank"
             href="https://docs.fosscord.com/contributing.html"
             >Contribute</a
           >
-          <a class="footer_el_link" href="https://docs.fosscord.com"
+          <a
+            class="footer_el_link"
+            target="_blank"
+            href="https://docs.fosscord.com"
             >Documentation</a
           >
         </div>
@@ -77,3 +89,11 @@
     </div>
   </footer>
 </template>
+
+<style>
+#footer {
+  background-color: var(--background-color) !important;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+</style>

@@ -614,4 +614,7 @@ h3 {
   .about_links {
     display: block;
   }
+  #contribution_container {
+    flex-direction: column-reverse;
+  }
 }

@@ -3,14 +3,13 @@
     <navbar />
     <hero />
     <announcement />
-	<concept />
-	<randomfacts />
-	<contribute />
-	<fossfooter />
+    <concept />
+    <!--<randomfacts />-->
+    <contribute />
+    <fossfooter />
   </div>
 </template>
 
 <script>
-export default {}
-
+export default {};
 </script>

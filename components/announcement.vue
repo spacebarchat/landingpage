@@ -12,8 +12,8 @@
           <div class="mt-15 pl-15 f-18 medium op-7 text-adaptive">
             <div>
               Fosscord has reached more than 650 stars on github in such a short
-              time. <br />Thank you for your support and also thank you to all
-              the contributors.
+              time. <br />Thank you for your support and thank you to all the
+              contributors.
             </div>
           </div>
         </div>

@@ -11,9 +11,8 @@
             <span class="fg-fosscord">O</span>pen
             <span class="fg-fosscord">S</span>ource
             <span class="fg-fosscord">S</span>oftware compatible to
-            <a href="https://discord.com">Discord</a>.<br />
-            It's a Chat, Voice and Video platform similar to Slack, Rocket.chat
-            and Discord-compatible.
+            <a href="https://discord.com">Discord</a>. It's a Chat, Voice and
+            Video platform similar to Slack, Rocket.chat and Discord-compatible.
           </div>
           <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <a

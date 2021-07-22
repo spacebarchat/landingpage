@@ -617,4 +617,7 @@ h3 {
   #contribution_container {
     flex-direction: column-reverse;
   }
+  .about_container {
+    flex-direction: column-reverse;
+  }
 }

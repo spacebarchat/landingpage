@@ -103,6 +103,10 @@
     padding-top: 0;
   }
 
+  #waves {
+    visibility: hidden;
+  }
+
   #features > * {
     width: 160px;
     font-size: 0.9rem;

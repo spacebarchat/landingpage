@@ -1,10 +1,9 @@
 <template>
   <div>
+    <warning />
     <navbar />
-	<about />
+    <about />
     <fossfooter />
   </div>
 </template>
-<script>
-
-</script>
+<script></script>

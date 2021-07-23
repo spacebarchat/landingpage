@@ -1,10 +1,10 @@
 <template>
-  <section class="pt-105 pb-85 bg-light content_3" id="contribute">
+  <section id="contribute">
     <div class="container px-xl-0">
       <div class="row" id="contribution_container">
         <div class="col-lg-6 col-md-12">
           <img
-            src="../assets/images/Version_control.png"
+            src="../assets/images/version_control.svg"
             class="img-fluid rounded-3"
           />
         </div>

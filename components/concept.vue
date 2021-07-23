@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-105 pb-85 bg-light content_3">
+  <section id="concept">
     <div class="container px-xl-0">
       <div class="row" id="concept_main_container">
         <div class="col-lg-6 col-md-10" id="concept_second_container">
@@ -27,10 +27,7 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
-          <img
-            src="../assets/images/Mind_map.png"
-            class="img-fluid rounded-3"
-          />
+          <img src="../assets/images/mindmap.svg" class="img-fluid rounded-3" />
         </div>
       </div>
     </div>

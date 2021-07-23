@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-95 pb-85 bg-dark content_16" id="announcement">
+  <section id="announcement">
     <div class="container px-xl-0">
       <div class="row justify-content-center">
         <div
@@ -30,8 +30,8 @@
 
 <style>
 #announcement {
+  padding: 2rem;
   padding-bottom: 5rem;
   padding-top: 0;
-  background-color: white !important;
 }
 </style>

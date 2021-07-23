@@ -8,6 +8,7 @@
         </h2>
         <div style="margin-top: 2rem">
           <a
+            id="open_demo"
             href="https://dev.fosscord.com"
             class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
             >Open Demo</a
@@ -38,12 +39,23 @@
   margin-top: 4rem;
 }
 
+#open_demo {
+  z-index: 1;
+  position: relative;
+}
+
 #waves {
   height: 25vh;
   width: 100vw;
-  background-image: url("~@/assets/images/waves.svg");
-  background-position: center;
-  background-size: cover;
+  background-color: var(--background-color-accent);
+  -webkit-mask-image: url("~@/assets/images/waves.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: cover;
+  mask-image: url("~@/assets/images/waves.svg");
+  mask-position: center;
+  mask-size: cover;
+  mask-repeat: no-repeat;
   margin-top: -13rem;
 }
 
@@ -74,10 +86,6 @@
   display: flex;
   flex-direction: column;
   background: var(--background-color);
-  color: white;
-}
-
-#hero_container .link {
   color: white;
 }
 

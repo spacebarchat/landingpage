@@ -555,7 +555,21 @@ h3 {
 .about_links {
   margin-right: 1rem;
 }
-
+.warning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #ed4245;
+  color: white;
+}
+.warning p {
+  margin: 0;
+  padding: 0;
+}
+.warning a {
+  text-decoration: underline !important;
+}
 @media screen and (max-width: 600px) {
   #main_header {
     font-size: 3rem;

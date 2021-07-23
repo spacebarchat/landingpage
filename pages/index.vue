@@ -1,5 +1,6 @@
 <template>
   <div class="full_size">
+    <warning />
     <hero />
     <announcement />
     <concept />

@@ -1,46 +1,18 @@
 {
-	"name": "fosscord-landingpage",
-	"version": "1.0.0",
-	"description": "The official landing page for Fosscord.",
-	"private": true,
-	"scripts": {
-		"build": "node index.js",
-		"watch": "nodemon index.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/fosscord/fosscord-landingpage.git"
-	},
-	"author": "Fosscord authors",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/fosscord/fosscord-landingpage/issues"
-	},
-	"homepage": "https://github.com/fosscord/fosscord-landingpage#readme",
-	"dependencies": {
-		"@fosscord/ui": "github:fosscord/fosscord-ui",
-		"@popperjs/core": "^2.9.2",
-		"bootstrap": "^5.0.0-beta3",
-		"fs-extra": "^9.1.0",
-		"glob": "^7.1.6",
-		"pug": "^3.0.2"
-	},
-	"devDependencies": {
-		"@prettier/plugin-pug": "^1.14.0",
-		"nodemon": "^2.0.7",
-		"prettier": "^2.2.1",
-		"webpack": "^5.36.2",
-		"webpack-cli": "^4.6.0",
-		"webpack-node-externals": "^3.0.0"
-	},
-	"nodemonConfig": {
-		"ignore": [
-			"docs/*"
-		],
-		"watch": [
-			"views/*",
-			"public/*"
-		],
-		"ext": "js,pug,css"
-	}
+  "name": "fosscord-landingpage",
+  "version": "1.0.0",
+  "author": "Conner Bachmann <mail@conner-bachmann.de>",
+  "private": false,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "nuxt-property-decorator": "^2.9.1"
+  },
+  "devDependencies": {}
 }

@@ -27,7 +27,10 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
-          <img src="../assets/images/mindmap.svg" class="img-fluid rounded-3" />
+          <img
+            src="../assets/images/sections/mindmap.svg"
+            class="img-fluid rounded-3"
+          />
         </div>
       </div>
     </div>

@@ -570,6 +570,9 @@ h3 {
 .warning a {
   text-decoration: underline !important;
 }
+.left {
+  flex-direction: row-reverse;
+}
 @media screen and (max-width: 600px) {
   #main_header {
     font-size: 3rem;

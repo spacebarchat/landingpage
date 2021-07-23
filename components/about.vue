@@ -22,7 +22,7 @@
           </div>
           <div class="col-lg-6 col-md-10">
             <img
-              src="../assets/images/Browsing.png"
+              src="../assets/images/browsing.svg"
               class="img-fluid rounded-3"
             />
           </div>

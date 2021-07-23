@@ -4,8 +4,9 @@
     <hero />
     <announcement />
     <concept />
-    <!--<randomfacts />-->
     <contribute />
+    <sections />
+    <!--<randomfacts />-->
     <fossfooter />
   </div>
 </template>

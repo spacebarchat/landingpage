@@ -28,7 +28,7 @@
             </svg>
           </a>
           <a
-            href="https://twitter.com/fosscord/"
+            href="https://twitter.com/fosscord_/"
             target="_blank"
             class="link color-dark f-32 mx-20 social_link"
           >

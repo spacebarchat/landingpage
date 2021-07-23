@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,400,600,500,700,800,900|Inter:100,200,300,400,500,600,700,800,900");
 
 :root {
   --fosscord: #2e4eef;
@@ -12,7 +11,7 @@ html {
 }
 
 body {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;

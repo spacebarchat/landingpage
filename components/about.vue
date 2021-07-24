@@ -3,7 +3,7 @@
     <div class="container px-xl-0">
       <div class="row mt-10">
         <div class="col-lg-12 col-md-12 about_container">
-          <div>
+          <div style="width: 100%">
             <h2 class="small">About:</h2>
             <div
               class="mt-1 mb-35 f-22 color-heading text-adaptive description"
@@ -80,13 +80,13 @@
             community. Everything is configurable in the server config and
             everyone can add their own features, so that it is not opinionated.
             <br /><br />
+            <img
+              src="https://docs.fosscord.com/img/architecture.png"
+              width="100%"
+            />
             <a
               class="about_links"
-              href="https://docs.fosscord.com/img/architecture.png"
-              >Fosscord architecture concept map</a
-            >
-            <a
-              class="about_links"
+              target="_blank"
               href="https://docs.fosscord.com/resources.html"
               >Fosscord contribution ressources</a
             >

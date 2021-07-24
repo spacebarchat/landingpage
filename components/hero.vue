@@ -99,6 +99,10 @@
   flex-direction: column;
 }
 
+#hero_container #nav .link {
+  color: white;
+}
+
 @media screen and (max-width: 600px) {
   #hero {
     padding-top: 0;

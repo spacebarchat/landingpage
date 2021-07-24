@@ -7,12 +7,13 @@
           id="section_content"
         >
           <h2 class="small">
-            Thanks for <span class="fg-fosscord">650</span>+ Github Stars!
+            Thanks for <span class="fg-fosscord">{{ stars }}</span> Github
+            Stars!
           </h2>
           <div class="description">
             <div>
-              Fosscord has reached more than 650 stars on github in such a short
-              time. <br />Thanks for all your support.
+              Fosscord has reached {{ stars }} stars on Github in such a short
+              time. <br />Thanks to you.
             </div>
           </div>
           <a
@@ -27,6 +28,20 @@
     </div>
   </section>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      stars: 0
+    };
+  },
+  async fetch() {
+    let res = await fetch("https://api.github.com/repos/fosscord/fosscord");
+    res = await res.json();
+    this.stars = res.stargazers_count;
+  }
+};
+</script>
 
 <style>
 #announcement {

@@ -1,8 +1,69 @@
 <template>
   <section>
-    <div class="container px-xl-0">
+    <div class="container px-xl-0 container-feature">
       <div class="row" id="concept_main_container">
         <div class="col-lg-6 col-md-10" id="concept_second_container">
+          <h2 class="small">
+            About Fosscord
+          </h2>
+          <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
+            Fosscord is Free Open Source Software compatible to
+            <a href="https://discord.com">Discord</a>. It's a Chat, Voice and
+            Video platform similar to Slack, Rocket.chat and Discord-compatible.
+          </div>
+          <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
+            <a
+              href="https://docs.fosscord.com/"
+              class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
+              id="button_"
+              >Documentation</a
+            >
+            <NuxtLink
+              to="/about/"
+              id="button_"
+              class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
+              >Read More</NuxtLink
+            >
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <img
+            src="../assets/images/sections/mindmap.svg"
+            class="img-fluid rounded-3"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container px-xl-0 container-feature" id="contribute">
+      <div class="row" id="contribution_container">
+        <div class="col-lg-6 col-md-12">
+          <img
+            src="../assets/images/sections/version_control.svg"
+            class="img-fluid rounded-3"
+          />
+        </div>
+        <div class="col-lg-6 col-md-10" id="contribute_text">
+          <h2 class="small">Contribute now!</h2>
+          <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
+            Currently fosscord is still in development and we can't say when we
+            will be able to release fosscord completely. In total
+            <span class="fg-fosscord">20</span> developers are working on this
+            project. Feel free to check out the documentation or the GitHub
+            repositories.
+          </div>
+          <a
+            href="https://docs.fosscord.com/contributing.html"
+            class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
+            id="button_"
+            >Contribute</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="container px-xl-0 container-feature">
+      <div class="row">
+        <div class="col-lg-6 col-md-10">
           <h2 class="small">Configurable</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that anyone should be able to configure their own
@@ -27,9 +88,9 @@
         </div>
       </div>
     </div>
-    <div class="container px-xl-0">
-      <div class="row left" id="concept_main_container">
-        <div class="col-lg-6 col-md-10" id="concept_second_container">
+    <div class="container px-xl-0 container-feature">
+      <div class="row left">
+        <div class="col-lg-6 col-md-10">
           <h2 class="small">Selfhostable</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that anyone should have the option to host their own
@@ -56,9 +117,9 @@
         </div>
       </div>
     </div>
-    <div class="container px-xl-0">
-      <div class="row" id="concept_main_container">
-        <div class="col-lg-6 col-md-10" id="concept_second_container">
+    <div class="container px-xl-0 container-feature">
+      <div class="row">
+        <div class="col-lg-6 col-md-10">
           <h2 class="small">Decentralized</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that a central approach leads to a single point of
@@ -82,9 +143,9 @@
         </div>
       </div>
     </div>
-    <div class="container px-xl-0">
-      <div class="row left" id="concept_main_container">
-        <div class="col-lg-6 col-md-10" id="concept_second_container">
+    <div class="container px-xl-0 container-feature">
+      <div class="row left">
+        <div class="col-lg-6 col-md-10">
           <h2 class="small">Free Open Source</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that the best way to make a software is to make it follow
@@ -112,9 +173,9 @@
         </div>
       </div>
     </div>
-    <div class="container px-xl-0">
-      <div class="row" id="concept_main_container">
-        <div class="col-lg-6 col-md-10" id="concept_second_container">
+    <div class="container px-xl-0 container-feature">
+      <div class="row">
+        <div class="col-lg-6 col-md-10">
           <h2 class="small">Encrypted</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that communication should be private and no third party
@@ -139,9 +200,9 @@
         </div>
       </div>
     </div>
-    <div class="container px-xl-0">
-      <div class="row left" id="concept_main_container">
-        <div class="col-lg-6 col-md-10" id="concept_second_container">
+    <div class="container px-xl-0 container-feature">
+      <div class="row left">
+        <div class="col-lg-6 col-md-10">
           <h2 class="small">Security</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe publicly audited and hosted FOSS software is the future
@@ -165,9 +226,9 @@
         </div>
       </div>
     </div>
-    <div class="container px-xl-0">
-      <div class="row" id="concept_main_container">
-        <div class="col-lg-6 col-md-10" id="concept_second_container">
+    <div class="container px-xl-0 container-feature">
+      <div class="row">
+        <div class="col-lg-6 col-md-10">
           <h2 class="small">Privacy</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe data privacy is a human right, therefore the user needs
@@ -191,9 +252,9 @@
         </div>
       </div>
     </div>
-    <div class="container px-xl-0">
-      <div class="row left" id="concept_main_container">
-        <div class="col-lg-6 col-md-10" id="concept_second_container">
+    <div class="container px-xl-0 container-feature">
+      <div class="row left">
+        <div class="col-lg-6 col-md-10">
           <h2 class="small">Extendable</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe anyone should be able to extend their clients with
@@ -217,9 +278,9 @@
         </div>
       </div>
     </div>
-    <div class="container px-xl-0">
-      <div class="row" id="concept_main_container">
-        <div class="col-lg-6 col-md-10" id="concept_second_container">
+    <div class="container px-xl-0 container-feature">
+      <div class="row">
+        <div class="col-lg-6 col-md-10">
           <h2 class="small">Themeable</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe anyone should be able to adjust the look and feel of
@@ -244,17 +305,18 @@
         </div>
       </div>
     </div>
-    <div class="container px-xl-0">
-      <div class="row left" id="concept_main_container">
-        <div class="col-lg-6 col-md-10" id="concept_second_container">
+    <div class="container px-xl-0 container-feature">
+      <div class="row left">
+        <div class="col-lg-6 col-md-10">
           <h2 class="small">Discord compatible</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that to create a successful communication platform that
             users will migrate to you either need a large user base or a unique
             selling point. We have both features by customizing the client
             however you like and being backwards compatible to discord, which
-            means you can use the client to communicate to all friends who are
-            still using discord.com and also connect to other Fosscord servers.
+            means you can use the client to communicate with all friends who are
+            "still" using discord.com and also connect to other Fosscord
+            servers.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -273,12 +335,13 @@
         </div>
       </div>
     </div>
-    <div class="container px-xl-0">
-      <div class="row" id="concept_main_container">
-        <div class="col-lg-6 col-md-10" id="concept_second_container">
+    <div class="container px-xl-0 container-feature" id="faq">
+      <div class="row">
+        <div class="col-lg-6 col-md-10">
           <h2 class="small">FAQ</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             <h4 class="white">Why did you develop Fosscord?</h4>
+            Personal opinion:
             <ul>
               <li>
                 Discord abuses their power and censors things they don't like
@@ -321,7 +384,7 @@
             >
           </div> -->
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-5 col-md-12">
           <img
             src="../assets/images/sections/faq.svg"
             class="img-fluid rounded-3"
@@ -331,3 +394,32 @@
     </div>
   </section>
 </template>
+
+<style>
+.container-feature {
+  margin: 10rem auto;
+}
+
+#contribute_text {
+  padding-right: 9rem;
+}
+
+@media screen and (max-width: 600px) {
+  #contribute_text {
+    padding-right: 0;
+  }
+
+  .container-feature img {
+    margin-top: 2rem;
+  }
+
+  #faq {
+    text-align: justify;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+</style>

@@ -19,6 +19,7 @@ body {
   color: #2e2e2e;
   -webkit-font-smoothing: antialiased;
   text-align: justify;
+  text-justify: inter-character;
   background: var(--background-color-accent);
 }
 
@@ -425,9 +426,6 @@ h3 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
-#contribute {
-  margin: 3rem;
-}
 
 .description {
   font-size: 20px;
@@ -582,14 +580,6 @@ h3 {
     text-align: center;
   }
 
-  #concept_main_container,
-  #contribute {
-    margin: 0;
-    margin-bottom: 1rem;
-  }
-  #concept_main_container {
-    padding: 0;
-  }
   #footer_logo,
   .left_footer_el_container,
   #navbar_left {

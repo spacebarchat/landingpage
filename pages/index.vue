@@ -3,8 +3,6 @@
     <warning />
     <hero />
     <announcement />
-    <concept />
-    <contribute />
     <sections />
     <!--<randomfacts />-->
     <fossfooter />

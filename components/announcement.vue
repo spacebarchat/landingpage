@@ -30,8 +30,7 @@
 
 <style>
 #announcement {
-  padding: 2rem;
-  padding-bottom: 5rem;
-  padding-top: 0;
+  padding: 5rem 2rem;
+  padding-bottom: 0;
 }
 </style>

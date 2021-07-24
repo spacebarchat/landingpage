@@ -96,3 +96,11 @@
     </div>
   </section>
 </template>
+
+<style>
+@media screen and (max-width: 600px) {
+  #about_section {
+    text-align: left;
+  }
+}
+</style>

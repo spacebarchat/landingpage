@@ -53,7 +53,7 @@
             repositories.
           </div>
           <a
-            href="https://docs.fosscord.com/contributing.html"
+            href="https://github.com/fosscord/fosscord/issues/10"
             class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
             id="button_"
             >Contribute</a

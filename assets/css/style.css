@@ -655,6 +655,13 @@ h3 {
     flex-direction: column-reverse;
   }
   .roadmap_container {
-    padding: 0.5rem;
+    margin: 0;
+    padding: 0rem;
+    flex-direction: column;
+  }
+  .roadmap {
+    margin: 0;
+    padding: 0;
+    padding-left: 0.5rem;
   }
 }

@@ -14,7 +14,7 @@
             >Open Demo</a
           >
         </div>
-        <!--    
+        <!--
         <div id="features">
           <span>Discord-compatible</span>
           <span>Free Open Source</span>

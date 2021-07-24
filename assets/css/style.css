@@ -622,7 +622,7 @@ h3 {
 }
 
 .color-main.link {
-  color: white;
+  color: rgb(46, 46, 46) !important;
 }
 
 .color-main.link:hover {
@@ -640,5 +640,8 @@ h3 {
 
   .description {
     color: #a1a1a1 !important;
+  }
+  .color-main.link {
+    color: white !important;
   }
 }

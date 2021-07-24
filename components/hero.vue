@@ -45,6 +45,7 @@
 }
 
 #waves {
+  display: none;
   height: 25vh;
   width: 100vw;
   background-color: var(--background-color-accent);
@@ -82,7 +83,7 @@
 
 #hero_container {
   height: 100%;
-  min-height: 70vh;
+  padding-bottom: 5rem;
   display: flex;
   flex-direction: column;
   background: var(--background-color);

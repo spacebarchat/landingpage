@@ -1,20 +1,12 @@
 <!--this shit doesnt work fuck nuxt and vue-->
-<!--
+
 <template>
   <div class="roadmap">
-    <div id="roadmap_api" @load="$fetch">
-      <vue-markdown>{{ content }}</vue-markdown>
-    </div>
+    <h4>API:</h4>
+    <div id="roadmap_api" v-html="$md.render(content)"></div>
   </div>
 </template>
 <script>
-import VueMarkdown from "@adapttive/vue-markdown";
-
-new Vue({
-  components: {
-    VueMarkdown
-  }
-});
 export default {
   data() {
     return {
@@ -28,8 +20,13 @@ export default {
     res = await res.json();
     let { body } = res;
 
-    this.content = body;
+    this.content = body
+      .replace(/\[ \]/g, "<input type='checkbox' disabled/>")
+      .replace(/\[x\]/g, "<input type='checkbox' checked disabled/>")
+      .replace(
+        /#(\d+)/g,
+        '<a href="https://github.com/fosscord/fosscord-api/issues/$1">#$1</a>'
+      );
   }
 };
 </script>
--->

@@ -11,18 +11,18 @@
         <NuxtLink to="/about/" class="link mr-15 color-main nav_link"
           >About</NuxtLink
         >
-        <!-- 
+
         <NuxtLink to="/roadmap/" class="link mr-15 color-main nav_link"
           >Roadmap</NuxtLink
         >
-        -->
+
         <a
           href="https://docs.fosscord.com/"
           target="_blank"
           class="link mx-15 color-main nav_link"
           >Documentation</a
         >
-        <!-- 
+        <!--
         <a
           href="https://github.com/fosscord/fosscord"
           target="_blank"

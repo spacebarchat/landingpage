@@ -2,7 +2,11 @@
   <div>
     <warning />
     <navbar />
-    <roadmap />
+    <div class="roadmap_container">
+      <roadmapapi />
+      <roadmapclient />
+      <roadmapmedia />
+    </div>
     <fossfooter />
   </div>
 </template>

@@ -27,7 +27,17 @@ export default {
   buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ["@nuxtjs/markdownit"],
+  markdownit: {
+    runtime: true, // Support `$md()`
+    html: true,
+    xhtmlOut: true,
+    breaks: true,
+    langPrefix: "language-",
+    linkify: true,
+    typographer: true,
+    maxNesting: 100
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},

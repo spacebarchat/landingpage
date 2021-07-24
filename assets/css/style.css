@@ -571,6 +571,44 @@ h3 {
 .left {
   flex-direction: row-reverse;
 }
+
+.color-main.link {
+  color: rgb(46, 46, 46) !important;
+}
+
+.color-main.link:hover {
+  color: #cdcdcd;
+}
+
+.roadmap {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.roadmap_container {
+  margin-top: 5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color-accent: #111111;
+  }
+
+  body {
+    color: #d2d2d2;
+  }
+
+  .description {
+    color: #a1a1a1 !important;
+  }
+  .color-main.link {
+    color: white !important;
+  }
+}
 @media screen and (max-width: 600px) {
   #main_header {
     font-size: 3rem;
@@ -619,29 +657,7 @@ h3 {
   .about_container {
     flex-direction: column-reverse;
   }
-}
-
-.color-main.link {
-  color: rgb(46, 46, 46) !important;
-}
-
-.color-main.link:hover {
-  color: #cdcdcd;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color-accent: #111111;
-  }
-
-  body {
-    color: #d2d2d2;
-  }
-
-  .description {
-    color: #a1a1a1 !important;
-  }
-  .color-main.link {
-    color: white !important;
+  .roadmap_container {
+    padding: 0.5rem;
   }
 }

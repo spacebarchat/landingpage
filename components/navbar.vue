@@ -21,7 +21,7 @@
           </svg>
         </button>
       </div>
-      <div class="navbar_right">
+      <div class="navbar_right hidden">
         <NuxtLink to="/about/" class="link mr-15 color-main nav_link"
           >About</NuxtLink
         >

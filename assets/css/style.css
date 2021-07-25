@@ -592,7 +592,32 @@ h3 {
   justify-content: center;
   flex-wrap: wrap;
 }
-
+.contributor_img {
+  width: 5rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+.contributor_container {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contributors_container {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contributors_container_container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color-accent: #111111;

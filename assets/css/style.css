@@ -690,3 +690,14 @@ h3 {
     padding-left: 0.5rem;
   }
 }
+.social_link_extra {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .left_footer_el_container {
+    display: none;
+  }
+  .social_link_extra {
+    display: inline;
+  }
+}

@@ -16,9 +16,9 @@
           >Roadmap</NuxtLink
         >
 
-        <NuxtLink to="/contributors/" class="link mr-15 color-main nav_link"
+        <!-- <NuxtLink to="/contributors/" class="link mr-15 color-main nav_link"
           >Contributors</NuxtLink
-        >
+        > -->
 
         <a
           href="https://docs.fosscord.com/"

@@ -1,7 +1,6 @@
 <template>
   <div>
     <div id="hero_container">
-      <navbar />
       <section id="hero" class="container">
         <h2 id="main_header">
           Fosscord for better and secure communication

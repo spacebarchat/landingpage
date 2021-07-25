@@ -1,6 +1,7 @@
 <template>
   <div class="full_size">
     <warning />
+    <navbar />
     <hero />
     <announcement />
     <sections />

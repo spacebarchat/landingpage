@@ -37,6 +37,10 @@ section {
 
 nav {
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-color: var(--background-color);
 }
 
 a {
@@ -618,6 +622,7 @@ h3 {
   align-items: center;
   justify-content: center;
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color-accent: #111111;
@@ -635,7 +640,6 @@ h3 {
   #main_header {
     font-size: 3rem;
   }
-
   section {
     text-align: center;
   }
@@ -689,15 +693,57 @@ h3 {
     padding: 0;
     padding-left: 0.5rem;
   }
+  .navbar_right {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+  }
+  #navbar_container {
+    align-items: flex-end !important;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #toggle {
+    display: inline !important;
+  }
+  .hidden {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #back_button {
+    display: inline;
+  }
+  .navbar_right {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar_right a {
+    margin: 1rem;
+  }
+  .navbar_right a:hover {
+    color: var(--fosscord) !important;
+  }
+  #navbar_left {
+    display: none;
+  }
+}
+.navbar_right a:hover,
+#navbar_left a:hover {
+  color: var(--fosscord) !important;
 }
 .social_link_extra {
   display: none;
 }
-@media screen and (max-width: 800px) {
-  .left_footer_el_container {
-    display: none;
-  }
-  .social_link_extra {
-    display: inline;
-  }
+#back_button {
+  font-weight: 700;
+}
+#toggle {
+  display: none;
+  background-color: var(--background-color);
+  color: white;
+  border: none;
 }

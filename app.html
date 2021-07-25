@@ -12,4 +12,16 @@
   <body {{ BODY_ATTRS }}>
     {{ APP }}
   </body>
+  <script>
+    window.onload = () => {
+      const navbar = document.getElementsByClassName("navbar_right")[0]
+        .classList;
+      document.querySelector("#toggle").addEventListener("click", () => {
+        if (navbar.contains("hidden")) {
+          return navbar.remove("hidden");
+        }
+        navbar.add("hidden");
+      });
+    };
+  </script>
 </html>

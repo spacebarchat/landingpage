@@ -1,12 +1,24 @@
 <template>
-  <nav class="text-center container" id="nav">
+  <nav class="text-center" id="nav">
     <div id="navbar_container">
       <div id="navbar_left">
         <NuxtLink to="/" class="link logo color-main">fosscord.com</NuxtLink>
       </div>
+      <button id="toggle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="32px"
+          viewBox="0 0 24 24"
+          width="32px"
+          fill="white"
+        >
+          <path d="M0 0h24v24H0z" fill="none" />
+          <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+        </svg>
+      </button>
       <div class="navbar_right">
         <NuxtLink to="/" class="link mr-15 color-main nav_link" id="back_button"
-          >Home</NuxtLink
+          >Fosscord.com</NuxtLink
         >
         <NuxtLink to="/about/" class="link mr-15 color-main nav_link"
           >About</NuxtLink
@@ -16,9 +28,9 @@
           >Roadmap</NuxtLink
         >
 
-        <!-- <NuxtLink to="/contributors/" class="link mr-15 color-main nav_link"
+        <NuxtLink to="/contributors/" class="link mr-15 color-main nav_link"
           >Contributors</NuxtLink
-        > -->
+        >
 
         <a
           href="https://docs.fosscord.com/"

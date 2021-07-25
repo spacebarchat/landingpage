@@ -1,6 +1,6 @@
 <template>
   <div class="contributors_container_container">
-    <h3>Contributors:</h3>
+    <h3>Founders:</h3>
     <div class="contributors_container">
       <div
         class="contributor_container"
@@ -26,7 +26,7 @@ export default {
   },
   async fetch() {
     this.members = await fetch(
-      "https://raw.githubusercontent.com/fosscord/fosscord/master/assets/contributors/contributors.json"
+      "https://api.github.com/orgs/fosscord/members"
     ).then(res => res.json());
   }
 };

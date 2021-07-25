@@ -61,9 +61,9 @@
   justify-content: space-between;
 }
 
-#nav .link {
+/* #nav .link {
   color: #2e2e2e;
-}
+} */
 
 @media (prefers-color-scheme: dark) {
   #nav .link {

@@ -8,7 +8,7 @@
         <NuxtLink to="/" class="link logo color-main" id="back_button"
           >fosscord.com</NuxtLink
         >
-        <button id="toggle">
+        <button id="toggle" @click="showNavbar = !showNavbar">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="32px"
@@ -21,7 +21,7 @@
           </svg>
         </button>
       </div>
-      <div class="navbar_right hidden">
+      <div class="navbar_right" v-if="this.showNavbar === true">
         <NuxtLink to="/about/" class="link mr-15 color-main nav_link"
           >About</NuxtLink
         >
@@ -51,6 +51,16 @@
     </div>
   </nav>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      showNavbar: false,
+    }
+  }  
+}
+</script>
 
 <style>
 #nav {

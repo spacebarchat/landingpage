@@ -705,6 +705,7 @@ h3 {
   }
   #toggle {
     display: inline !important;
+    outline: none;
   }
   .hidden {
     display: none !important;

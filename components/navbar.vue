@@ -8,7 +8,7 @@
         <NuxtLink to="/" class="link logo color-main" id="back_button"
           >fosscord.com</NuxtLink
         >
-        <button id="toggle" @click="showNavbar = !showNavbar">
+        <button id="toggle" @click="showMobileNavbar = !showMobileNavbar">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="32px"
@@ -21,7 +21,34 @@
           </svg>
         </button>
       </div>
-      <div class="navbar_right" v-if="this.showNavbar === true">
+      <div class="navbar_right">
+        <NuxtLink to="/about/" class="link mr-15 color-main nav_link"
+          >About</NuxtLink
+        >
+        <NuxtLink to="/roadmap/" class="link mr-15 color-main nav_link"
+          >Roadmap</NuxtLink
+        >
+
+        <NuxtLink to="/contributors/" class="link mr-15 color-main nav_link"
+          >Contributors</NuxtLink
+        >
+
+        <a
+          href="https://docs.fosscord.com/"
+          target="_blank"
+          class="link mx-15 color-main nav_link"
+          >Documentation</a
+        >
+        <!--
+        <a
+          href="https://github.com/fosscord/fosscord"
+          target="_blank"
+          class="link mx-15 color-main nav_link"
+          >Download</a
+        >
+        -->
+      </div>
+      <div class="navbar_right mobile_navbar" v-show="this.showMobileNavbar === true">
         <NuxtLink to="/about/" class="link mr-15 color-main nav_link"
           >About</NuxtLink
         >
@@ -56,7 +83,7 @@
 export default {
   data() {
     return {
-      showNavbar: false,
+      showMobileNavbar: false,
     }
   }  
 }
@@ -72,6 +99,10 @@ export default {
   justify-content: space-between;
 }
 
+.mobile_navbar {
+  display: none;
+}
+
 /* #nav .link {
   color: #2e2e2e;
 } */
@@ -84,6 +115,10 @@ export default {
 
 @media screen and (max-width: 600px) {
   .navbar_right {
+    display: none;
+  }
+
+  .mobile_navbar {
     display: flex;
     width: 100%;
     justify-content: space-between;

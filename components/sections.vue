@@ -3,24 +3,22 @@
     <div class="container px-xl-0 container-feature">
       <div class="row" id="concept_main_container">
         <div class="col-lg-6 col-md-10" id="concept_second_container">
-          <h2 class="small">
-            About Fosscord
-          </h2>
+          <h2 class="small">About Fosscord</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            Fosscord is Free Open Source Software compatible to
-            <a href="https://discord.com">Discord</a>. It's a Chat, Voice and
-            Video platform similar to Slack, Rocket.chat and Discord-compatible.
+            Fosscord is a free and open source software compatible with
+            <a href="https://discord.com">Discord</a>. It's a chat, voice and
+            video platform similar to Slack and Rocket.chat.
           </div>
           <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <a
               href="https://docs.fosscord.com/"
               class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
-              id="button_"
+              id="button-docs"
               >Documentation</a
             >
             <NuxtLink
               to="/about/"
-              id="button_"
+              id="button_ button-readMore"
               class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
               >Read More</NuxtLink
             >
@@ -47,10 +45,11 @@
           <h2 class="small">Contribute now!</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             Currently fosscord is still in development and we can't say when we
-            will be able to release fosscord completely. In total
+            will be able to release fosscord completely. In total,
             <span class="fg-fosscord">20</span> developers are working on this
-            project. Feel free to check out the documentation or the GitHub
-            repositories.
+            project. Feel free to check out the
+            <a href="https://docs.fosscord.org">documentation</a> or the
+            <a href="https://github.com/fosscord">GitHub repositories</a>.
           </div>
           <a
             href="https://github.com/fosscord/fosscord/issues/10"
@@ -154,7 +153,7 @@
             with Fosscord as long as you publish all changes under the
             <a href="https://github.com/fosscord/fosscord/blob/master/LICENSE"
               >GNU Affero General Public License v3.0</a
-            >
+            >.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -341,6 +340,7 @@
           <h2 class="small">FAQ</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             <h4 class="white">Why did you develop Fosscord?</h4>
+            <br />
             Personal opinion:
             <ul>
               <li>
@@ -366,7 +366,6 @@
                 technologies
               </li>
             </ul>
-
             <h4 class="white">How do you make money?</h4>
             <ul>
               <li>
@@ -395,9 +394,9 @@
   </section>
 </template>
 
-<style>
+<style scoped>
 .container-feature {
-  margin: 10rem auto;
+  margin: 7rem auto;
 }
 
 #contribute_text {
@@ -416,10 +415,29 @@
   #faq {
     text-align: justify;
   }
+
+  #button-docs {
+    margin-bottom: 0.5rem;
+  }
 }
 
-.buttons {
+/* .buttons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: right;
+} */
+
+#button-docs {
+  margin-right: 0.5rem;
+}
+
+ul {
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul > li {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 </style>

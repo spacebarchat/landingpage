@@ -8,7 +8,7 @@
         >
           <h2 class="small">
             Thanks for <span class="fg-fosscord">{{ stars }}</span> Github
-            Stars!
+            stars!
           </h2>
           <div class="description">
             <div>

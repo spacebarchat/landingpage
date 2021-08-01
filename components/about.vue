@@ -97,10 +97,21 @@
   </section>
 </template>
 
-<style>
+<style scoped>
 @media screen and (max-width: 600px) {
   #about_section {
     text-align: left;
   }
+}
+
+ul {
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul > li {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 </style>

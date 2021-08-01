@@ -18,8 +18,8 @@ body {
   line-height: 26px;
   color: #2e2e2e;
   -webkit-font-smoothing: antialiased;
-  text-align: justify;
-  text-justify: inter-character;
+  /* text-align: justify;
+  text-justify: inter-character; */
   background: var(--background-color-accent);
 }
 
@@ -433,10 +433,9 @@ h3 {
 
 .description {
   font-size: 20px;
-  line-height: 30px;
+  line-height: 1.5;
   margin-top: 0.25rem;
   margin-bottom: 1rem;
-  font-weight: 600;
   color: #5f5f5f !important;
 }
 
@@ -485,9 +484,9 @@ h3 {
 .fg-fosscord {
   color: var(--fosscord);
 }
-#button_ {
+/* #button_ {
   margin: 0.5rem;
-}
+} */
 .footer {
   display: flex;
   align-items: center;
@@ -752,4 +751,15 @@ h3 {
   background-color: var(--background-color);
   color: white;
   border: none;
+}
+
+/* Nuxt page transitions */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
 }

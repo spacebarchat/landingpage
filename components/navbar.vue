@@ -2,11 +2,12 @@
   <nav class="text-center" id="nav">
     <div id="navbar_container">
       <div id="navbar_left">
-        <NuxtLink to="/" class="link logo color-main">fosscord.com</NuxtLink>
+        <NuxtLink to="/" class="link logo color-main"
+          ><img src="https://raw.githubusercontent.com/fosscord/fosscord/master/assets/logo/logo.svg" height="30px" width="30px" class="fosscord-logo" /> &nbsp;<span class="fosscord-logo-text">Fosscord</span></NuxtLink>
       </div>
       <div id="toggle_container">
         <NuxtLink to="/" class="link logo color-main" id="back_button"
-          >fosscord.com</NuxtLink
+          >Fosscord</NuxtLink
         >
         <button id="toggle" @click="showMobileNavbar = !showMobileNavbar">
           <svg
@@ -48,7 +49,10 @@
         >
         -->
       </div>
-      <div class="navbar_right mobile_navbar" v-show="this.showMobileNavbar === true">
+      <div
+        class="navbar_right mobile_navbar"
+        v-show="this.showMobileNavbar === true"
+      >
         <NuxtLink to="/about/" class="link mr-15 color-main nav_link"
           >About</NuxtLink
         >
@@ -84,9 +88,9 @@ export default {
   data() {
     return {
       showMobileNavbar: false,
-    }
-  }  
-}
+    };
+  },
+};
 </script>
 
 <style>
@@ -106,6 +110,14 @@ export default {
 /* #nav .link {
   color: #2e2e2e;
 } */
+
+.fosscord-logo {
+  vertical-align: middle;
+}
+
+.fosscord-logo-text {
+  vertical-align: middle;
+}
 
 @media (prefers-color-scheme: dark) {
   #nav .link {

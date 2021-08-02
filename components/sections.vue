@@ -48,7 +48,7 @@
             will be able to release fosscord completely. In total,
             <span class="fg-fosscord">20</span> developers are working on this
             project. Feel free to check out the
-            <a href="https://docs.fosscord.org">documentation</a> or the
+            <a href="https://docs.fosscord.com">documentation</a> or the
             <a href="https://github.com/fosscord">GitHub repositories</a>.
           </div>
           <a

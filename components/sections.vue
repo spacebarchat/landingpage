@@ -151,7 +151,7 @@
             GPL principles and let everyone contribute to it. Additionally we
             represent a libre position so that anyone can do whatever they want
             with Fosscord as long as you publish all changes under the
-            <a href="https://www.gnu.org/"
+            <a href="https://www.gnu.org/licenses/agpl-3.0.html"
               >GNU Affero General Public License v3.0</a
             >.
           </div>

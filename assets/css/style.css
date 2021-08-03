@@ -638,6 +638,7 @@ h3 {
 @media screen and (max-width: 600px) {
   #main_header {
     font-size: 3rem;
+    word-break: break-all;
   }
   section {
     text-align: center;

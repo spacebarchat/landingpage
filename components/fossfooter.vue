@@ -66,7 +66,7 @@
         </div>
         <div class="footer_el_container">
           <h5 class="footer_el_header">Support</h5>
-          <a class="footer_el_link" target="_blank" href="mailto:null">Email</a>
+          <!-- <a class="footer_el_link" target="_blank" href="mailto:null">Email</a> -->
           <a
             class="footer_el_link"
             target="_blank"

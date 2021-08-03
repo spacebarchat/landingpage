@@ -48,7 +48,7 @@
             will be able to release fosscord completely. In total,
             <span class="fg-fosscord">20</span> developers are working on this
             project. Feel free to check out the
-            <a href="https://docs.fosscord.org">documentation</a> or the
+            <a href="https://docs.fosscord.com">documentation</a> or the
             <a href="https://github.com/fosscord">GitHub repositories</a>.
           </div>
           <a
@@ -151,7 +151,7 @@
             GPL principles and let everyone contribute to it. Additionally we
             represent a libre position so that anyone can do whatever they want
             with Fosscord as long as you publish all changes under the
-            <a href="https://github.com/fosscord/fosscord/blob/master/LICENSE"
+            <a href="https://www.gnu.org/licenses/agpl-3.0.html"
               >GNU Affero General Public License v3.0</a
             >.
           </div>

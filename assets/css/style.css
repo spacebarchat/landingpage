@@ -685,7 +685,7 @@ h3 {
   }
   .roadmap_container {
     margin: 0;
-    padding: 0rem;
+    padding: 1em;
     flex-direction: column;
   }
   .roadmap {
@@ -705,6 +705,7 @@ h3 {
   }
   #toggle {
     display: inline !important;
+    outline: none;
   }
   .hidden {
     display: none !important;

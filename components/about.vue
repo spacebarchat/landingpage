@@ -87,7 +87,7 @@
             <a
               class="about_links"
               target="_blank"
-              href="https://docs.fosscord.com/resources.html"
+              href="https://docs.fosscord.com/resources/"
               >Fosscord contribution ressources</a
             >
           </div>

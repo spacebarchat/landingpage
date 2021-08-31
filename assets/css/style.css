@@ -212,6 +212,7 @@ h3 {
 .btn:active,
 .btn:focus {
   box-shadow: none;
+  background: #2828d2 !important;
 }
 
 .btn[class*=" border-"],
@@ -333,7 +334,7 @@ h3 {
   color: #2e2e2e;
 }
 
-.color-main.link:hover {
+.color-main.link:hover, .color-main.link:focus {
   color: #616161;
 }
 
@@ -513,7 +514,7 @@ h3 {
   color: white;
   font-weight: 400;
 }
-.footer_el_lin:hover {
+.footer_el_link:hover, .footer_el_link:focus {
   color: var(--fosscord-hover) !important;
 }
 .footer_logo {

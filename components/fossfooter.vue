@@ -85,7 +85,7 @@
           <a
             class="footer_el_link"
             target="_blank"
-            href="https://docs.fosscord.com/contributing/"
+            href="https://docs.fosscord.com/contributing/server/"
             >Contribute</a
           >
           <a

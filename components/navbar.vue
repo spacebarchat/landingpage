@@ -3,7 +3,15 @@
     <div id="navbar_container">
       <div id="navbar_left">
         <NuxtLink to="/" class="link logo color-main"
-          ><img src="https://raw.githubusercontent.com/fosscord/fosscord/master/assets/logo/logo.svg" height="30px" width="30px" class="fosscord-logo" alt="fosscord.com" /> &nbsp;<span class="fosscord-logo-text">Fosscord</span></NuxtLink>
+          ><img
+            src="https://raw.githubusercontent.com/fosscord/fosscord/master/assets/logo/logo.svg"
+            height="30px"
+            width="30px"
+            class="fosscord-logo"
+            alt="fosscord.com"
+          />
+          &nbsp;<span class="fosscord-logo-text">Fosscord</span></NuxtLink
+        >
       </div>
       <div id="toggle_container">
         <NuxtLink to="/" class="link logo color-main" id="back_button"
@@ -39,6 +47,9 @@
           target="_blank"
           class="link mx-15 color-main nav_link"
           >Documentation</a
+        >
+        <NuxtLink to="/instances/" class="link mr-15 color-main nav_link"
+          >Instances</NuxtLink
         >
         <!--
         <a
@@ -87,9 +98,9 @@
 export default {
   data() {
     return {
-      showMobileNavbar: false,
+      showMobileNavbar: false
     };
-  },
+  }
 };
 </script>
 

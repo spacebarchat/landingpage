@@ -4,6 +4,7 @@
   --fosscord: #2e4eef;
   --fosscord-hover: #2e4eefa9;
   --background-color: #23272a;
+  --background-color-hover: #23272a80;
   --background-color-accent: #ffffff;
 }
 
@@ -334,7 +335,8 @@ h3 {
   color: #2e2e2e;
 }
 
-.color-main.link:hover, .color-main.link:focus {
+.color-main.link:hover,
+.color-main.link:focus {
   color: #616161;
 }
 
@@ -514,7 +516,8 @@ h3 {
   color: white;
   font-weight: 400;
 }
-.footer_el_link:hover, .footer_el_link:focus {
+.footer_el_link:hover,
+.footer_el_link:focus {
   color: var(--fosscord-hover) !important;
 }
 .footer_logo {
@@ -542,7 +545,6 @@ h3 {
 .icons:hover {
   fill: var(--fosscord-hover);
 }
-
 .nav_link {
   margin-left: 1rem;
 }
@@ -615,14 +617,80 @@ h3 {
   justify-content: center;
 }
 .contributors_container_container {
-  margin-top: 5rem;
+  margin-top: 4rem;
   margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
+#main_header {
+  font-size: 5rem;
+}
+#main_header_sub {
+  font-weight: 500;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+.instances_container_main {
+  margin-top: 2rem;
+  margin-bottom: 5.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 100%;
+}
+.instances_container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  margin: 2rem;
+  margin-bottom: 4rem;
+}
+.instance_container {
+  background: var(--background-color);
+  max-width: 15rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.instance_container:hover {
+  background: var(--background-color-hover);
+}
+.instance_img {
+  width: 15rem;
+  border-radius: 5%;
+}
+.grey {
+  filter: grayscale(1);
+}
+.fosscord_image {
+  filter: none !important;
+}
+.instance_info_container {
+  margin: 1rem;
+  /* text-align: center; */
+}
+.instances_container_header {
+  text-align: center;
+}
+.instance_desc {
+  font-size: small;
+  word-wrap: break-word;
+}
+.verified_icon {
+  fill: var(--fosscord);
+  width: 1.25rem;
+}
+.instance_name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color-accent: #111111;
@@ -638,8 +706,10 @@ h3 {
 }
 @media screen and (max-width: 600px) {
   #main_header {
-    font-size: 3rem;
-    word-break: break-all;
+    font-size: 4rem;
+  }
+  #main_header_sub {
+    font-size: 1.5rem;
   }
   section {
     text-align: center;

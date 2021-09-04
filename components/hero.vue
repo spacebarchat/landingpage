@@ -3,8 +3,9 @@
     <div id="hero_container">
       <section id="hero" class="container">
         <h2 id="main_header">
-          Fosscord for better and secure communication
+          Fosscord
         </h2>
+        <span id="main_header_sub">For better and secure communication</span>
         <div style="margin-top: 2rem">
           <a
             id="open_demo"

@@ -4,7 +4,7 @@
   --fosscord: #2e4eef;
   --fosscord-hover: #2e4eefa9;
   --background-color: #23272a;
-  --background-color-hover: #23272a80;
+  --background-color-hover: #3f4246;
   --background-color-accent: #ffffff;
 }
 
@@ -645,6 +645,7 @@ h3 {
 }
 .instances_container {
   display: flex;
+  height: 100%;
   justify-content: center;
   align-items: start;
   flex-wrap: wrap;
@@ -661,9 +662,13 @@ h3 {
 .instance_container:hover {
   background: var(--background-color-hover);
 }
+.instance_container:hover .instance_img {
+  border: 0.4rem solid var(--background-color-hover);
+}
 .instance_img {
   width: 15rem;
   border-radius: 5%;
+  border: 0.4rem solid var(--background-color);
 }
 .grey {
   filter: grayscale(1);
@@ -681,6 +686,7 @@ h3 {
 .instance_desc {
   font-size: small;
   word-wrap: break-word;
+  color: #d2d2d2;
 }
 .verified_icon {
   fill: var(--fosscord);

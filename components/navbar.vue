@@ -81,6 +81,9 @@
           class="link mx-15 color-main nav_link"
           >Documentation</a
         >
+        <NuxtLink to="/instances/" class="link mr-15 color-main nav_link"
+          >Instances</NuxtLink
+        >
         <!--
         <a
           href="https://github.com/fosscord/fosscord"

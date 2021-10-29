@@ -8,9 +8,9 @@
       </span>
     </div>
     <p>
-      Fosscord is still a work in progress. If you're an advanced user see
-      <a href="https://docs.fosscord.com/">here</a> for a guide
-      on how to get started.
+      Fosscord is still a work in progress. If you're an advanced user, read the
+      <a href="https://docs.fosscord.com/">Documentation</a> for a guide on how
+      to get started.
     </p>
   </div>
 </template>

@@ -81,7 +81,7 @@
             everyone can add their own features, so that it is not opinionated.
             <br /><br />
             <img
-              src="https://docs.fosscord.com/img/architecture.png"
+              src="https://raw.githubusercontent.com/fosscord/fosscord/f0b01762edfe10bef249b65b3fe0a2ca3a9ce4fa/assets/architecture.png"
               width="100%"
             />
             <a

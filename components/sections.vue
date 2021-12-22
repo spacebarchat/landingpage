@@ -148,7 +148,7 @@
           <h2 class="small">Free Open Source</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that the best way to make a software is to make it follow
-            GPL principles and let everyone contribute to it. Additionally we
+            the GPL principles and let everyone contribute to it. Additionally we
             represent a libre position so that anyone can do whatever they want
             with Fosscord as long as you publish all changes under the
             <a href="https://www.gnu.org/licenses/agpl-3.0.html"
@@ -180,7 +180,8 @@
             We believe that communication should be private and no third party
             should be able to intercept and read the content of it. That’s why
             Fosscord is end-to-end encrypted based on the concept “don’t trust
-            the server”. (Currently work in progress)
+            the server”. (If you setup HTTPS)
+            // im going to make a docs page about this!
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -205,7 +206,7 @@
           <h2 class="small">Security</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe publicly audited and hosted FOSS software is the future
-            in terms of security. That's why we choose this approach to create a
+            in terms of security. That's why we chose this approach to create a
             transparent foundation between the user and the project.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
@@ -230,9 +231,9 @@
         <div class="col-lg-6 col-md-10">
           <h2 class="small">Privacy</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            We believe data privacy is a human right, therefore the user needs
-            to opt into data collection and analytics via the client settings
-            and it's disabled by default.
+            We believe data privacy is a human right, therefore the user could
+            opt into data collection and analytics via the client settings,
+            but it's disabled by default.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -350,7 +351,7 @@
               <li>Discord being slow in development of new features</li>
               <li>Discord not listening to their community</li>
               <li>
-                Free and open source version that you can have a look, trust and
+                 Fosscord is a free and open source version that you can have a look, trust and
                 adjust
               </li>
               <li>
@@ -358,12 +359,17 @@
                 its data
               </li>
               <li>
-                Add additional features like end to end encryption and a secure
+                Add additional features like end to end encryption* and a secure
                 and cross platform plugin/theme system
+                *With HTTPS
               </li>
               <li>
                 Discord making use of Electron and other bloated RAM hungry
                 technologies
+              </li>
+              <li>
+                Discord being greedy and making more features only avaliable
+                to nitro users
               </li>
             </ul>
             <h4 class="white">How do you make money?</h4>

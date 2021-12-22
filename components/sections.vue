@@ -44,7 +44,7 @@
         <div class="col-lg-6 col-md-10" id="contribute_text">
           <h2 class="small">Contribute now!</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            Currently fosscord is still in development and we can't say when we
+            Currently, Fosscord is still in development and we can't say when we
             will be able to release fosscord completely. In total,
             <span class="fg-fosscord">20</span> developers are working on this
             project. Feel free to check out the
@@ -67,7 +67,7 @@
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that anyone should be able to configure their own
             instance exactly to their needs. That's why the instance admin can
-            change nearly every default value in the settings without changing
+            change nearly every default value in the database without changing
             the source code.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
@@ -95,7 +95,7 @@
             We believe that anyone should have the option to host their own
             instance without any restrictions. That’s why we provide an easy
             <a href="https://github.com/fosscord/fosscord-server/releases"
-              >one-click server installer</a
+              >server binary</a
             >
             to have full control over the instance and its data.
           </div>

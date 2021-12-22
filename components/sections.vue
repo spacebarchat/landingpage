@@ -5,7 +5,7 @@
         <div class="col-lg-6 col-md-10" id="concept_second_container">
           <h2 class="small">About Fosscord</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            Fosscord is a free and open source software compatible with
+            Fosscord is a free and open source program compatible with
             <a href="https://discord.com">Discord</a>. It's a chat, voice and
             video platform similar to Slack and Rocket.chat.
           </div>

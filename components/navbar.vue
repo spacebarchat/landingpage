@@ -4,13 +4,11 @@
       <div id="navbar_left">
         <NuxtLink to="/" class="link logo color-main"
           ><img
-            src="https://raw.githubusercontent.com/fosscord/fosscord/master/assets/logo/logo.svg"
+            src="https://raw.githubusercontent.com/fosscord/fosscord/master/assets-rebrand/svg/Fosscord-Wordmark-Gradient.svg"
             height="30px"
-            width="30px"
             class="fosscord-logo"
             alt="fosscord.com"
-          />
-          &nbsp;<span class="fosscord-logo-text">Fosscord</span></NuxtLink
+          /></NuxtLink
         >
       </div>
       <div id="toggle_container">

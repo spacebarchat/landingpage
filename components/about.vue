@@ -34,9 +34,9 @@
           <div class="mt-1 mb-35 f-22 color-heading text-adaptive description">
             <ul>
               <li>
-                Because we benefit from the large user base of discord, thus more users,
-                making the switch easier for new users & keeping workflows.
-                intact
+                Because we benefit from the large user base of discord, thus more
+                users, making the switch easier for new users & keeping workflows
+                intact.
               </li>
               <li>
                 No disadvantage for the users who use fosscord, so that they can
@@ -71,9 +71,9 @@
             The client can connect to multiple server instances without the need
             to open it multiple times.<br />
             The client will be customizable through a secure Plugin and Theme
-            System with it's own marketplace. The server will be customizable through bots,
-            just like discord without the need to change anything except the api
-            endpoint.
+            System with it's own marketplace. The server will be customizable
+            through bots, just like discord without the need to change anything
+            except the API endpoint.
             <br /><br />
             The project is open source so everyone can have a look what's going
             on under the hood and can be maintained and expanded by the

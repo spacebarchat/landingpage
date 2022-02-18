@@ -5,7 +5,8 @@
         <div class="col-lg-6 col-md-10" id="concept_second_container">
           <h2 class="small">About Fosscord</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            Fosscord is free and open source software compatible with
+            Fosscord is a free and open source program compatible with
+
             <a href="https://discord.com">Discord</a>. It's a chat, voice and
             video platform similar to Slack and Rocket.chat.
           </div>
@@ -44,7 +45,7 @@
         <div class="col-lg-6 col-md-10" id="contribute_text">
           <h2 class="small">Contribute now!</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            Currently fosscord is still in development and we can't say when we
+            Currently, Fosscord is still in development and we can't say when we
             will be able to release fosscord completely. In total,
             <span class="fg-fosscord">20</span> developers are working on this
             project. Feel free to check out the
@@ -67,7 +68,7 @@
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that anyone should be able to configure their own
             instance exactly to their needs. That's why the instance admin can
-            change nearly every default value in the settings without changing
+            change nearly every default value in the database without changing
             the source code.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
@@ -95,7 +96,7 @@
             We believe that anyone should have the option to host their own
             instance without any restrictions. That’s why we provide an easy
             <a href="https://github.com/fosscord/fosscord-server/releases"
-              >one-click server installer</a
+              >server binary</a
             >
             to have full control over the instance and its data.
           </div>
@@ -109,10 +110,8 @@
           </div> -->
         </div>
         <div class="col-lg-6 col-md-12">
-          <img
-            src="../assets/images/sections/selfhostable.svg"
-            class="img-fluid rounded-3"
-          />
+          <img src="../assets/images/sections/selfhostable.svg"
+            class="img-fluid rounded-3"/>
         </div>
       </div>
     </div>
@@ -147,26 +146,22 @@
         <div class="col-lg-6 col-md-10">
           <h2 class="small">Free Open Source</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            We believe that the best way to make software is to make it follow
-            GPL principles and let everyone contribute to it. Additionally we
+            We believe that the best way to make a software is to make it follow
+            the GPL principles and let everyone contribute to it. Additionally we
             represent a libre position so that anyone can do whatever they want
             with Fosscord as long as you publish all changes under the
             <a href="https://www.gnu.org/licenses/agpl-3.0.html"
-              >GNU Affero General Public License v3.0</a
-            >.
+              >GNU Affero General Public License v3.0</a>.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
-            <NuxtLink
-              to="/about/"
-              id="button_"
+            <NuxtLink to="/about/" id="button_"
               class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
               >Read More</NuxtLink
             >
           </div> -->
         </div>
         <div class="col-lg-6 col-md-12">
-          <img
-            src="../assets/images/sections/foss.svg"
+          <img src="../assets/images/sections/foss.svg"
             class="img-fluid rounded-3"
           />
         </div>
@@ -180,7 +175,8 @@
             We believe that communication should be private and no third party
             should be able to intercept and read the content of it. That’s why
             Fosscord is end-to-end encrypted based on the concept “don’t trust
-            the server”. (Currently work in progress)
+            the server”. (If you setup HTTPS)
+            // im going to make a docs page about this!
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -205,7 +201,7 @@
           <h2 class="small">Security</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe publicly audited and hosted FOSS software is the future
-            in terms of security. That's why we choose this approach to create a
+            in terms of security. That's why we chose this approach to create a
             transparent foundation between the user and the project.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
@@ -230,24 +226,19 @@
         <div class="col-lg-6 col-md-10">
           <h2 class="small">Privacy</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            We believe data privacy is a human right, therefore the user needs
-            to opt into data collection and analytics via the client settings
-            and it's disabled by default.
+            We believe data privacy is a human right, therefore the user could
+            opt into data collection and analytics via the client settings,
+            but it's disabled by default.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
-            <NuxtLink
-              to="/about/"
-              id="button_"
+            <NuxtLink to="/about/" id="button_"
               class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
-              >Read More</NuxtLink
-            >
+              >Read More</NuxtLink>
           </div> -->
         </div>
         <div class="col-lg-6 col-md-12">
-          <img
-            src="../assets/images/sections/privacy.svg"
-            class="img-fluid rounded-3"
-          />
+          <img src="../assets/images/sections/privacy.svg"
+            class="img-fluid rounded-3" />
         </div>
       </div>
     </div>
@@ -261,19 +252,14 @@
             secure and cross-platform plugin system.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
-            <NuxtLink
-              to="/about/"
-              id="button_"
+            <NuxtLink to="/about/" id="button_"
               class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
-              >Read More</NuxtLink
-            >
+              >Read More</NuxtLink>
           </div> -->
         </div>
         <div class="col-lg-6 col-md-12">
-          <img
-            src="../assets/images/sections/extendable.svg"
-            class="img-fluid rounded-3"
-          />
+          <img src="../assets/images/sections/extendable.svg"
+            class="img-fluid rounded-3" />
         </div>
       </div>
     </div>
@@ -288,19 +274,14 @@
             client themes.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
-            <NuxtLink
-              to="/about/"
-              id="button_"
+            <NuxtLink to="/about/" id="button_"
               class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
-              >Read More</NuxtLink
-            >
+              >Read More</NuxtLink>
           </div> -->
         </div>
         <div class="col-lg-6 col-md-12">
-          <img
-            src="../assets/images/sections/themeable.svg"
-            class="img-fluid rounded-3"
-          />
+          <img src="../assets/images/sections/themeable.svg"
+            class="img-fluid rounded-3" />
         </div>
       </div>
     </div>
@@ -327,10 +308,8 @@
           </div> -->
         </div>
         <div class="col-lg-6 col-md-12">
-          <img
-            src="../assets/images/sections/discord-compatible.svg"
-            class="img-fluid rounded-3"
-          />
+          <img src="../assets/images/sections/discord-compatible.svg"
+            class="img-fluid rounded-3" />
         </div>
       </div>
     </div>
@@ -350,20 +329,25 @@
               <li>Discord being slow in development of new features</li>
               <li>Discord not listening to their community</li>
               <li>
-                Free and open source version that you can have a look, trust and
-                adjust
+                 Fosscord is a free and open source version that you can have a look,
+                 trust and adjust
               </li>
               <li>
                 Self host your own server to have complete control over it and
                 its data
               </li>
               <li>
-                Add additional features like end to end encryption and a secure
+                Add additional features like end to end encryption* and a secure
                 and cross platform plugin/theme system
+                *With HTTPS
               </li>
               <li>
                 Discord making use of Electron and other bloated RAM hungry
                 technologies
+              </li>
+              <li>
+                Discord being greedy and making more features only avaliable
+                to nitro users
               </li>
             </ul>
             <h4 class="white">How do you make money?</h4>

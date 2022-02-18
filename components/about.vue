@@ -29,22 +29,22 @@
         </div>
         <div class="col-lg-12 col-md-12">
           <h2 class="small" id="about_head">
-            Why backwards compatible to Discord?
+            Why are we backwards compatible to Discord?
           </h2>
           <div class="mt-1 mb-35 f-22 color-heading text-adaptive description">
             <ul>
               <li>
-                Benefit from the large user base of discord, thus more users,
-                making the switch easier for new users & keeping workflows
-                intact
+                Because we benefit from the large user base of discord, thus more
+                users, making the switch easier for new users & keeping workflows
+                intact.
               </li>
               <li>
                 No disadvantage for the users who use fosscord, so that they can
-                still communicate with all their peers who use discord
+                still communicate with all their peers who use discord.
               </li>
               <li>
                 Discord has already built a great and stable protocol (don't
-                reinvent the wheel)
+                reinvent the wheel).
               </li>
               <li>
                 The community can extend and customize their clients and servers
@@ -60,8 +60,8 @@
           <h2 class="small" id="about_head">Philosophy in Detail:</h2>
           <div class="mt-1 mb-35 f-22 color-heading text-adaptive description">
             Fosscord aims to be a full one-on-one clone of Discord, adding more
-            features that can be used as a replacement for the official client
-            and still connect to discord.com and host private Fosscord server
+            features that can be used as a replacement for the official client,
+            still connect to discord.com, and host private Fosscord server
             instances.<br /><br />
 
             Fosscord aims to give the best possible user experience, while being
@@ -70,15 +70,15 @@
             end-to-end encryption support.<br /><br />
             The client can connect to multiple server instances without the need
             to open it multiple times.<br />
-            The client will be extensible through a secure Plugin and Theme
-            System with own store. The server will be extensible through bots,
-            just like discord without the need to change anything except the api
-            endpoint.
+            The client will be customizable through a secure Plugin and Theme
+            System with it's own marketplace. The server will be customizable
+            through bots, just like discord without the need to change anything
+            except the API endpoint.
             <br /><br />
             The project is open source so everyone can have a look what's going
             on under the hood and can be maintained and expanded by the
             community. Everything is configurable in the server config and
-            everyone can add their own features, so that it is not opinionated.
+            everyone can add their own features, so that it is not biased.
             <br /><br />
             <img
               src="https://raw.githubusercontent.com/fosscord/fosscord/f0b01762edfe10bef249b65b3fe0a2ca3a9ce4fa/assets/architecture.png"

@@ -1,4 +1,5 @@
-<!--this shit doesnt work fuck nuxt and vue-->
+<!--this shizzle doesnt work frick nuxt and vue-->
+<!--language!-->
 
 <template>
   <div class="roadmap">

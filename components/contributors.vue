@@ -27,6 +27,7 @@ export default {
   async fetch() {
     this.members = await fetch(
       "https://raw.githubusercontent.com/fosscord/fosscord/master/assets/contributors/contributors.json"
+      //isn't it supposed to be fosscord in total? i've made one or two pull requests and am not listen here.
     ).then(res => res.json());
   }
 };

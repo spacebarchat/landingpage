@@ -6,6 +6,7 @@
           <h2 class="small">About Fosscord</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             Fosscord is a free and open source program compatible with
+
             <a href="https://discord.com">Discord</a>. It's a chat, voice and
             video platform similar to Slack and Rocket.chat.
           </div>
@@ -109,10 +110,8 @@
           </div> -->
         </div>
         <div class="col-lg-6 col-md-12">
-          <img
-            src="../assets/images/sections/selfhostable.svg"
-            class="img-fluid rounded-3"
-          />
+          <img src="../assets/images/sections/selfhostable.svg"
+            class="img-fluid rounded-3"/>
         </div>
       </div>
     </div>
@@ -152,21 +151,17 @@
             represent a libre position so that anyone can do whatever they want
             with Fosscord as long as you publish all changes under the
             <a href="https://www.gnu.org/licenses/agpl-3.0.html"
-              >GNU Affero General Public License v3.0</a
-            >.
+              >GNU Affero General Public License v3.0</a>.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
-            <NuxtLink
-              to="/about/"
-              id="button_"
+            <NuxtLink to="/about/" id="button_"
               class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
               >Read More</NuxtLink
             >
           </div> -->
         </div>
         <div class="col-lg-6 col-md-12">
-          <img
-            src="../assets/images/sections/foss.svg"
+          <img src="../assets/images/sections/foss.svg"
             class="img-fluid rounded-3"
           />
         </div>
@@ -236,19 +231,14 @@
             but it's disabled by default.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
-            <NuxtLink
-              to="/about/"
-              id="button_"
+            <NuxtLink to="/about/" id="button_"
               class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
-              >Read More</NuxtLink
-            >
+              >Read More</NuxtLink>
           </div> -->
         </div>
         <div class="col-lg-6 col-md-12">
-          <img
-            src="../assets/images/sections/privacy.svg"
-            class="img-fluid rounded-3"
-          />
+          <img src="../assets/images/sections/privacy.svg"
+            class="img-fluid rounded-3" />
         </div>
       </div>
     </div>
@@ -262,19 +252,14 @@
             secure and cross-platform plugin system.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
-            <NuxtLink
-              to="/about/"
-              id="button_"
+            <NuxtLink to="/about/" id="button_"
               class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
-              >Read More</NuxtLink
-            >
+              >Read More</NuxtLink>
           </div> -->
         </div>
         <div class="col-lg-6 col-md-12">
-          <img
-            src="../assets/images/sections/extendable.svg"
-            class="img-fluid rounded-3"
-          />
+          <img src="../assets/images/sections/extendable.svg"
+            class="img-fluid rounded-3" />
         </div>
       </div>
     </div>
@@ -289,19 +274,14 @@
             client themes.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
-            <NuxtLink
-              to="/about/"
-              id="button_"
+            <NuxtLink to="/about/" id="button_"
               class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
-              >Read More</NuxtLink
-            >
+              >Read More</NuxtLink>
           </div> -->
         </div>
         <div class="col-lg-6 col-md-12">
-          <img
-            src="../assets/images/sections/themeable.svg"
-            class="img-fluid rounded-3"
-          />
+          <img src="../assets/images/sections/themeable.svg"
+            class="img-fluid rounded-3" />
         </div>
       </div>
     </div>
@@ -328,10 +308,8 @@
           </div> -->
         </div>
         <div class="col-lg-6 col-md-12">
-          <img
-            src="../assets/images/sections/discord-compatible.svg"
-            class="img-fluid rounded-3"
-          />
+          <img src="../assets/images/sections/discord-compatible.svg"
+            class="img-fluid rounded-3" />
         </div>
       </div>
     </div>
@@ -351,8 +329,8 @@
               <li>Discord being slow in development of new features</li>
               <li>Discord not listening to their community</li>
               <li>
-                 Fosscord is a free and open source version that you can have a look, trust and
-                adjust
+                 Fosscord is a free and open source version that you can have a look,
+                 trust and adjust
               </li>
               <li>
                 Self host your own server to have complete control over it and

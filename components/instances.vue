@@ -9,15 +9,16 @@
       >
         <a v-bind:href="instance.url">
           <img
+            v-if="instance.name !== 'fosscord.com'"
+
             class="instance_img"
-            :class="
-              instance.image ===
-                'https://raw.githubusercontent.com/fosscord/fosscord/master/assets/logo512.png' &&
-              instance.name !== 'fosscord.com'
-                ? 'grey'
-                : '' || (instance.name === 'fosscord.com' && 'fosscord_image')
-            "
             v-bind:src="instance.image"
+          />
+          <img
+            v-else
+
+            class="instance_img"
+            src="../assets/images/Fosscord-Icon-OfficialInstance.png"
           />
         </a>
         <div class="instance_info_container">
@@ -67,7 +68,7 @@ export default {
     this.instances = res.map(i => {
       if (!i.image)
         i.image =
-          "https://raw.githubusercontent.com/fosscord/fosscord/master/assets/logo512.png";
+          "https://raw.githubusercontent.com/fosscord/fosscord/master/assets-rebrand/png/Fosscord-Icon-NoImage.png";
       return i;
     });
   }

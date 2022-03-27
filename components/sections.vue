@@ -175,8 +175,7 @@
             We believe that communication should be private and no third party
             should be able to intercept and read the content of it. That’s why
             Fosscord is end-to-end encrypted based on the concept “don’t trust
-            the server”. (If you setup HTTPS)
-            // im going to make a docs page about this!
+            the server” (If you setup HTTPS).
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink

@@ -62,6 +62,14 @@ a:focus {
   outline: 0;
 }
 
+.warning a {
+  color: white;
+}
+
+.warning a:hover {
+  color: white;
+}
+
 h1,
 h2,
 h3,

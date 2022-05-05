@@ -1,6 +1,6 @@
 <template>
   <div class="contributors_container_container">
-    <h3>Founders:</h3>
+    <h3>Members:</h3>
     <div class="contributors_container">
       <div
         class="contributor_container"

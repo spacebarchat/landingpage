@@ -7,7 +7,7 @@
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             Fosscord is a free and open source program compatible with
 
-            <a href="https://discord.com">Discord</a>. It's a chat, voice and
+            <a href="https://discord.com">Discord</a>. It's an in development chat, voice and
             video platform similar to Slack and Rocket.chat.
           </div>
           <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
@@ -45,12 +45,11 @@
         <div class="col-lg-6 col-md-10" id="contribute_text">
           <h2 class="small">Contribute now!</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            Currently, Fosscord is still in development and we can't say when we
-            will be able to release fosscord completely. In total,
-            <span class="fg-fosscord">20</span> developers are working on this
-            project. Feel free to check out the
-            <a href="https://docs.fosscord.com">documentation</a> or the
+            Currently, Fosscord is still in development, and may or may not release in the future. In total,
+			<span class="fg-fosscord">20</span> developers are working on this project. Feel free to check out the
+			<a href="https://docs.fosscord.com">documentation</a> or the
             <a href="https://github.com/fosscord">GitHub repositories</a>.
+			We would highly appreciate any and all support.
           </div>
           <a
             href="https://github.com/fosscord/fosscord/issues/10"
@@ -93,12 +92,9 @@
         <div class="col-lg-6 col-md-10">
           <h2 class="small">Selfhostable</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            We believe that anyone should have the option to host their own
-            instance without any restrictions. That’s why we provide an easy
-            <a href="https://github.com/fosscord/fosscord-server/releases"
-              >server binary</a
-            >
-            to have full control over the instance and its data.
+            We believe that anyone should have the option to host their own instance without any restrictions.
+			Through the <a href="https://github.com/fosscord/fosscord-server/releases">guide on our documentation,</a>
+			anyone can host their own Fosscord instance.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -121,8 +117,9 @@
           <h2 class="small">Decentralized</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that a central approach leads to a single point of
-            failure and abuse of power. That’s why Fosscord is decentralized and
-            the client is able to connect to multiple servers simultaneously.
+            failure and abuse of power. That’s why Fosscord will implement a decentralized architecture,
+            and allow future clients to be able to connect to multiple servers simultaneously.
+			However, Fosscord instances are currently centralised, although you may connect to as many as you want.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -144,7 +141,7 @@
     <div class="container px-xl-0 container-feature">
       <div class="row left">
         <div class="col-lg-6 col-md-10">
-          <h2 class="small">Free Open Source</h2>
+          <h2 class="small">Free & Open Source</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that the best way to make a software is to make it follow
             the GPL principles and let everyone contribute to it. Additionally we
@@ -170,12 +167,11 @@
     <div class="container px-xl-0 container-feature">
       <div class="row">
         <div class="col-lg-6 col-md-10">
-          <h2 class="small">Encrypted</h2>
+          <h2 class="small">Encryption</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that communication should be private and no third party
-            should be able to intercept and read the content of it. That’s why
-            Fosscord is end-to-end encrypted based on the concept “don’t trust
-            the server” (If you setup HTTPS).
+            should be able to intercept and read the content of it. Due to this,
+			we plan on implementing End to End Encryption in Fosscord in the future.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -199,9 +195,9 @@
         <div class="col-lg-6 col-md-10">
           <h2 class="small">Security</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            We believe publicly audited and hosted FOSS software is the future
-            in terms of security. That's why we chose this approach to create a
-            transparent foundation between the user and the project.
+            Publically audited, open source software allows users to verify the operation of a Fosscord server,
+			and allows the community to quickly disclose and discuss potential issues related to not just security, but
+			all issues related to Fosscord.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -225,9 +221,9 @@
         <div class="col-lg-6 col-md-10">
           <h2 class="small">Privacy</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            We believe data privacy is a human right, therefore the user could
-            opt into data collection and analytics via the client settings,
-            but it's disabled by default.
+            We believe data privacy is a human right. All data collection in Fosscord is opt-in,
+			and disabled by default. Currently, these options are instance-wide, however we plan
+			to allow users of individual instances to control how this is used in their client.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink to="/about/" id="button_"
@@ -241,49 +237,49 @@
         </div>
       </div>
     </div>
-    <div class="container px-xl-0 container-feature">
+    <!-- <div class="container px-xl-0 container-feature">
       <div class="row left">
         <div class="col-lg-6 col-md-10">
           <h2 class="small">Extendable</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe anyone should be able to extend their clients with
-            features that we currently do not provide. That’s why we integrate a
+            features that we currently do not provide. That’s why we will integrate a
             secure and cross-platform plugin system.
           </div>
-          <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
+          < !-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink to="/about/" id="button_"
               class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
               >Read More</NuxtLink>
-          </div> -->
+          </div> -- >
         </div>
         <div class="col-lg-6 col-md-12">
           <img src="../assets/images/sections/extendable.svg"
             class="img-fluid rounded-3" />
         </div>
       </div>
-    </div>
-    <div class="container px-xl-0 container-feature">
+    </div> -->
+    <!-- <div class="container px-xl-0 container-feature">
       <div class="row">
         <div class="col-lg-6 col-md-10">
           <h2 class="small">Themeable</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe anyone should be able to adjust the look and feel of
-            their client. That’s why we integrate a cross-platform theme system.
+            their client. That’s why we will integrate a cross-platform theme system.
             Additionally we provide a design editor for easier creation of
             client themes.
           </div>
-          <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
+          < !-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink to="/about/" id="button_"
               class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
               >Read More</NuxtLink>
-          </div> -->
+          </div> -- >
         </div>
         <div class="col-lg-6 col-md-12">
           <img src="../assets/images/sections/themeable.svg"
             class="img-fluid rounded-3" />
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="container px-xl-0 container-feature">
       <div class="row left">
         <div class="col-lg-6 col-md-10">
@@ -315,46 +311,14 @@
     <div class="container px-xl-0 container-feature" id="faq">
       <div class="row">
         <div class="col-lg-6 col-md-10">
-          <h2 class="small">FAQ</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            <h4 class="white">Why did you develop Fosscord?</h4>
+            <h2 class="white small">Why develop Fosscord?</h2>
             <br />
-            Personal opinion:
             <ul>
-              <li>
-                Discord abuses their power and censors things they don't like
-              </li>
               <li>Discord prohibits client modifications</li>
-              <li>Discord being slow in development of new features</li>
-              <li>Discord not listening to their community</li>
-              <li>
-                 Fosscord is a free and open source version that you can have a look,
-                 trust and adjust
-              </li>
-              <li>
-                Self host your own server to have complete control over it and
-                its data
-              </li>
-              <li>
-                Add additional features like end to end encryption* and a secure
-                and cross platform plugin/theme system
-                *With HTTPS
-              </li>
-              <li>
-                Discord making use of Electron and other bloated RAM hungry
-                technologies
-              </li>
-              <li>
-                Discord being greedy and making more features only avaliable
-                to nitro users
-              </li>
-            </ul>
-            <h4 class="white">How do you make money?</h4>
-            <ul>
-              <li>
-                We don’t, we are volunteers providing a better and secure way of
-                communication and are supported by donations.
-              </li>
+              <li>Fosscord is free and open source, as opposed to Discord.</li>
+              <li>Discord is a private service, which introduces privacy concerns. Fosscord allows you to control the data on your instances.</li>
+              <li>The Discord desktop client makes use of Electron, which is typically resource hungry</li>
             </ul>
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">

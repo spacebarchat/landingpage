@@ -47,7 +47,7 @@
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             Currently, Fosscord is still in development and we can't say when we
             will be able to release fosscord completely. In total,
-            <span class="fg-fosscord">20</span> developers are working on this
+            <span class="fg-fosscord">30</span> developers are working on this
             project. Feel free to check out the
             <a href="https://docs.fosscord.com">documentation</a> or the
             <a href="https://github.com/fosscord">GitHub repositories</a>.
@@ -120,9 +120,7 @@
         <div class="col-lg-6 col-md-10">
           <h2 class="small">Decentralized</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            We believe that a central approach leads to a single point of
-            failure and abuse of power. That’s why Fosscord is decentralized and
-            the client is able to connect to multiple servers simultaneously.
+            Anyone can choose any fosscord server, or even start a new one.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -173,9 +171,9 @@
           <h2 class="small">Encrypted</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that communication should be private and no third party
-            should be able to intercept and read the content of it. That’s why
-            Fosscord is end-to-end encrypted based on the concept “don’t trust
-            the server” (If you setup HTTPS).
+            should be able to intercept and read the content of it. Hence, we
+            plan on adding an end-to-end encryption based on Message Layer Security.
+            Also to mention, Fosscord supports transport encryption by default.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -241,6 +239,7 @@
         </div>
       </div>
     </div>
+    <!-- <no-client-yet/>
     <div class="container px-xl-0 container-feature">
       <div class="row left">
         <div class="col-lg-6 col-md-10">
@@ -254,7 +253,7 @@
             <NuxtLink to="/about/" id="button_"
               class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
               >Read More</NuxtLink>
-          </div> -->
+          </div> 
         </div>
         <div class="col-lg-6 col-md-12">
           <img src="../assets/images/sections/extendable.svg"
@@ -284,6 +283,7 @@
         </div>
       </div>
     </div>
+    -->
     <div class="container px-xl-0 container-feature">
       <div class="row left">
         <div class="col-lg-6 col-md-10">
@@ -335,21 +335,23 @@
                 Self host your own server to have complete control over it and
                 its data
               </li>
+              <!--
               <li>
                 Add additional features like end to end encryption* and a secure
                 and cross platform plugin/theme system
-                *With HTTPS
+                *Planned
               </li>
+              -->
               <li>
-                Discord making use of Electron and other bloated RAM hungry
-                technologies
+                Discord making use of Electron and other technologies that are
+                intensive on the client side
               </li>
               <li>
                 Discord being greedy and making more features only avaliable
                 to nitro users
               </li>
             </ul>
-            <h4 class="white">How do you make money?</h4>
+            <h4 class="white">How do you make profit?</h4>
             <ul>
               <li>
                 We don’t, we are volunteers providing a better and secure way of

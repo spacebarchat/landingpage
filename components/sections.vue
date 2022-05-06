@@ -46,7 +46,7 @@
           <h2 class="small">Contribute now!</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             Currently, Fosscord is still in development, and may or may not release in the future. In total,
-			<span class="fg-fosscord">20</span> developers are working on this project. Feel free to check out the
+			<span class="fg-fosscord">30</span> developers are working on this project. Feel free to check out the
 			<a href="https://docs.fosscord.com">documentation</a> or the
             <a href="https://github.com/fosscord">GitHub repositories</a>.
 			We would highly appreciate any and all support.
@@ -170,8 +170,8 @@
           <h2 class="small">Encryption</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that communication should be private and no third party
-            should be able to intercept and read the content of it. Due to this,
-			we plan on implementing End to End Encryption in Fosscord in the future.
+            should be able to intercept and read the content of it. Hence, we
+            plan on adding an end-to-end encryption based on Message Layer Security.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -237,7 +237,8 @@
         </div>
       </div>
     </div>
-    <!-- <div class="container px-xl-0 container-feature">
+    <!-- <no-client-yet/>
+    <div class="container px-xl-0 container-feature">
       <div class="row left">
         <div class="col-lg-6 col-md-10">
           <h2 class="small">Extendable</h2>
@@ -250,7 +251,7 @@
             <NuxtLink to="/about/" id="button_"
               class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
               >Read More</NuxtLink>
-          </div> -- >
+          </div> 
         </div>
         <div class="col-lg-6 col-md-12">
           <img src="../assets/images/sections/extendable.svg"
@@ -279,7 +280,8 @@
             class="img-fluid rounded-3" />
         </div>
       </div>
-    </div> -->
+    </div>
+    -->
     <div class="container px-xl-0 container-feature">
       <div class="row left">
         <div class="col-lg-6 col-md-10">

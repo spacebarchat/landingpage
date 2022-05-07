@@ -13,10 +13,6 @@
                 <li>Selfhostable</li>
                 <li>Free Open Source Software</li>
                 <li>Configurable</li>
-                <li>Secure</li>
-                <li>Decentralized</li>
-                <li>Extendable</li>
-                <li>Themeable</li>
               </ul>
             </div>
           </div>

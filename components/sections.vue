@@ -288,7 +288,7 @@
           <h2 class="small">Discord compatible</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that to create a successful communication platform that
-            users will migrate to you either need a large user base or a unique
+            users will migrate to either need a large user base or a unique
             selling point. We have both features by customizing the client
             however you like and being backwards compatible to discord, which
             means you can use the client to communicate with all friends who are

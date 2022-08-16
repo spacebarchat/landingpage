@@ -45,7 +45,7 @@
           <h2 class="small">Contribute now!</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             Currently, Fosscord is still in development, and may or may not release in the future. In total,
-			<span class="fg-fosscord">30</span> developers are working on this project. Feel free to check out the
+			<span class="fg-fosscord">72</span> persons contributed on this project. Feel free to check out the
 			<a href="https://docs.fosscord.com">documentation</a> or the
             <a href="https://github.com/fosscord">GitHub repositories</a>.
 			We would highly appreciate any and all support.

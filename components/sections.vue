@@ -6,7 +6,6 @@
           <h2 class="small">About Fosscord</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             Fosscord is a free and open source program compatible with
-
             <a href="https://discord.com">Discord</a>. It's an in development chat, voice and
             video platform similar to Slack and Rocket.chat.
           </div>
@@ -116,10 +115,11 @@
         <div class="col-lg-6 col-md-10">
           <h2 class="small">Decentralized</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            We believe that a central approach leads to a single point of
-            failure and abuse of power. That’s why Fosscord will implement a decentralized architecture,
-            and allow future clients to be able to connect to multiple servers simultaneously.
-			However, Fosscord instances are currently centralised, although you may connect to as many as you want.
+	    Currently, Fosscord instances are centralized. But we do plan on adding
+	    decentralized features in the future. As we believe that a central approach
+	    leads to a single point of failure and abuse of power. That’s why Fosscord will
+	    implement a decentralized architecture, and will allow future clients to be
+	    able to connect to multiple servers simultaneously.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -169,7 +169,8 @@
         <div class="col-lg-6 col-md-10">
           <h2 class="small">Encryption</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            We believe that communication should be private and no third party
+	    Currently, we haven't implemented this feature yet. But
+            We do believe that communication should be private and no third party
             should be able to intercept and read the content of it. Hence, we
             plan on adding an end-to-end encryption based on Message Layer Security.
           </div>
@@ -195,9 +196,10 @@
         <div class="col-lg-6 col-md-10">
           <h2 class="small">Security</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            Publically audited, open source software allows users to verify the operation of a Fosscord server,
-			and allows the community to quickly disclose and discuss potential issues related to not just security, but
-			all issues related to Fosscord.
+            Publically auditable, open source software allows users to verify the
+	    operation of a Fosscord server,and allows the community to quickly 
+	    disclose and discuss potential issues related to not just security, but
+            all issues related to Fosscord.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -222,8 +224,8 @@
           <h2 class="small">Privacy</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe data privacy is a human right. All data collection in Fosscord is opt-in,
-			and disabled by default. Currently, these options are instance-wide, however we plan
-			to allow users of individual instances to control how this is used in their client.
+	    and disabled by default. Currently, these options are instance-wide, however we plan
+	    to allow users of individual instances to control how this is used in their client.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink to="/about/" id="button_"
@@ -292,7 +294,7 @@
             selling point. We have both features by customizing the client
             however you like and being backwards compatible to discord, which
             means you can use the client to communicate with all friends who are
-            "still" using discord.com and also connect to other Fosscord
+            still using discord.com and also connect to other Fosscord
             servers.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">

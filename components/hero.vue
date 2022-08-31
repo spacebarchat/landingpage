@@ -9,7 +9,7 @@
         <div style="margin-top: 2rem">
           <a
             id="open_demo"
-            href="https://dev.fosscord.com"
+            href="https://staging.fosscord.com"
             class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
             >Open Demo</a
           >

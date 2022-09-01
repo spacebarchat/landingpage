@@ -50,17 +50,17 @@
       <div class="footer_links">
         <div class="footer_el_container">
           <h5 class="footer_el_header">Fosscord</h5>
-          <a class="footer_el_link" href="https://dev.fosscord.com"
+          <a class="footer_el_link" href="https://staging.fosscord.com"
             >Open Demo</a
           >
           <a
             class="footer_el_link social_link_extra"
-            href="https://dev.fosscord.com"
+            href="https://staging.fosscord.com"
             >Instagram</a
           >
           <a
             class="footer_el_link social_link_extra"
-            href="https://dev.fosscord.com"
+            href="https://staging.fosscord.com"
             >Twitter</a
           >
         </div>

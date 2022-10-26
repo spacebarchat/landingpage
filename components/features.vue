@@ -78,7 +78,7 @@
 
 				<div class="feature">
 					<h3>Much more!</h3>
-					<p>This is by <i>no</i> means a complete list of features, planned or completed, that the team
+					<p>This is <i>by no means</i> a complete list of features, planned or completed, that the team
 						behind
 						Fosscord wishes to implement. We already have a large number of features implemented and working
 						using existing discord.com clients, and have no plans on stopping.</p>

@@ -1,6 +1,6 @@
 <template>
 	<div style="padding-top: 5rem;">
-		<h1 style="text-align: center;">Features</h1>
+		<h2 style="text-align: center;">Features</h2>
 		<div class="features-wrapper">
 			<div class="features">
 				<div class="feature done">
@@ -33,13 +33,13 @@
 				</div>
 
 				<div class="feature done">
-					<h3>Separable backend components</h3>
+					<h3>Security</h3>
 					<p>
-						Fosscord-server is made up of a few different components: api, gateway, cdn, webrtc. Each can be
-						run as separate services, giving instance owners more control over how their system operates. If
-						you wish, you can run each on separate machines, behind load balances with many instances of
-						each component.
+						Fosscord has a number of security features built in, such as instance-wide user rights.
+						Rights are kind of like guild member permissions, except for the entire instance,
+						for example the right to send messages or to create bot accounts.
 					</p>
+					<a class="moreInfo" href="https://docs.fosscord.com/api/rights/">Rights documentation</a>
 				</div>
 
 				<div class="feature incomplete">

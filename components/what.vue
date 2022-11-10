@@ -15,9 +15,8 @@
 				while using a safe, privacy focused platform to chat with friends which <i>you</i> control.</p>
 
 			<p>
-				<b>It does <i>not</i> mean that users of Fosscord can interact with users of Discord.</b> We are
-				entirely
-				separate platforms, and your Fosscord account cannot be used to interact with Discord. In the future, we
+				<b style="display: block">It does <u>not</u> mean that users of Fosscord can interact with users of Discord.</b>
+				We are entirely separate platforms, and your Fosscord account cannot be used to interact with Discord. In the future, we
 				hope to develop our own clients and tools to allow you to use multiple accounts at the same time, but
 				this is not yet being worked on.
 			</p>

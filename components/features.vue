@@ -20,7 +20,7 @@
 						instance operates. If an option you need doesn't exist, you do always have the option to simply
 						edit the source too!
 					</p>
-					<a class="moreInfo" href="https://docs.fosscord.com/server/configuration/">Config documentation</a>
+					<a class="moreInfo" href="https://docs.fosscord.com/server/configuration/">Configuration documentation</a>
 				</div>
 
 				<div class="feature done">

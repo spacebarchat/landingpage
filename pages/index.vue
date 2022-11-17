@@ -2,7 +2,9 @@
   <div class="full_size">
     <hero />
     <announcement />
-    <sections />
+	<what />
+    <features />
+	<callToAction />
     <!--<randomfacts />-->
   </div>
 </template>

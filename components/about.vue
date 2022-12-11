@@ -67,11 +67,11 @@
             The client can connect to multiple server instances without the need
             to open it multiple times.<br />
             The client will be customizable through a secure Plugin and Theme
-            System with it's own marketplace. The server will be customizable
+            System with its own marketplace. The server will be customizable
             through bots, just like discord without the need to change anything
             except the API endpoint.
             <br /><br />
-            The project is open source so everyone can have a look what's going
+            The project is open source, so everyone can have a look what's going
             on under the hood and can be maintained and expanded by the
             community. Everything is configurable in the server config and
             everyone can add their own features, so that it is not biased.
@@ -84,7 +84,7 @@
               class="about_links"
               target="_blank"
               href="https://docs.fosscord.com/resources/"
-              >Fosscord contribution ressources</a
+              >Fosscord contribution resources</a
             >
           </div>
         </div>

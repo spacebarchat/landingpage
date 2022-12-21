@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/roadmap", (function(a,b){return {data:[{}],fetch:{"0":{_error:{message:a,statusCode:b}},"1":{_error:{message:a,statusCode:b}},"2":{_error:{message:a,statusCode:b}}},mutations:void 0}}("Cannot read property 'replace' of undefined",500)));

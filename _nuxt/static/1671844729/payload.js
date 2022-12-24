@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/", (function(a){return {data:[{}],fetch:{"0":{stars:a}},mutations:a}}(void 0)));

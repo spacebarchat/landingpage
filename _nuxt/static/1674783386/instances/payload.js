@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/instances", {data:[{}],fetch:{"0":{_error:{message:"invalid json response body at https:\u002F\u002Fraw.githubusercontent.com\u002Ffosscord\u002Ffosscord-community-instances\u002Fmain\u002Finstances.json reason: Unexpected token ] in JSON at position 847",type:"invalid-json",statusCode:500}}},mutations:void 0});

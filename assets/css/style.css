@@ -830,6 +830,11 @@ h3 {
   #navbar_left {
     display: none;
   }
+  .description {
+    width: 100% !important;
+    padding: 1rem;
+  }
+
 }
 .navbar_right a:hover,
 #navbar_left a:hover {

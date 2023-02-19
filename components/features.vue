@@ -99,7 +99,8 @@
 	width: max(30%, 500px);
 	padding: 30px;
 	margin: 30px;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: var(--background-color);
+  color: white;
 	border-radius: 5px;
 	position: relative;
 	display: flex;
@@ -116,7 +117,7 @@
 	font-size: 5rem;
 	font-weight: bolder;
 	position: absolute;
-	top: 0rem;
+	top: 0;
 	right: 2rem;
 	transform: rotate(20deg);
 }

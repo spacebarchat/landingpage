@@ -605,6 +605,80 @@ h3 {
 .roadmap {
   margin-left: 3rem;
   margin-right: 3rem;
+  margin-bottom: 3rem;
+  padding: 30px;
+  background-color: #000;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.roadmap h3 {
+  margin-bottom: 25px;
+  color: #fff;
+  border-bottom: 2px solid var(--fosscord);
+}
+
+#roadmap_api > * input[type="checkbox"] {
+  visibility: hidden;
+  line-height: 15px;
+  margin-right: 15px;
+}
+
+#roadmap_api ul li {
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+#roadmap_api ul li ul li {
+  font-weight: normal;
+}
+
+#roadmap_api ul li ul li a {
+  cursor: pointer;
+  transition: all 0.25s;
+  border: 1px solid var(--fosscord);
+  font-weight: 700;
+  border-radius: 1em;
+  color: var(--fosscord);
+  padding: 5px;
+  font-size: 12px;
+}
+
+#roadmap_api > * input[type="checkbox"]:checked::after {
+  content: "✔";
+  color: #00ff00;
+  border: 1px solid #00ff007e;
+  padding: 0 3px;
+  font-size: 20px;
+  position: relative;
+  visibility: visible !important;
+}
+
+#roadmap_api > * input[type="checkbox"]:not(:checked)::after {
+  content: "-";
+  color: #ff0000;
+  border: 1px solid #ff00007e;
+  padding: 0 6.5px;
+  font-size: 20px;
+  position: relative;
+  visibility: visible !important;
+}
+
+ul {
+  display: flex;
+  flex-flow: wrap column;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+li {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+ul::marker,
+li::marker {
+  display: none;
 }
 
 .roadmap_container {
@@ -782,9 +856,7 @@ h3 {
     flex-direction: column;
   }
   .roadmap {
-    margin: 0;
-    padding: 0;
-    padding-left: 0.5rem;
+    margin: 15px 0;
   }
   .navbar_right {
     flex-direction: column !important;

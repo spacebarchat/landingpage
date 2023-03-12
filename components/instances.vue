@@ -10,13 +10,11 @@
         <a v-bind:href="instance.url">
           <img
             v-if="instance.name !== 'fosscord.com'"
-
             class="instance_img"
             v-bind:src="instance.image"
           />
           <img
             v-else
-
             class="instance_img"
             src="../assets/images/Fosscord-Icon-OfficialInstance.png"
           />
@@ -49,7 +47,7 @@
     <a
       href="https://github.com/fosscord/fosscord-community-instances/pulls"
       class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
-      >Add your own Instance</a
+      >Add your own instance</a
     >
   </div>
 </template>
@@ -57,7 +55,7 @@
 export default {
   data() {
     return {
-      instances: []
+      instances: [],
     };
   },
   async fetch() {
@@ -65,12 +63,12 @@ export default {
       "https://raw.githubusercontent.com/fosscord/fosscord-community-instances/main/instances.json"
     );
     res = await res.json();
-    this.instances = res.map(i => {
+    this.instances = res.map((i) => {
       if (!i.image)
         i.image =
           "https://raw.githubusercontent.com/fosscord/fosscord/master/assets-rebrand/png/Fosscord-Icon-NoImage.png";
       return i;
     });
-  }
+  },
 };
 </script>

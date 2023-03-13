@@ -41,6 +41,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/inter": "^4.5.15",
-		"@rollup/plugin-json": "^6.0.0"
+		"@rollup/plugin-json": "^6.0.0",
+		"lucide-svelte": "^0.125.0"
 	}
 }

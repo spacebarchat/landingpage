@@ -68,10 +68,10 @@
       <div class="footer_links">
         <div class="footer_el_container">
           <h5 class="footer_el_header">Fosscord</h5>
-          <a class="footer_el_link" href="https://staging.fosscord.com"
+          <a class="footer_el_link" href="https://app.fosscord.com"
             >Open Demo</a
           >
-          <a
+          <!-- <a
             class="footer_el_link social_link_extra"
             href="https://staging.fosscord.com"
             >Instagram</a
@@ -80,7 +80,7 @@
             class="footer_el_link social_link_extra"
             href="https://staging.fosscord.com"
             >Twitter</a
-          >
+          > -->
         </div>
         <div class="footer_el_container">
           <h5 class="footer_el_header">Support</h5>
@@ -115,6 +115,10 @@
         </div>
       </div>
     </div>
+
+	<div>
+		<p>Discord is a trademark of Discord Inc.</p>
+	</div>
   </footer>
 </template>
 

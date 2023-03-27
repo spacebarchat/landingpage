@@ -1,7 +1,15 @@
 <script lang="ts">
 	import { LL } from '$lib/i18n/i18n-svelte';
+	import { projectLogo } from '$lib/options';
 	import '../../app.css';
 </script>
+
+<svelte:head>
+	<title>{$LL.PROJECT_NAME()} | {$LL.PROJECT_META_SLOGAN()}</title>
+
+	<!-- We need to insert a PNG and ICO equivalent here. -->
+	<link rel="icon" href={projectLogo.icons.app} type="image/svg+xml" />
+</svelte:head>
 
 <a href="#ongoing-project-modal">
 	<div class="bg-error w-full text-center py-3 text-md font-medium">
@@ -38,7 +46,7 @@
 		</div>
 		<a href="/" class="btn btn-ghost normal-case text-xl">
 			<img
-				src="https://raw.githubusercontent.com/fosscord/fosscord/master/assets-rebrand/svg/Fosscord-Wordmark-Gradient.svg"
+				src={projectLogo.wordmark.dark.default}
 				width="w-16"
 				class="max-h-7"
 				alt={$LL.PROJECT_NAME()}
@@ -73,7 +81,26 @@
 			{$LL.ONGOING_PROJECT_WARNING.TEXT()}
 		</p>
 		<div class="modal-action">
-			<a href="#" class="btn btn-primary">{$LL.COMMON.GOT_IT()}</a>
+			<a href="#top" class="btn btn-primary">{$LL.COMMON.GOT_IT()}</a>
 		</div>
 	</div>
 </div>
+
+<footer class="footer p-10 bg-base-200 text-base-content sticky top-[100vh]">
+	<div>
+		<img src={projectLogo.wordmark.light} width="w-32" class="max-h-7" alt={$LL.PROJECT_NAME()} />
+		<p>{$LL.META.COPYRIGHT_DISCLAIMER()}</p>
+	</div>
+	<div>
+		<span class="footer-title">Header</span>
+		<a href="#top" class="link link-hover">Option 1</a>
+	</div>
+	<div>
+		<span class="footer-title">Header</span>
+		<a href="#top" class="link link-hover">Option 2</a>
+	</div>
+	<div>
+		<span class="footer-title">Header</span>
+		<a href="#top" class="link link-hover">Option 3</a>
+	</div>
+</footer>

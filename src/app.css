@@ -10,3 +10,7 @@
 .badge {
 	@apply px-2 drop-shadow-md;
 }
+
+#ongoing-project-warning {
+	background: repeating-linear-gradient(45deg, #facc15, #facc15 10px, #dc2626 10px, #dc2626 20px);
+}

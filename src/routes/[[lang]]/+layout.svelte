@@ -14,11 +14,9 @@
 <a href="#ongoing-project-modal">
 	<div
 		id="ongoing-project-warning"
-		class="w-full flex justify-center py-3 text-md font-medium drop-shadow-[0_0_3px_rgba(0,0,0,0.7)] px-auto"
+		class="w-full flex justify-center py-1.5 text-md font-medium drop-shadow-[0_0_3px_rgba(0,0,0,0.7)] px-auto"
 	>
-		<p
-			class="text-red text-center bg-[darkred] bg-opacity-50 backdrop-blur-sm table-cell px-3 py-2 h-max drop-shadow-[0_0_2px_rgba(0,0,0,1)] w-max rounded-full"
-		>
+		<p class="text-red text-center bg-error bg-opacity-90 backdrop-blur-sm w-full py-4">
 			{$LL.ONGOING_PROJECT_WARNING.CTA_HEADING()}
 			<span class="underline italic">{$LL.ONGOING_PROJECT_WARNING.CTA_READ_MORE()}</span>
 		</p>

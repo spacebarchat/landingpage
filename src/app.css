@@ -4,8 +4,9 @@
 
 .btn {
 	@apply rounded-full;
+	@apply font-bold;
 }
 
-.btn-white {
-	@apply bg-white hover:bg-gradient-to-b from-white to-gray-200 focus:bg-gradient-to-b from-white to-gray-200 border-none hover:border-none text-primary;
+.badge {
+	@apply px-2 drop-shadow-md;
 }

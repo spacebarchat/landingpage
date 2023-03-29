@@ -81,7 +81,7 @@ type RootTranslation = {
 	}
 	NAVBAR: {
 		/**
-		 * D​e​m​o​/​A​l​p​h​a
+		 * D​e​m​o
 		 */
 		DEMO_ALPHA_WARNING_BADGE: string
 	}
@@ -202,7 +202,7 @@ export type TranslationFunctions = {
 	}
 	NAVBAR: {
 		/**
-		 * Demo/Alpha
+		 * Demo
 		 */
 		DEMO_ALPHA_WARNING_BADGE: () => LocalizedString
 	}

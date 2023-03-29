@@ -20,11 +20,13 @@
 	</div>
 </a>
 
-<div class="bg-transparent w-full absolute z-50 justify-center">
-	<div class="navbar max-w-7xl mx-auto py-5 xl:px-0">
+<div class="absolute bg-transparent w-full z-50 flex align-center">
+	<div class="max-w-screen-xl mx-auto navbar py-7 xl:px-0">
 		<div class="navbar-start">
 			<div class="dropdown">
-				<span class="btn btn-ghost lg:hidden">
+				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+				<!-- svelte-ignore a11y-label-has-associated-control -->
+				<label tabindex="0" class="btn btn-ghost lg:hidden">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-5 w-5"
@@ -38,9 +40,13 @@
 							d="M4 6h16M4 12h8m-8 6h16"
 						/></svg
 					>
-				</span>
-				<ul class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-					<li><a href="/">{$LL.SECTIONS.ABOUT()}</a></li>
+				</label>
+				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+				<ul
+					tabindex="0"
+					class="menu menu-normal dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box"
+				>
+					<li class="w-[calc(100vw-2.40rem)]"><a href="/">{$LL.SECTIONS.ABOUT()}</a></li>
 					<li><a href="/">{$LL.SECTIONS.ROADMAP()}</a></li>
 					<li><a href="/">{$LL.SECTIONS.DOCS()}</a></li>
 					<li><a href="/">{$LL.SECTIONS.CONTRIBUTE()}</a></li>
@@ -66,9 +72,9 @@
 			</ul>
 		</div>
 		<div class="navbar-end">
-			<a href="/" class="btn btn-white font-bold"
+			<a href="/" class="btn btn-accent drop-shadow-lg border-white font-bold"
 				>{$LL.COMMON.SIGN_IN()}
-				<div class="badge badge-warning ml-2 badge-xs">
+				<div class="badge badge-error ml-2 badge-xs p-3">
 					{$LL.NAVBAR.DEMO_ALPHA_WARNING_BADGE()}
 				</div></a
 			>

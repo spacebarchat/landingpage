@@ -3,6 +3,14 @@
 
 export const projectName = 'Fosscord';
 
+export const usernames = {
+	social: {
+		twitter: 'fosscord',
+		instagram: 'fosscord_'
+	},
+	github: 'fosscord'
+};
+
 // GitHub - fosscord/fosscord/assets-rebrand/svg
 export const projectLogo = {
 	wordmark: {

@@ -28,7 +28,7 @@ const en = {
 	},
 
 	NAVBAR: {
-		DEMO_ALPHA_WARNING_BADGE: 'Demo/Alpha'
+		DEMO_ALPHA_WARNING_BADGE: 'Demo'
 	},
 
 	SECTIONS: {

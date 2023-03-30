@@ -1,4 +1,4 @@
-# fosscord-landingpage
+# landingpage
 
 ## Build Setup
 

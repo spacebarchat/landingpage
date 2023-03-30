@@ -22,7 +22,7 @@ jobs:
           node-version: "14"
       - run: npm i
       - run: npm run build
-      - run: echo fosscord.com >> dist/CNAME
+      - run: echo spacebar.chat >> dist/CNAME
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.3
         with:

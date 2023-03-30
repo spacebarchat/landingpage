@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+	@apply rounded-full font-bold drop-shadow-md;
+}
+
+.btn-accent {
+	@apply text-secondary;
+}
+
+.badge {
+	@apply px-2 drop-shadow-md;
+}
+
+#ongoing-project-warning {
+	background: repeating-linear-gradient(45deg, #facc15, #facc15 10px, #dc2626 10px, #dc2626 20px);
+}
+
+/* Section */
+.page-section {
+	@apply py-20 w-full;
+}
+
+.section-content {
+	@apply max-w-7xl mx-auto;
+}
+
+.section-title {
+	@apply text-3xl font-bold text-center;
+}

@@ -18,12 +18,14 @@ module.exports = {
 
 					primary: '#ff5f00',
 					secondary: '#ff3d00',
-					accent: '#d1d5db',
+					accent: '#ffffff',
 					neutral: '#312e81',
 					info: '#67e8f9',
 					success: '#a3e635',
 					warning: '#facc15',
-					error: '#dc2626'
+					error: '#dc2626',
+
+					fontFamily: 'InterVariable, sans-serif'
 				}
 			}
 		]

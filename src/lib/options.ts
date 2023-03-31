@@ -25,7 +25,7 @@ export const projectLogo = {
 			'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Logo-White.svg'
 	},
 	icons: {
-		app: 'https://github.com/spacebarchat/spacebarchat/blob/master/branding/svg/Spacebar__Icon-Rounded.svg',
+		app: 'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Icon-Rounded.svg',
 		symbol: {
 			blue: 'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Logomark-Blue.svg',
 			white:

@@ -75,7 +75,7 @@
 				<div class="divider divider-horizontal" />
 				{#each socialLinks as item}
 					<li>
-						<a href={item.url}
+						<a href={item.url} target="_blank"
 							><Icon icon="fa-brands:{item.label.toLowerCase()}" alt={item.label} width="18" /></a
 						>
 					</li>

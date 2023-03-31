@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { LL } from '$lib/i18n/i18n-svelte';
 	import { getFullURLForSubdomain, projectLogo } from '$lib/options';
-	import { mainMenu } from '$lib/menus';
+	import { mainMenu, socialLinks } from '$lib/menus';
+	import Icon from '@iconify/svelte';
 	import '@fontsource/inter/variable.css';
 	import '../../app.css';
 </script>
@@ -28,11 +29,12 @@
 <div class="absolute bg-transparent w-full z-50 flex align-center">
 	<div class="max-w-screen-xl mx-auto navbar py-7 xl:px-0">
 		<div class="navbar-start">
-			<div class="dropdown">
+			<div class="dropdown mr-3">
 				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 				<!-- svelte-ignore a11y-label-has-associated-control -->
 				<label tabindex="0" class="btn btn-ghost lg:hidden">
-					<svg
+					<Icon icon="fa6-solid:bars" width="1.15rem" />
+					<!--<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-5 w-5"
 						fill="none"
@@ -44,7 +46,7 @@
 							stroke-width="2"
 							d="M4 6h16M4 12h8m-8 6h16"
 						/></svg
-					>
+					>-->
 				</label>
 				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 				<ul
@@ -52,7 +54,7 @@
 					class="menu menu-normal dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box"
 				>
 					{#each mainMenu as item}
-						<li class="w-[calc(100vw-2.40rem)]"><a href={item.url}>{item.label}</a></li>
+						<li class="w-[calc(100vw-2.6rem)]"><a href={item.url}>{item.label}</a></li>
 					{/each}
 				</ul>
 			</div>
@@ -66,14 +68,23 @@
 			>
 		</div>
 		<div class="navbar-center hidden lg:flex">
-			<ul class="menu menu-horizontal px-1">
+			<ul class="menu menu-horizontal px-1 justify-center">
 				{#each mainMenu as item}
 					<li><a href={item.url}>{item.label}</a></li>
+				{/each}
+				<div class="divider divider-horizontal" />
+				{#each socialLinks as item}
+					<li>
+						<a href={item.url}
+							><Icon icon="fa-brands:{item.label.toLowerCase()}" alt={item.label} width="18" /></a
+						>
+					</li>
 				{/each}
 			</ul>
 		</div>
 		<div class="navbar-end">
-			<a href="/" class="btn btn-ghost mr-3"
+			<!-- Will probably be removed - Lang Selector -->
+			<!--<a href="/" class="btn btn-ghost mr-3"
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
@@ -88,7 +99,7 @@
 						d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802"
 					/>
 				</svg>
-			</a>
+			</a>-->
 			<a href="/" class="btn btn-accent drop-shadow-lg border-white font-bold"
 				>{$LL.COMMON.SIGN_IN()}
 				<div class="badge badge-error ml-2 badge-xs p-3">

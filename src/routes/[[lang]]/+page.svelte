@@ -8,7 +8,7 @@
 	<div class="section-content text-center">
 		<h2 class="section-title">Better than the rest</h2>
 		<p>
-			Honestly, Fosscord <span class="line-through">is</span> will be simply better than anything else.
+			Honestly, Spacebar <span class="line-through">is</span> will be simply better than anything else.
 			For real.
 		</p>
 		<div class="flex flex-row gap-10 justify-center mt-10">

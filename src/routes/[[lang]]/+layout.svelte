@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { LL } from '$lib/i18n/i18n-svelte';
-	import { projectLogo } from '$lib/options';
+	import { getFullURLForSubdomain, projectLogo } from '$lib/options';
+	import { mainMenu } from '$lib/menus';
 	import '@fontsource/inter/variable.css';
 	import '../../app.css';
 </script>
@@ -50,16 +51,14 @@
 					tabindex="0"
 					class="menu menu-normal dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box"
 				>
-					<li class="w-[calc(100vw-2.40rem)]"><a href="/">{$LL.SECTIONS.ABOUT()}</a></li>
-					<li><a href="/">{$LL.SECTIONS.ROADMAP()}</a></li>
-					<li><a href="/">{$LL.SECTIONS.DOCS()}</a></li>
-					<li><a href="/">{$LL.SECTIONS.CONTRIBUTE()}</a></li>
-					<li><a href="/">{$LL.SECTIONS.INSTANCES()}</a></li>
+					{#each mainMenu as item}
+						<li class="w-[calc(100vw-2.40rem)]"><a href={item.url}>{item.label}</a></li>
+					{/each}
 				</ul>
 			</div>
 			<a href="/" class="normal-case text-xl">
 				<img
-					src={projectLogo.wordmark.light}
+					src={projectLogo.wordmark.white}
 					width="w-16"
 					class="max-h-7"
 					alt={$LL.PROJECT_NAME()}
@@ -68,11 +67,9 @@
 		</div>
 		<div class="navbar-center hidden lg:flex">
 			<ul class="menu menu-horizontal px-1">
-				<li><a href="/">{$LL.SECTIONS.ABOUT()}</a></li>
-				<li><a href="/">{$LL.SECTIONS.ROADMAP()}</a></li>
-				<li><a href="/">{$LL.SECTIONS.DOCS()}</a></li>
-				<li><a href="/">{$LL.SECTIONS.CONTRIBUTE()}</a></li>
-				<li><a href="/">{$LL.SECTIONS.INSTANCES()}</a></li>
+				{#each mainMenu as item}
+					<li><a href={item.url}>{item.label}</a></li>
+				{/each}
 			</ul>
 		</div>
 		<div class="navbar-end">
@@ -116,9 +113,9 @@
 	</div>
 </div>
 
-<footer class="footer p-10 bg-base-200 text-base-content sticky top-[100vh]">
+<footer class="footer p-10 bg-darkblue text-base-content sticky top-[100vh]">
 	<div>
-		<img src={projectLogo.wordmark.light} width="w-32" class="max-h-7" alt={$LL.PROJECT_NAME()} />
+		<img src={projectLogo.wordmark.white} width="w-32" class="max-h-7" alt={$LL.PROJECT_NAME()} />
 		<p>{$LL.META.COPYRIGHT_DISCLAIMER()}</p>
 	</div>
 	<div>

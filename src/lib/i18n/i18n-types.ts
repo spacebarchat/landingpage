@@ -14,7 +14,7 @@ export type Translations = RootTranslation
 
 type RootTranslation = {
 	/**
-	 * F​o​s​s​c​o​r​d
+	 * S​p​a​c​e​b​a​r
 	 */
 	PROJECT_NAME: string
 	/**
@@ -23,17 +23,17 @@ type RootTranslation = {
 	PROJECT_META_SLOGAN: string
 	META: {
 		/**
-		 * 2​0​2​3​ ​©​ ​F​o​s​s​c​o​r​d​ ​a​n​d​ ​F​o​s​s​c​o​r​d​ ​c​o​n​t​r​i​b​u​t​o​r​s
+		 * 2​0​2​3​ ​©​ ​S​p​a​c​e​b​a​r​ ​a​n​d​ ​S​p​a​c​e​b​a​r​ ​c​o​n​t​r​i​b​u​t​o​r​s
 		 */
 		COPYRIGHT_DISCLAIMER: string
 		/**
-		 * D​i​s​c​o​r​d​ ​a​n​d​ ​t​h​e​ ​D​i​s​c​o​r​d​ ​l​o​g​o​ ​a​r​e​ ​r​e​g​i​s​t​e​r​e​d​ ​t​r​a​d​e​m​a​r​k​s​ ​o​f​ ​D​i​s​c​o​r​d​ ​I​n​c​.​ ​F​o​s​s​c​o​r​d​ ​i​s​ ​n​o​t​ ​a​f​f​i​l​i​a​t​e​d​ ​w​i​t​h​ ​D​i​s​c​o​r​d​ ​I​n​c​.
+		 * D​i​s​c​o​r​d​ ​a​n​d​ ​t​h​e​ ​D​i​s​c​o​r​d​ ​l​o​g​o​ ​a​r​e​ ​r​e​g​i​s​t​e​r​e​d​ ​t​r​a​d​e​m​a​r​k​s​ ​o​f​ ​D​i​s​c​o​r​d​ ​I​n​c​.​ ​S​p​a​c​e​b​a​r​ ​i​s​ ​n​o​t​ ​a​f​f​i​l​i​a​t​e​d​ ​w​i​t​h​ ​D​i​s​c​o​r​d​ ​I​n​c​.
 		 */
 		DISCORD_COPYRIGHT_DISCLAIMER: string
 	}
 	ONGOING_PROJECT_WARNING: {
 		/**
-		 * ⚠​️​ ​H​e​y​!​ ​F​o​s​s​c​o​r​d​ ​i​s​ ​a​n​ ​o​n​g​o​i​n​g​ ​p​r​o​j​e​c​t​ ​i​n​ ​e​a​r​l​y​ ​s​t​a​g​e​s​ ​o​f​ ​d​e​v​e​l​o​p​m​e​n​t​ ​a​n​d​ ​i​t​ ​i​s​ ​n​o​t​ ​r​e​a​d​y​ ​f​o​r​ ​p​r​o​d​u​c​t​i​o​n​ ​y​e​t​.
+		 * ⚠​️​ ​H​e​y​!​ ​S​p​a​c​e​b​a​r​ ​i​s​ ​a​n​ ​o​n​g​o​i​n​g​ ​p​r​o​j​e​c​t​ ​i​n​ ​e​a​r​l​y​ ​s​t​a​g​e​s​ ​o​f​ ​d​e​v​e​l​o​p​m​e​n​t​ ​a​n​d​ ​i​t​ ​i​s​ ​n​o​t​ ​r​e​a​d​y​ ​f​o​r​ ​p​r​o​d​u​c​t​i​o​n​ ​y​e​t​.
 		 */
 		CTA_HEADING: string
 		/**
@@ -41,7 +41,7 @@ type RootTranslation = {
 		 */
 		CTA_READ_MORE: string
 		/**
-		 * W​e​'​r​e​ ​s​t​i​l​l​ ​d​e​v​e​l​o​p​i​n​g​ ​F​o​s​s​c​o​r​d​!
+		 * W​e​'​r​e​ ​s​t​i​l​l​ ​d​e​v​e​l​o​p​i​n​g​ ​S​p​a​c​e​b​a​r​!
 		 */
 		HEADING: string
 		/**
@@ -135,7 +135,7 @@ type RootTranslation = {
 
 export type TranslationFunctions = {
 	/**
-	 * Fosscord
+	 * Spacebar
 	 */
 	PROJECT_NAME: () => LocalizedString
 	/**
@@ -144,17 +144,17 @@ export type TranslationFunctions = {
 	PROJECT_META_SLOGAN: () => LocalizedString
 	META: {
 		/**
-		 * 2023 © Fosscord and Fosscord contributors
+		 * 2023 © Spacebar and Spacebar contributors
 		 */
 		COPYRIGHT_DISCLAIMER: () => LocalizedString
 		/**
-		 * Discord and the Discord logo are registered trademarks of Discord Inc. Fosscord is not affiliated with Discord Inc.
+		 * Discord and the Discord logo are registered trademarks of Discord Inc. Spacebar is not affiliated with Discord Inc.
 		 */
 		DISCORD_COPYRIGHT_DISCLAIMER: () => LocalizedString
 	}
 	ONGOING_PROJECT_WARNING: {
 		/**
-		 * ⚠️ Hey! Fosscord is an ongoing project in early stages of development and it is not ready for production yet.
+		 * ⚠️ Hey! Spacebar is an ongoing project in early stages of development and it is not ready for production yet.
 		 */
 		CTA_HEADING: () => LocalizedString
 		/**
@@ -162,7 +162,7 @@ export type TranslationFunctions = {
 		 */
 		CTA_READ_MORE: () => LocalizedString
 		/**
-		 * We're still developing Fosscord!
+		 * We're still developing Spacebar!
 		 */
 		HEADING: () => LocalizedString
 		/**

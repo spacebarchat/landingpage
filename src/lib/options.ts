@@ -4,42 +4,48 @@
 /*
  *	Meta
  */
-export const projectName = 'Fosscord';
+export const projectName = 'Spacebar';
+
+export const projectDomain = 'spacebar.chat';
 
 export const projectUsername = {
 	social: {
-		twitter: 'fosscord',
-		instagram: 'fosscord_'
+		twitter: 'spacebarchat',
+		instagram: 'spacebarchat'
 	},
-	github: 'fosscord'
+	github: 'spacebarchat'
 };
 
 export const repoList = ['server', 'client', 'landingpage', 'docs'];
 
 export const projectLogo = {
 	wordmark: {
-		light:
-			'https://raw.githubusercontent.com/fosscord/fosscord/master/assets-rebrand/svg/Fosscord-Wordmark-White.svg',
-		dark: {
-			default:
-				'https://raw.githubusercontent.com/fosscord/fosscord/master/assets-rebrand/svg/Fosscord-Wordmark-Gradient.svg',
-			opaque:
-				'https://raw.githubusercontent.com/fosscord/fosscord/master/assets-rebrand/svg/Fosscord-Wordmark-Orange.svg'
-		}
+		blue: 'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Logo-Blue.svg',
+		white:
+			'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Logo-White.svg'
 	},
 	icons: {
-		app: 'https://raw.githubusercontent.com/fosscord/fosscord/master/assets-rebrand/svg/Fosscord-Icon-Rounded.svg',
-		symbol:
-			'https://raw.githubusercontent.com/fosscord/fosscord/master/assets-rebrand/svg/Fosscord-Logo.svg'
+		app: 'https://github.com/spacebarchat/spacebarchat/blob/master/branding/svg/Spacebar__Icon-Rounded.svg',
+		symbol: {
+			blue: 'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Logomark-Blue.svg',
+			white:
+				'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Logomark-White.svg'
+		}
 	}
 };
 
 /*
  *	Main Instance
  */
-export const mainInstanceURL = 'https://demo.fosscord.com';
+export const mainInstanceURL = 'https://demo.spacebar.chat';
 
 /*
  *	Website
  */
 export const enabledLanguages = ['en', 'pt-BR'];
+
+/*
+ *  Functions
+ */
+export const getFullURLForSubdomain = (subdomain: string, path?: string) =>
+	`https://${subdomain}.${projectDomain}${path ? `/${path}` : ''}`;

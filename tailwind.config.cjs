@@ -2,7 +2,11 @@
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+			colors: {
+				darkblue: '#000115'
+			}
+		}
 	},
 	plugins: [require('@tailwindcss/typography'), require('daisyui')],
 	daisyui: {
@@ -16,8 +20,8 @@ module.exports = {
 					'base-300': '#1a1a1a',
 					'base-content': '#ffffff',
 
-					primary: '#ff5f00',
-					secondary: '#ff3d00',
+					primary: '#0184fd',
+					secondary: '#005cb1',
 					accent: '#ffffff',
 					neutral: '#312e81',
 					info: '#67e8f9',

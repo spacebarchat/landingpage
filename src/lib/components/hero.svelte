@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { LL } from '$lib/i18n/i18n-svelte';
+	import { getFullURLForSubdomain, mainInstanceURL } from '$lib/options';
 </script>
 
 <section class="bg-gradient-to-b from-primary to-secondary h-[36rem] pt-[2rem] flex">
@@ -12,10 +13,10 @@
 				{$LL.MAIN_PAGE.PAGE_HEADER.SMALL_MARKETING_TEXT()}
 			</p>
 			<div class="inline-flex flex-row gap-5">
-				<a href="#top" class="btn btn-accent border-white">
+				<a href={mainInstanceURL} class="btn btn-accent border-white">
 					{$LL.MAIN_PAGE.PAGE_HEADER.CTA_BUTTON_DEMO()}
 				</a>
-				<a href="#top" class="btn btn-accent border-white">
+				<a href={getFullURLForSubdomain('docs')} class="btn btn-accent border-white">
 					{$LL.MAIN_PAGE.PAGE_HEADER.CTA_BUTTON_DOCS()}
 				</a>
 				<a href="#top" class="btn btn-accent border-white">

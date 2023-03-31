@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { LL } from '$lib/i18n/i18n-svelte';
-	import { getFullURLForSubdomain, projectLogo } from '$lib/options';
+	import { getFullURLForSubdomain, mainInstanceURL, projectLogo } from '$lib/options';
 	import { mainMenu, socialLinks } from '$lib/menus';
 	import Icon from '@iconify/svelte';
 	import '@fontsource/inter/variable.css';
@@ -100,7 +100,7 @@
 					/>
 				</svg>
 			</a>-->
-			<a href="/" class="btn btn-accent drop-shadow-lg border-white font-bold"
+			<a href={mainInstanceURL} class="btn btn-accent drop-shadow-lg border-white font-bold"
 				>{$LL.COMMON.SIGN_IN()}
 				<div class="badge badge-error ml-2 badge-xs p-3">
 					{$LL.NAVBAR.DEMO_ALPHA_WARNING_BADGE()}

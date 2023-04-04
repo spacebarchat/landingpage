@@ -34,19 +34,6 @@
 				<!-- svelte-ignore a11y-label-has-associated-control -->
 				<label tabindex="0" class="btn btn-ghost lg:hidden">
 					<Icon icon="fa6-solid:bars" width="1.15rem" />
-					<!--<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="h-5 w-5"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
-						><path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M4 6h16M4 12h8m-8 6h16"
-						/></svg
-					>-->
 				</label>
 				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 				<ul
@@ -83,23 +70,6 @@
 			</ul>
 		</div>
 		<div class="navbar-end">
-			<!-- Will probably be removed - Lang Selector -->
-			<!--<a href="/" class="btn btn-ghost mr-3"
-				><svg
-					xmlns="http://www.w3.org/2000/svg"
-					fill="none"
-					viewBox="0 0 24 24"
-					stroke-width="1.5"
-					stroke="currentColor"
-					class="w-6 h-6"
-				>
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802"
-					/>
-				</svg>
-			</a>-->
 			<a href={mainInstanceURL} class="btn btn-accent drop-shadow-lg border-white font-bold"
 				>{$LL.COMMON.SIGN_IN()}
 				<div class="badge badge-error ml-2 badge-xs p-3">

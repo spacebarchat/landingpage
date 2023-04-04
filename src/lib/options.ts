@@ -35,17 +35,19 @@ export const projectLogo = {
 };
 
 /*
- *	Main Instance
- */
-export const mainInstanceURL = 'https://demo.spacebar.chat';
-
-/*
- *	Website
- */
-export const enabledLanguages = ['en', 'pt-BR'];
-
-/*
  *  Functions
  */
 export const getFullURLForSubdomain = (subdomain: string, path?: string) =>
 	`https://${subdomain}.${projectDomain}${path ? `/${path}` : ''}`;
+
+/*
+ *	Main Instance
+ */
+export const mainInstanceURL = getFullURLForSubdomain('demo');
+
+/*
+ *	Website
+ */
+
+// enabledLanguages is not used at the moment.
+export const enabledLanguages = ['en'];

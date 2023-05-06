@@ -1,6 +1,6 @@
 <template>
 	<div style="padding-top: 5rem;">
-		<h2 style="text-align: center">What is Fosscord?</h2>
+		<h2 style="text-align: center">What is Spacebar?</h2>
 		<div class="description" style="width: 50%; margin: 0 auto 0 auto; text-align: center;">
 			<p>Spacebar is a Discord server reimplementation and extension. </p>
 

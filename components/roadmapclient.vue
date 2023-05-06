@@ -15,7 +15,7 @@ export default {
   },
   async fetch() {
     let res = await fetch(
-      "https://api.github.com/repos/fosscord/fosscord-client/issues/67"
+      "https://api.github.com/repos/spacebarchat/client/issues/67"
     );
     res = await res.json();
     let { body } = res;
@@ -25,7 +25,7 @@ export default {
       .replace(/\[x\]/g, "<input type='checkbox' checked disabled/>")
       .replace(
         /#(\d+)/g,
-        '<a href="https://github.com/fosscord/fosscord-client/issues/$1">#$1</a>'
+        '<a href="https://github.com/spacebarchat/client/issues/$1">#$1</a>'
       );
   }
 };

@@ -13,7 +13,7 @@
       </div>
       <div id="toggle_container">
         <NuxtLink to="/" class="link logo color-main" id="back_button"
-          >Fosscord</NuxtLink
+          >Spacebar</NuxtLink
         >
         <button id="toggle" @click="showMobileNavbar = !showMobileNavbar">
           <svg

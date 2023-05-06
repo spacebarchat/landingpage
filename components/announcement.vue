@@ -12,7 +12,7 @@
           </h2>
           <div class="description">
             <div>
-              Fosscord has reached {{ stars }} stars on Github in such a short
+              Spacebar has reached {{ stars }} stars on Github in such a short
               time. <br />Thanks to you.
             </div>
           </div>

@@ -10,7 +10,7 @@
 					Currently, Spacebar is in development, with <span class="fg-fosscord">30</span> active members.
 					If Spacebar is interesting to you, we heavily recommend checking out any of the
 					<a href="/instances">community instances</a>,
-					the <a href="https://docs.fosscord.com">documentation</a> or the
+					the <a href="https://docs.spacebar.chat">documentation</a> or the
 					<a href="https://github.com/spacebarchat">GitHub repositories</a>.
 					We would highly appreciate any and all support.
 				</div>

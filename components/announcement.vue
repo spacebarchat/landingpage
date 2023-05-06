@@ -17,7 +17,7 @@
             </div>
           </div>
           <a
-            href="https://github.com/fosscord/fosscord"
+            href="https://github.com/spacebarchat/spacebarchat
             target="_blank"
             class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
             id="button_"
@@ -36,7 +36,7 @@ export default {
     };
   },
   async fetch() {
-    let res = await fetch("https://api.github.com/repos/fosscord/fosscord");
+    let res = await fetch("https://api.github.com/repos/spacebarchat/spacebarchat");
     res = await res.json();
     this.stars = res.stargazers_count;
   }

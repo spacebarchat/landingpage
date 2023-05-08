@@ -2,7 +2,7 @@
 
 <template>
   <div class="roadmap">
-    <h4>Client:</h4>
+    <h3>Client</h3>
     <div id="roadmap_client" v-html="$md.render(content)"></div>
   </div>
 </template>
@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      content: ""
+      content: "",
     };
   },
   async fetch() {
@@ -20,13 +20,17 @@ export default {
     res = await res.json();
     let { body } = res;
 
-    this.content = body
-      .replace(/\[ \]/g, "<input type='checkbox' disabled/>")
-      .replace(/\[x\]/g, "<input type='checkbox' checked disabled/>")
-      .replace(
-        /#(\d+)/g,
-        '<a href="https://github.com/fosscord/fosscord-client/issues/$1">#$1</a>'
-      );
-  }
+    if (body) {
+      this.content = body
+        .replace(/\[ \]/g, "<input type='checkbox' disabled/>")
+        .replace(/\[x\]/g, "<input type='checkbox' checked disabled/>")
+        .replace(
+          /#(\d+)/g,
+          '<a href="https://github.com/fosscord/fosscord-client/issues/$1">#$1</a>'
+        );
+    } else {
+      this.content = "<p>We don't have any roadmap for the client yet.</p>";
+    }
+  },
 };
 </script>

@@ -30,13 +30,13 @@
           <div class="mt-1 mb-35 f-22 color-heading text-adaptive description">
             <ul>
               <li>
-                Because we benefit from the large user base of discord, thus more
-                users, making the switch easier for new users & keeping workflows
-                intact.
+                Because we benefit from the large user base of Discord, thus
+                more users, making the switch easier for new users & keeping
+                workflows intact.
               </li>
               <li>
-                No disadvantage for the users who use fosscord, so that they can
-                still communicate with all their peers who use discord.
+                No disadvantage for the users who use Fosscord, so that they can
+                still communicate with all their peers who use Discord.
               </li>
               <li>
                 Discord has already built a great and stable protocol (don't
@@ -84,7 +84,7 @@
               class="about_links"
               target="_blank"
               href="https://docs.fosscord.com/resources/"
-              >Fosscord contribution ressources</a
+              >Fosscord contribution resources</a
             >
           </div>
         </div>

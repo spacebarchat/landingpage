@@ -1,9 +1,10 @@
 <!--this shizzle doesnt work frick nuxt and vue-->
 <!--language!-->
+<!--take the children out of the room-->
 
 <template>
   <div class="roadmap">
-    <h4>API:</h4>
+    <h3>API</h3>
     <div id="roadmap_api" v-html="$md.render(content)"></div>
   </div>
 </template>
@@ -11,7 +12,7 @@
 export default {
   data() {
     return {
-      content: ""
+      content: "",
     };
   },
   async fetch() {
@@ -28,6 +29,6 @@ export default {
         /#(\d+)/g,
         '<a href="https://github.com/fosscord/fosscord-server/issues/$1">#$1</a>'
       );
-  }
+  },
 };
 </script>

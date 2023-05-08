@@ -13,7 +13,8 @@
                 <li>Selfhostable</li>
                 <li>Free Open Source Software</li>
                 <li>Configurable</li>
-              </ul>
+                <li>Not only chat</li>
+             </ul>
             </div>
           </div>
           <div class="col-lg-6 col-md-10">
@@ -55,12 +56,12 @@
         <div class="col-lg-12 col-md-12">
           <h2 class="small" id="about_head">Philosophy in Detail:</h2>
           <div class="mt-1 mb-35 f-22 color-heading text-adaptive description">
-            Fosscord aims to be a full one-on-one clone of Discord, adding more
+            Spacebar aims to be a reimplementation of Discord, adding more
             features that can be used as a replacement for the official client,
-            still connect to discord.com, and host private Fosscord server
+            still connect to discord.com, and host private Spacebar server
             instances.<br /><br />
 
-            Fosscord aims to give the best possible user experience, while being
+            Spacebar aims to give the best possible user experience, while being
             backwards compatible to Discord's features and adding new
             ones/improving old ones while maintaining the user privacy with
             end-to-end encryption support.<br /><br />
@@ -77,14 +78,14 @@
             everyone can add their own features, so that it is not biased.
             <br /><br />
             <img
-              src="https://raw.githubusercontent.com/fosscord/fosscord/f0b01762edfe10bef249b65b3fe0a2ca3a9ce4fa/assets/architecture.png"
+              src="https://raw.githubusercontent.com/spacebarchat/spacebarchat/f0b01762edfe10bef249b65b3fe0a2ca3a9ce4fa/assets/architecture.png"
               width="100%"
             />
             <a
               class="about_links"
               target="_blank"
-              href="https://docs.fosscord.com/resources/"
-              >Fosscord contribution ressources</a
+              href="https://docs.spacebar.chat"
+              >Spacebar contribution ressources</a
             >
           </div>
         </div>

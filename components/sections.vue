@@ -3,16 +3,16 @@
     <div class="container px-xl-0 container-feature">
       <div class="row" id="concept_main_container">
         <div class="col-lg-6 col-md-10" id="concept_second_container">
-          <h2 class="small">About Fosscord</h2>
+          <h2 class="small">About Spacebar</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            Fosscord is a free and open source program compatible with
+            Spacebar is a free and open source program compatible with
 
             <a href="https://discord.com">Discord</a>. It's an in development chat, voice and
-            video platform similar to Slack and Rocket.chat.
+            video platform similar to Slack, Revolt and Rocket.chat.
           </div>
           <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <a
-              href="https://docs.fosscord.com/"
+              href="https://docs.spacebar.chat/"
               class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
               id="button-docs"
               >Documentation</a
@@ -45,14 +45,14 @@
         <div class="col-lg-6 col-md-10" id="contribute_text">
           <h2 class="small">Contribute now!</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            Currently, Fosscord is still in development, and may or may not release in the future. In total,
+            Currently, Spacebar is still in development, and may or may not release in the future. In total,
 			<span class="fg-fosscord">30</span> developers are working on this project. Feel free to check out the
 			<a href="https://docs.fosscord.com">documentation</a> or the
-            <a href="https://github.com/fosscord">GitHub repositories</a>.
+            <a href="https://github.com/spacebar">GitHub repositories</a>.
 			We would highly appreciate any and all support.
           </div>
           <a
-            href="https://github.com/fosscord/fosscord/issues/10"
+            href="https://github.com/spacebarchat/spacebarchat/issues/10"
             class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
             id="button_"
             >Contribute</a
@@ -93,7 +93,7 @@
           <h2 class="small">Selfhostable</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that anyone should have the option to host their own instance without any restrictions.
-			Through the <a href="https://github.com/fosscord/fosscord-server/releases">guide on our documentation,</a>
+			Through the <a href="https://github.com/spacebarchat/server/releases">guide on our documentation,</a>
 			anyone can host their own Fosscord instance.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
@@ -117,9 +117,9 @@
           <h2 class="small">Decentralized</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
             We believe that a central approach leads to a single point of
-            failure and abuse of power. That’s why Fosscord will implement a decentralized architecture,
+            failure and abuse of power. That’s why Spacebar will implement a decentralized architecture,
             and allow future clients to be able to connect to multiple servers simultaneously.
-			However, Fosscord instances are currently centralised, although you may connect to as many as you want.
+			However, Spacebar instances are currently centralised, although you may connect to as many as you want.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -195,9 +195,9 @@
         <div class="col-lg-6 col-md-10">
           <h2 class="small">Security</h2>
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            Publically audited, open source software allows users to verify the operation of a Fosscord server,
+            Publically audited, open source software allows users to verify the operation of a Spacebar server,
 			and allows the community to quickly disclose and discuss potential issues related to not just security, but
-			all issues related to Fosscord.
+			all issues related to Spacebar.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
             <NuxtLink
@@ -292,7 +292,7 @@
             selling point. We have both features by customizing the client
             however you like and being backwards compatible to discord, which
             means you can use the client to communicate with all friends who are
-            "still" using discord.com and also connect to other Fosscord
+            "still" using discord.com and also connect to other Spacebar
             servers.
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">
@@ -314,13 +314,14 @@
       <div class="row">
         <div class="col-lg-6 col-md-10">
           <div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-            <h2 class="white small">Why develop Fosscord?</h2>
+            <h2 class="white small">Why develop Spacebar?</h2>
             <br />
             <ul>
               <li>Discord prohibits client modifications</li>
-              <li>Fosscord is free and open source, as opposed to Discord.</li>
-              <li>Discord is a private service, which introduces privacy concerns. Fosscord allows you to control the data on your instances.</li>
+              <li>Spacebar is free and open source, as opposed to Discord.</li>
+              <li>Discord is a private service, which introduces privacy concerns. Spacebar allows you to control the data on your instances.</li>
               <li>The Discord desktop client makes use of Electron, which is typically resource hungry</li>
+              <li>There is more to IM&RTC than just casual conversations in family, friend and fandom groups.</li>
             </ul>
           </div>
           <!-- <div class="mb-30 mb-md-0 d-sm-flex align-items-center buttons">

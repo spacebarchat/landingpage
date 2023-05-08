@@ -3,13 +3,13 @@
     <div id="hero_container">
       <section id="hero" class="container">
         <h2 id="main_header">
-          Fosscord
+          Spacebar
         </h2>
         <span id="main_header_sub">For better and secure communication</span>
         <div style="margin-top: 2rem">
           <a
             id="open_demo"
-            href="https://app.fosscord.com"
+            href="https://app.spacebar.chat"
             class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1"
             >Open Demo</a
           >
@@ -24,6 +24,7 @@
           <span>Extendable</span>
           <span>Themeable</span>
           <span>Secure</span>
+          <span>Not only chat</span>
         </div>
            <img id="mockup" src="~@/assets/images/discord-mockup.svg" /> -->
       </section>

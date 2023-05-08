@@ -6,9 +6,10 @@
     <div class="footer">
       <div class="col-lg-3 text-lg-left left_footer_el_container">
         <NuxtLink to="/" class="logo footer_logo" id="footer_logo"
-          >fosscord.com</NuxtLink
+          >spacebar.chat</NuxtLink
         >
         <div class="fosscord_socials_container">
+        <!--
           <a
             href="https://instagram.com/fosscord/"
             target="_blank"
@@ -45,12 +46,13 @@
               />
             </svg>
           </a>
+          -->
         </div>
       </div>
       <div class="footer_links">
         <div class="footer_el_container">
-          <h5 class="footer_el_header">Fosscord</h5>
-          <a class="footer_el_link" href="https://app.fosscord.com"
+          <h5 class="footer_el_header">Spacebar</h5>
+          <a class="footer_el_link" href="https://app.spacebar.chat"
             >Open Demo</a
           >
           <!-- <a
@@ -79,19 +81,19 @@
           <a
             class="footer_el_link"
             target="_blank"
-            href="https://translate.fosscord.com/"
+            href="https://translate.spacebar.chat/"
             >Translate</a
           >
           <a
             class="footer_el_link"
             target="_blank"
-            href="https://docs.fosscord.com/contributing/server/"
+            href="https://docs.spacebar.chat/contributing/server/"
             >Contribute</a
           >
           <a
             class="footer_el_link"
             target="_blank"
-            href="https://docs.fosscord.com"
+            href="https://docs.spacebar.chat"
             >Documentation</a
           >
         </div>

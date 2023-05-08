@@ -7,14 +7,14 @@
 			<div class="col-lg-6 col-md-10" id="contribute_text">
 				<h2 class="small">Contribute now!</h2>
 				<div class="mt-25 mb-35 f-22 color-heading text-adaptive description">
-					Currently, Fosscord is in development, with <span class="fg-fosscord">30</span> active members.
-					If Fosscord is interesting to you, we heavily recommend checking out any of the
+					Currently, Spacebar is in development, with <span class="fg-fosscord">30</span> active members.
+					If Spacebar is interesting to you, we heavily recommend checking out any of the
 					<a href="/instances">community instances</a>,
-					the <a href="https://docs.fosscord.com">documentation</a> or the
-					<a href="https://github.com/fosscord">GitHub repositories</a>.
+					the <a href="https://docs.spacebar.chat">documentation</a> or the
+					<a href="https://github.com/spacebarchat">GitHub repositories</a>.
 					We would highly appreciate any and all support.
 				</div>
-				<a href="https://github.com/fosscord/fosscord/issues/10"
+				<a href="https://github.com/spacebarchat/spacebarchat/issues/10"
 					class="btn bg-fosscord mb-20 mb-sm-0 mr-15 action-1" id="button_">Contribute</a>
 			</div>
 		</div>

@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Fosscord",
+    title: "Spacebar",
     htmlAttrs: {
       lang: "en"
     },
@@ -10,8 +10,8 @@ export default {
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" },
-      { name: "og:title", content: "Fosscord - For better and secure communication" },
-      { name: "og:description", content: "Fosscord is a free and open source software compatible with Discord. It's a chat, voice and video platform similar to Slack and Rocket.chat." }
+      { name: "og:title", content: "Spacebar - For better and secure communication" },
+      { name: "og:description", content: "Spacebar is a free and open source software compatible with Discord. It's a chat, voice and video platform similar to Slack and Rocket.chat." }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },

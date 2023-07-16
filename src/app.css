@@ -2,77 +2,92 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Font */
 @font-face {
-	font-family:"new-hero";
-	src:url("/fonts/1.woff2")
-	format("woff2"),url("/fonts/2.woff2")
-	format("woff"),url("/fonts/3.woff") format("opentype");
-	font-display:auto;font-style:normal;font-weight:800;font-stretch:normal;
-	}
+  font-family: 'new-hero';
+  src: url('/fonts/1.woff2') format('woff2'), url('/fonts/2.woff2') format('woff'),
+    url('/fonts/3.woff') format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+}
 
-h1,h2,h3,h4,h5 { font-family: 'new-hero', sans-serif; letter-spacing: -0.05em;}
-/* End Font */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'new-hero', sans-serif;
+  letter-spacing: -0.05em;
+}
 
 .btn {
-	@apply rounded-full font-bold drop-shadow-md;
+  @apply rounded-full font-bold drop-shadow-md;
 }
 
 .btn-accent {
-	@apply text-secondary;
+  @apply text-secondary;
 }
 
 .badge {
-	@apply px-2 drop-shadow-md;
+  @apply px-2 drop-shadow-md;
 }
 
 .menu {
-	@apply text-base;
+  @apply text-base;
 }
 
 /* Components */
 .arc-list {
-	@apply flex flex-col justify-around;
+  @apply flex flex-col justify-around;
 }
 
 .arc-list li {
-	@apply text-left;
+  @apply text-left;
 }
 
 /* Section */
 .page-section {
-	@apply py-20 w-full;
+  @apply py-20 w-full;
 }
 
 .section-content {
-	@apply max-w-7xl mx-auto;
+  @apply max-w-7xl mx-auto;
 }
 
 .section-title {
-	@apply text-3xl font-bold text-center;
+  @apply text-3xl font-bold text-center;
 }
 
 /* Modal */
 .modal-action {
-	justify-content: center;
+  justify-content: center;
 }
 
 /* Other stuff */
 #ongoing-project-warning {
-	background: repeating-linear-gradient(45deg, #facc15, #facc15 10px, #dc2626 10px, #dc2626 20px);
+  background: repeating-linear-gradient(45deg, #facc15, #facc15 10px, #dc2626 10px, #dc2626 20px);
 }
 
 #warning {
-	text-align: center;
+  text-align: center;
 }
 
 #hero {
-	background: linear-gradient(180deg, rgba(1,132,253,1) 0%, rgba(0,92,177,0.92) 100%), url("bg.png") repeat;
-	animation: scroll-anim 180s linear infinite;
+  background: linear-gradient(180deg, rgba(1, 132, 253, 1) 30%, rgba(0, 92, 177, 0.92) 100%),
+    url('bg.png') repeat;
+  animation: scroll-anim 240s linear infinite;
+}
+
+#page-heading {
+  @apply text-4xl font-bold text-left;
+  background: linear-gradient(180deg, rgba(1, 132, 253, 1) 30%, rgba(0, 92, 177, 0.92) 100%),
+    url('bg.png') repeat;
+  animation: scroll-anim 240s linear infinite;
 }
 
 @keyframes scroll-anim {
-	100% {
-		background-position: -1000% 1000%;
-	}
+  100% {
+    background-position: -1000% 1000%;
+  }
 }

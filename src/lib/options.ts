@@ -9,37 +9,37 @@ export const projectName = 'Spacebar';
 export const projectDomain = 'spacebar.chat';
 
 export const projectUsername = {
-	social: {
-		twitter: 'spacebarchat',
-		instagram: 'spacebarchat',
-		discord: 'Ms5Ev7S6bF'
-	},
-	github: 'spacebarchat'
+  social: {
+    twitter: 'spacebarchat',
+    instagram: 'spacebarchat',
+    discord: 'Ms5Ev7S6bF'
+  },
+  github: 'spacebarchat'
 };
 
 export const repoList = ['server', 'client', 'landingpage', 'docs'];
 
 export const projectLogo = {
-	wordmark: {
-		blue: 'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Logo-Blue.svg',
-		white:
-			'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Logo-White.svg'
-	},
-	icons: {
-		app: 'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Icon-Rounded.svg',
-		symbol: {
-			blue: 'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Logomark-Blue.svg',
-			white:
-				'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Logomark-White.svg'
-		}
-	}
+  wordmark: {
+    blue: 'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Logo-Blue.svg',
+    white:
+      'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Logo-White.svg'
+  },
+  icons: {
+    app: 'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Icon-Rounded.svg',
+    symbol: {
+      blue: 'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Logomark-Blue.svg',
+      white:
+        'https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Logomark-White.svg'
+    }
+  }
 };
 
 /*
  *  Functions
  */
 export const getFullURLForSubdomain = (subdomain: string, path?: string) =>
-	`https://${subdomain}.${projectDomain}${path ? `/${path}` : ''}`;
+  `https://${subdomain}.${projectDomain}${path ? `/${path}` : ''}`;
 
 /*
  *	Main Instance

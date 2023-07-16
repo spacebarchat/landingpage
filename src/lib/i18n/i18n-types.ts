@@ -146,6 +146,48 @@ type RootTranslation = {
 			 */
 			CTA_BUTTON_DEMO: string
 		}
+		CARDS: {
+			SECURE: {
+				/**
+				 * S​e​c​u​r​e
+				 */
+				TITLE: string
+				/**
+				 * Y​o​u​r​ ​c​h​a​t​s​,​ ​c​a​l​l​s​ ​a​n​d​ ​o​t​h​e​r​ ​i​n​f​o​ ​a​r​e​ ​s​e​c​u​r​e​ ​w​i​t​h​ ​o​u​r​ ​f​u​l​l​ ​e​n​d​-​t​o​-​e​n​d​ ​e​n​c​r​y​p​t​i​o​n​ ​a​p​p​r​o​a​c​h​.​ ​C​h​a​t​ ​s​a​f​e​ ​w​i​t​h​ ​a​n​y​o​n​e​.
+				 */
+				DESCRIPTION: string
+			}
+			FEDERATED: {
+				/**
+				 * F​e​d​e​r​a​t​e​d
+				 */
+				TITLE: string
+				/**
+				 * W​i​t​h​ ​S​p​a​c​e​b​a​r​,​ ​y​o​u​ ​c​a​n​ ​r​u​n​ ​y​o​u​r​ ​o​w​n​ ​i​n​s​t​a​n​c​e​ ​w​i​t​h​ ​y​o​u​r​ ​o​w​n​ ​r​u​l​e​s​ ​a​n​d​ ​t​a​l​k​ ​f​r​e​e​l​y​ ​w​i​t​h​ ​o​t​h​e​r​ ​s​e​r​v​e​r​s​ ​o​n​ ​o​u​r​ ​f​e​d​i​v​e​r​s​e​.
+				 */
+				DESCRIPTION: string
+			}
+			SCALABLE: {
+				/**
+				 * S​c​a​l​a​b​l​e
+				 */
+				TITLE: string
+				/**
+				 * F​r​o​m​ ​t​h​e​ ​s​m​a​l​l​e​s​t​ ​f​r​i​e​n​d​ ​g​r​o​u​p​s​,​ ​t​o​ ​m​a​s​s​i​v​e​ ​i​n​f​r​a​s​t​r​u​c​t​u​r​e​s​ ​f​o​r​ ​t​h​o​u​s​a​n​d​s​ ​o​f​ ​u​s​e​r​s​.​ ​S​p​a​c​e​b​a​r​ ​f​i​t​ ​a​l​l​ ​u​s​e​ ​c​a​s​e​s​.
+				 */
+				DESCRIPTION: string
+			}
+			DISCORD_COMPATIBLE: {
+				/**
+				 * D​i​s​c​o​r​d​-​c​o​m​p​a​t​i​b​l​e
+				 */
+				TITLE: string
+				/**
+				 * S​p​a​c​e​b​a​r​ ​m​a​t​c​h​e​s​ ​e​v​e​r​y​ ​s​i​n​g​l​e​ ​f​e​a​t​u​r​e​ ​a​v​a​i​l​a​b​l​e​ ​o​n​ ​D​i​s​c​o​r​d​.​ ​O​u​r​ ​c​l​i​e​n​t​ ​w​o​r​k​s​ ​w​i​t​h​ ​S​p​a​c​e​b​a​r​ ​a​n​d​ ​D​i​s​c​o​r​d​ ​s​e​r​v​e​r​s​ ​s​e​a​m​l​e​s​s​l​y​.
+				 */
+				DESCRIPTION: string
+			}
+		}
 	}
 }
 
@@ -282,6 +324,48 @@ export type TranslationFunctions = {
 			 * Open Demo
 			 */
 			CTA_BUTTON_DEMO: () => LocalizedString
+		}
+		CARDS: {
+			SECURE: {
+				/**
+				 * Secure
+				 */
+				TITLE: () => LocalizedString
+				/**
+				 * Your chats, calls and other info are secure with our full end-to-end encryption approach. Chat safe with anyone.
+				 */
+				DESCRIPTION: () => LocalizedString
+			}
+			FEDERATED: {
+				/**
+				 * Federated
+				 */
+				TITLE: () => LocalizedString
+				/**
+				 * With Spacebar, you can run your own instance with your own rules and talk freely with other servers on our fediverse.
+				 */
+				DESCRIPTION: () => LocalizedString
+			}
+			SCALABLE: {
+				/**
+				 * Scalable
+				 */
+				TITLE: () => LocalizedString
+				/**
+				 * From the smallest friend groups, to massive infrastructures for thousands of users. Spacebar fit all use cases.
+				 */
+				DESCRIPTION: () => LocalizedString
+			}
+			DISCORD_COMPATIBLE: {
+				/**
+				 * Discord-compatible
+				 */
+				TITLE: () => LocalizedString
+				/**
+				 * Spacebar matches every single feature available on Discord. Our client works with Spacebar and Discord servers seamlessly.
+				 */
+				DESCRIPTION: () => LocalizedString
+			}
 		}
 	}
 }

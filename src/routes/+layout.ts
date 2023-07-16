@@ -4,12 +4,12 @@ import { setLocale } from '$lib/i18n/i18n-svelte';
 import { detectLocale } from '$lib/i18n/i18n-util';
 
 export const load = (async (event) => {
-	// Detect the locale
-	const locale = detectLocale(() => [event.params.lang ?? '']);
-	// Load it
-	await loadLocaleAsync(locale);
-	// Set it
-	setLocale(locale);
+  // Detect the locale
+  const locale = detectLocale(() => [event.params.lang ?? '']);
+  // Load it
+  await loadLocaleAsync(locale);
+  // Set it
+  setLocale(locale);
 
-	return event.data;
+  return event.data;
 }) satisfies LayoutLoad;

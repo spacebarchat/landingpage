@@ -26,6 +26,10 @@ h1,h2,h3,h4,h5 { font-family: 'new-hero', sans-serif; letter-spacing: -0.05em;}
 	@apply px-2 drop-shadow-md;
 }
 
+.menu {
+	@apply text-base;
+}
+
 /* Components */
 .arc-list {
 	@apply flex flex-col justify-around;
@@ -48,12 +52,27 @@ h1,h2,h3,h4,h5 { font-family: 'new-hero', sans-serif; letter-spacing: -0.05em;}
 	@apply text-3xl font-bold text-center;
 }
 
+/* Modal */
+.modal-action {
+	justify-content: center;
+}
+
 /* Other stuff */
 #ongoing-project-warning {
 	background: repeating-linear-gradient(45deg, #facc15, #facc15 10px, #dc2626 10px, #dc2626 20px);
 }
 
+#warning {
+	text-align: center;
+}
+
 #hero {
-	background-image: linear-gradient(180deg, rgba(1,132,253,1) 0%, rgba(0,92,177,0.95) 100%), url("bg.png");
-	background-repeat: repeat;
+	background: linear-gradient(180deg, rgba(1,132,253,1) 0%, rgba(0,92,177,0.92) 100%), url("bg.png") repeat;
+	animation: scroll-anim 180s linear infinite;
+}
+
+@keyframes scroll-anim {
+	100% {
+		background-position: -1000% 1000%;
+	}
 }

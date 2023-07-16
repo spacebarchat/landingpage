@@ -14,9 +14,11 @@ const en = {
 		CTA_HEADING: `⚠️ Hey! ${projectName} is an ongoing project in early stages of development and it is not ready for production yet.`,
 		CTA_READ_MORE: 'Read more',
 		HEADING: `We're still developing ${projectName}!`,
-		TEXT_1: `This is a very nice project, but we're currently in its early stages of development. We develop new stuff and features pretty quickly, but it's important to note that Spacebar is still in an experimental form. There are a lot of features to be created and issues that need to be ironed out before it's ready for production use.`,
-		TEXT_2: `If you want to help us, note that Spacebar is an open-source project. You can actively contribute to our development. Whether it's providing feedback, reporting bugs, or even contributing code, your involvement is highly encouraged and welcomed by our passionate community!`,
-		CONTRIBUTE_BUTTON: 'How to contribute'
+		TEXT_1: `Spacebar is still in its early stages of development. We develop new stuff and features pretty quickly, but it's important to note that there are a lot of features to be created and issues that need to be ironed out before we're ready to production environments.`,
+		TEXT_2_HEADING: `Wanna help? Join us!`,
+		TEXT_2: `Want to help us? Whether it's contributing code, reporting bugs, or even just providing feedback, your involvement is highly encouraged and welcomed by our community!`,
+		CONTRIBUTE_BUTTON: 'Let me join you',
+		CLOSE_BUTTON: 'Okay, thanks'
 	},
 
 	COMMON: {

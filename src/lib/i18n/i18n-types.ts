@@ -45,17 +45,25 @@ type RootTranslation = {
 		 */
 		HEADING: string
 		/**
-		 * T​h​i​s​ ​i​s​ ​a​ ​v​e​r​y​ ​n​i​c​e​ ​p​r​o​j​e​c​t​,​ ​b​u​t​ ​w​e​'​r​e​ ​c​u​r​r​e​n​t​l​y​ ​i​n​ ​i​t​s​ ​e​a​r​l​y​ ​s​t​a​g​e​s​ ​o​f​ ​d​e​v​e​l​o​p​m​e​n​t​.​ ​W​e​ ​d​e​v​e​l​o​p​ ​n​e​w​ ​s​t​u​f​f​ ​a​n​d​ ​f​e​a​t​u​r​e​s​ ​p​r​e​t​t​y​ ​q​u​i​c​k​l​y​,​ ​b​u​t​ ​i​t​'​s​ ​i​m​p​o​r​t​a​n​t​ ​t​o​ ​n​o​t​e​ ​t​h​a​t​ ​S​p​a​c​e​b​a​r​ ​i​s​ ​s​t​i​l​l​ ​i​n​ ​a​n​ ​e​x​p​e​r​i​m​e​n​t​a​l​ ​f​o​r​m​.​ ​T​h​e​r​e​ ​a​r​e​ ​a​ ​l​o​t​ ​o​f​ ​f​e​a​t​u​r​e​s​ ​t​o​ ​b​e​ ​c​r​e​a​t​e​d​ ​a​n​d​ ​i​s​s​u​e​s​ ​t​h​a​t​ ​n​e​e​d​ ​t​o​ ​b​e​ ​i​r​o​n​e​d​ ​o​u​t​ ​b​e​f​o​r​e​ ​i​t​'​s​ ​r​e​a​d​y​ ​f​o​r​ ​p​r​o​d​u​c​t​i​o​n​ ​u​s​e​.
+		 * S​p​a​c​e​b​a​r​ ​i​s​ ​s​t​i​l​l​ ​i​n​ ​i​t​s​ ​e​a​r​l​y​ ​s​t​a​g​e​s​ ​o​f​ ​d​e​v​e​l​o​p​m​e​n​t​.​ ​W​e​ ​d​e​v​e​l​o​p​ ​n​e​w​ ​s​t​u​f​f​ ​a​n​d​ ​f​e​a​t​u​r​e​s​ ​p​r​e​t​t​y​ ​q​u​i​c​k​l​y​,​ ​b​u​t​ ​i​t​'​s​ ​i​m​p​o​r​t​a​n​t​ ​t​o​ ​n​o​t​e​ ​t​h​a​t​ ​t​h​e​r​e​ ​a​r​e​ ​a​ ​l​o​t​ ​o​f​ ​f​e​a​t​u​r​e​s​ ​t​o​ ​b​e​ ​c​r​e​a​t​e​d​ ​a​n​d​ ​i​s​s​u​e​s​ ​t​h​a​t​ ​n​e​e​d​ ​t​o​ ​b​e​ ​i​r​o​n​e​d​ ​o​u​t​ ​b​e​f​o​r​e​ ​w​e​'​r​e​ ​r​e​a​d​y​ ​t​o​ ​p​r​o​d​u​c​t​i​o​n​ ​e​n​v​i​r​o​n​m​e​n​t​s​.
 		 */
 		TEXT_1: string
 		/**
-		 * I​f​ ​y​o​u​ ​w​a​n​t​ ​t​o​ ​h​e​l​p​ ​u​s​,​ ​n​o​t​e​ ​t​h​a​t​ ​S​p​a​c​e​b​a​r​ ​i​s​ ​a​n​ ​o​p​e​n​-​s​o​u​r​c​e​ ​p​r​o​j​e​c​t​.​ ​Y​o​u​ ​c​a​n​ ​a​c​t​i​v​e​l​y​ ​c​o​n​t​r​i​b​u​t​e​ ​t​o​ ​o​u​r​ ​d​e​v​e​l​o​p​m​e​n​t​.​ ​W​h​e​t​h​e​r​ ​i​t​'​s​ ​p​r​o​v​i​d​i​n​g​ ​f​e​e​d​b​a​c​k​,​ ​r​e​p​o​r​t​i​n​g​ ​b​u​g​s​,​ ​o​r​ ​e​v​e​n​ ​c​o​n​t​r​i​b​u​t​i​n​g​ ​c​o​d​e​,​ ​y​o​u​r​ ​i​n​v​o​l​v​e​m​e​n​t​ ​i​s​ ​h​i​g​h​l​y​ ​e​n​c​o​u​r​a​g​e​d​ ​a​n​d​ ​w​e​l​c​o​m​e​d​ ​b​y​ ​o​u​r​ ​p​a​s​s​i​o​n​a​t​e​ ​c​o​m​m​u​n​i​t​y​!
+		 * W​a​n​n​a​ ​h​e​l​p​?​ ​J​o​i​n​ ​u​s​!
+		 */
+		TEXT_2_HEADING: string
+		/**
+		 * W​a​n​t​ ​t​o​ ​h​e​l​p​ ​u​s​?​ ​W​h​e​t​h​e​r​ ​i​t​'​s​ ​c​o​n​t​r​i​b​u​t​i​n​g​ ​c​o​d​e​,​ ​r​e​p​o​r​t​i​n​g​ ​b​u​g​s​,​ ​o​r​ ​e​v​e​n​ ​j​u​s​t​ ​p​r​o​v​i​d​i​n​g​ ​f​e​e​d​b​a​c​k​,​ ​y​o​u​r​ ​i​n​v​o​l​v​e​m​e​n​t​ ​i​s​ ​h​i​g​h​l​y​ ​e​n​c​o​u​r​a​g​e​d​ ​a​n​d​ ​w​e​l​c​o​m​e​d​ ​b​y​ ​o​u​r​ ​c​o​m​m​u​n​i​t​y​!
 		 */
 		TEXT_2: string
 		/**
-		 * H​o​w​ ​t​o​ ​c​o​n​t​r​i​b​u​t​e
+		 * L​e​t​ ​m​e​ ​j​o​i​n​ ​y​o​u
 		 */
 		CONTRIBUTE_BUTTON: string
+		/**
+		 * O​k​a​y​,​ ​t​h​a​n​k​s
+		 */
+		CLOSE_BUTTON: string
 	}
 	COMMON: {
 		/**
@@ -174,17 +182,25 @@ export type TranslationFunctions = {
 		 */
 		HEADING: () => LocalizedString
 		/**
-		 * This is a very nice project, but we're currently in its early stages of development. We develop new stuff and features pretty quickly, but it's important to note that Spacebar is still in an experimental form. There are a lot of features to be created and issues that need to be ironed out before it's ready for production use.
+		 * Spacebar is still in its early stages of development. We develop new stuff and features pretty quickly, but it's important to note that there are a lot of features to be created and issues that need to be ironed out before we're ready to production environments.
 		 */
 		TEXT_1: () => LocalizedString
 		/**
-		 * If you want to help us, note that Spacebar is an open-source project. You can actively contribute to our development. Whether it's providing feedback, reporting bugs, or even contributing code, your involvement is highly encouraged and welcomed by our passionate community!
+		 * Wanna help? Join us!
+		 */
+		TEXT_2_HEADING: () => LocalizedString
+		/**
+		 * Want to help us? Whether it's contributing code, reporting bugs, or even just providing feedback, your involvement is highly encouraged and welcomed by our community!
 		 */
 		TEXT_2: () => LocalizedString
 		/**
-		 * How to contribute
+		 * Let me join you
 		 */
 		CONTRIBUTE_BUTTON: () => LocalizedString
+		/**
+		 * Okay, thanks
+		 */
+		CLOSE_BUTTON: () => LocalizedString
 	}
 	COMMON: {
 		/**

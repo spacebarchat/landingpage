@@ -29,7 +29,7 @@ module.exports = {
 					warning: '#facc15',
 					error: '#dc2626',
 
-					fontFamily: 'InterVariable, sans-serif'
+					fontFamily: 'Inter Variable, sans-serif'
 				}
 			}
 		]

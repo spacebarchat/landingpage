@@ -3,7 +3,7 @@
 	import { getFullURLForSubdomain, mainInstanceURL, projectLogo } from '$lib/options';
 	import { mainMenu, socialLinks } from '$lib/menus';
 	import Icon from '@iconify/svelte';
-	import '@fontsource/inter/variable.css';
+	import '@fontsource-variable/inter';
 	import '../../app.css';
 </script>
 
@@ -14,7 +14,7 @@
 	<link rel="icon" href={projectLogo.icons.app} type="image/svg+xml" />
 </svelte:head>
 
-<a href="#ongoing-project-modal">
+<a href="#warning">
 	<div
 		id="ongoing-project-warning"
 		class="w-full flex justify-center py-1.5 text-md font-medium drop-shadow-[0_0_3px_rgba(0,0,0,0.7)] px-auto"
@@ -61,10 +61,10 @@
 				{/each}
 				<div class="divider divider-horizontal" />
 				{#each socialLinks as item}
-					<li>
+					<li class="self-center">
 						<!-- alt={item.label} -->
 						<a href={item.url} target="_blank"
-							><Icon icon="fa-brands:{item.label.toLowerCase()}" width="18" /></a
+							><Icon icon="fa-brands:{item.label.toLowerCase()}" width="22" height="22" /></a
 						>
 					</li>
 				{/each}
@@ -83,18 +83,22 @@
 
 <slot />
 
-<div class="modal modal-bottom sm:modal-middle" id="ongoing-project-modal">
+<div class="modal modal-bottom sm:modal-middle" id="warning">
 	<div class="modal-box">
-		<h3 class="font-bold text-lg">{$LL.ONGOING_PROJECT_WARNING.HEADING()}</h3>
-		<p class="pt-4">
+		<h3 class="pb-2 font-bold text-lg">{$LL.ONGOING_PROJECT_WARNING.HEADING()}</h3>
+		<p class="text-sm pb-5">
 			{$LL.ONGOING_PROJECT_WARNING.TEXT_1()}
 		</p>
-		<p class="pt-3 pb-4">
+		<h3 class="pt-3 pb-2 font-bold text-lg">
+			<Icon icon="fa6-solid:users" width={25} style="display: initial;" class="mr-3" />
+			{$LL.ONGOING_PROJECT_WARNING.TEXT_2_HEADING()}
+		</h3>
+		<p class="mb-6 text-sm">
 			{$LL.ONGOING_PROJECT_WARNING.TEXT_2()}
 		</p>
-		<div class="modal-action">
-			<a href="#jji" class="btn btn-ghost">{$LL.ONGOING_PROJECT_WARNING.CONTRIBUTE_BUTTON()}</a>
-			<a href="#top" class="btn btn-primary">{$LL.COMMON.GOT_IT()}</a>
+		<div class="mt-4 modal-action">
+			<a href="/contribute" class="btn btn-link text-white">{$LL.ONGOING_PROJECT_WARNING.CONTRIBUTE_BUTTON()}</a>
+			<a href="#top" class="btn btn-accent">{$LL.ONGOING_PROJECT_WARNING.CLOSE_BUTTON()}</a>
 		</div>
 	</div>
 </div>

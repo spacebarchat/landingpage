@@ -62,8 +62,9 @@
 				<div class="divider divider-horizontal" />
 				{#each socialLinks as item}
 					<li>
+						<!-- alt={item.label} -->
 						<a href={item.url} target="_blank"
-							><Icon icon="fa-brands:{item.label.toLowerCase()}" alt={item.label} width="18" /></a
+							><Icon icon="fa-brands:{item.label.toLowerCase()}" width="18" /></a
 						>
 					</li>
 				{/each}
@@ -85,10 +86,14 @@
 <div class="modal modal-bottom sm:modal-middle" id="ongoing-project-modal">
 	<div class="modal-box">
 		<h3 class="font-bold text-lg">{$LL.ONGOING_PROJECT_WARNING.HEADING()}</h3>
-		<p class="py-4">
-			{$LL.ONGOING_PROJECT_WARNING.TEXT()}
+		<p class="pt-4">
+			{$LL.ONGOING_PROJECT_WARNING.TEXT_1()}
+		</p>
+		<p class="pt-3 pb-4">
+			{$LL.ONGOING_PROJECT_WARNING.TEXT_2()}
 		</p>
 		<div class="modal-action">
+			<a href="#jji" class="btn btn-ghost">{$LL.ONGOING_PROJECT_WARNING.CONTRIBUTE_BUTTON()}</a>
 			<a href="#top" class="btn btn-primary">{$LL.COMMON.GOT_IT()}</a>
 		</div>
 	</div>

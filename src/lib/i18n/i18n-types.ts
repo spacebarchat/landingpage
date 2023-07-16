@@ -45,9 +45,17 @@ type RootTranslation = {
 		 */
 		HEADING: string
 		/**
-		 * T​O​D​O
+		 * T​h​i​s​ ​i​s​ ​a​ ​v​e​r​y​ ​n​i​c​e​ ​p​r​o​j​e​c​t​,​ ​b​u​t​ ​w​e​'​r​e​ ​c​u​r​r​e​n​t​l​y​ ​i​n​ ​i​t​s​ ​e​a​r​l​y​ ​s​t​a​g​e​s​ ​o​f​ ​d​e​v​e​l​o​p​m​e​n​t​.​ ​W​e​ ​d​e​v​e​l​o​p​ ​n​e​w​ ​s​t​u​f​f​ ​a​n​d​ ​f​e​a​t​u​r​e​s​ ​p​r​e​t​t​y​ ​q​u​i​c​k​l​y​,​ ​b​u​t​ ​i​t​'​s​ ​i​m​p​o​r​t​a​n​t​ ​t​o​ ​n​o​t​e​ ​t​h​a​t​ ​S​p​a​c​e​b​a​r​ ​i​s​ ​s​t​i​l​l​ ​i​n​ ​a​n​ ​e​x​p​e​r​i​m​e​n​t​a​l​ ​f​o​r​m​.​ ​T​h​e​r​e​ ​a​r​e​ ​a​ ​l​o​t​ ​o​f​ ​f​e​a​t​u​r​e​s​ ​t​o​ ​b​e​ ​c​r​e​a​t​e​d​ ​a​n​d​ ​i​s​s​u​e​s​ ​t​h​a​t​ ​n​e​e​d​ ​t​o​ ​b​e​ ​i​r​o​n​e​d​ ​o​u​t​ ​b​e​f​o​r​e​ ​i​t​'​s​ ​r​e​a​d​y​ ​f​o​r​ ​p​r​o​d​u​c​t​i​o​n​ ​u​s​e​.
 		 */
-		TEXT: string
+		TEXT_1: string
+		/**
+		 * I​f​ ​y​o​u​ ​w​a​n​t​ ​t​o​ ​h​e​l​p​ ​u​s​,​ ​n​o​t​e​ ​t​h​a​t​ ​S​p​a​c​e​b​a​r​ ​i​s​ ​a​n​ ​o​p​e​n​-​s​o​u​r​c​e​ ​p​r​o​j​e​c​t​.​ ​Y​o​u​ ​c​a​n​ ​a​c​t​i​v​e​l​y​ ​c​o​n​t​r​i​b​u​t​e​ ​t​o​ ​o​u​r​ ​d​e​v​e​l​o​p​m​e​n​t​.​ ​W​h​e​t​h​e​r​ ​i​t​'​s​ ​p​r​o​v​i​d​i​n​g​ ​f​e​e​d​b​a​c​k​,​ ​r​e​p​o​r​t​i​n​g​ ​b​u​g​s​,​ ​o​r​ ​e​v​e​n​ ​c​o​n​t​r​i​b​u​t​i​n​g​ ​c​o​d​e​,​ ​y​o​u​r​ ​i​n​v​o​l​v​e​m​e​n​t​ ​i​s​ ​h​i​g​h​l​y​ ​e​n​c​o​u​r​a​g​e​d​ ​a​n​d​ ​w​e​l​c​o​m​e​d​ ​b​y​ ​o​u​r​ ​p​a​s​s​i​o​n​a​t​e​ ​c​o​m​m​u​n​i​t​y​!
+		 */
+		TEXT_2: string
+		/**
+		 * H​o​w​ ​t​o​ ​c​o​n​t​r​i​b​u​t​e
+		 */
+		CONTRIBUTE_BUTTON: string
 	}
 	COMMON: {
 		/**
@@ -110,25 +118,25 @@ type RootTranslation = {
 	MAIN_PAGE: {
 		PAGE_HEADER: {
 			/**
-			 * T​a​l​k​ ​n​i​c​e​!
+			 * C​h​a​t​ ​a​s​ ​i​t​ ​s​h​o​u​l​d​ ​b​e​.
 			 */
 			BIG_MARKETING_TEXT: string
 			/**
-			 * R​a​n​d​o​m​,​ ​s​m​a​l​l​ ​m​a​r​k​e​t​i​n​g​ ​t​e​x​t​ ​f​o​r​ ​t​e​s​t​ ​p​u​r​p​o​s​e​s​.
+			 * S​p​a​c​e​b​a​r​ ​i​s​ ​a​ ​f​r​e​e​,​ ​o​p​e​n​-​s​o​u​r​c​e​ ​a​n​d​ ​f​e​d​e​r​a​t​e​d​ ​D​i​s​c​o​r​d​ ​a​l​t​e​r​n​a​t​i​v​e​.
 			 */
 			SMALL_MARKETING_TEXT: string
 			/**
-			 * O​p​e​n​ ​D​e​m​o
+			 * G​e​t​ ​S​t​a​r​t​e​d
 			 */
-			CTA_BUTTON_DEMO: string
+			CTA_BUTTON_DOCS: string
 			/**
 			 * C​o​n​t​r​i​b​u​t​e
 			 */
 			CTA_BUTTON_CONTRIBUTE: string
 			/**
-			 * G​e​t​ ​S​t​a​r​t​e​d
+			 * O​p​e​n​ ​D​e​m​o
 			 */
-			CTA_BUTTON_DOCS: string
+			CTA_BUTTON_DEMO: string
 		}
 	}
 }
@@ -166,9 +174,17 @@ export type TranslationFunctions = {
 		 */
 		HEADING: () => LocalizedString
 		/**
-		 * TODO
+		 * This is a very nice project, but we're currently in its early stages of development. We develop new stuff and features pretty quickly, but it's important to note that Spacebar is still in an experimental form. There are a lot of features to be created and issues that need to be ironed out before it's ready for production use.
 		 */
-		TEXT: () => LocalizedString
+		TEXT_1: () => LocalizedString
+		/**
+		 * If you want to help us, note that Spacebar is an open-source project. You can actively contribute to our development. Whether it's providing feedback, reporting bugs, or even contributing code, your involvement is highly encouraged and welcomed by our passionate community!
+		 */
+		TEXT_2: () => LocalizedString
+		/**
+		 * How to contribute
+		 */
+		CONTRIBUTE_BUTTON: () => LocalizedString
 	}
 	COMMON: {
 		/**
@@ -231,25 +247,25 @@ export type TranslationFunctions = {
 	MAIN_PAGE: {
 		PAGE_HEADER: {
 			/**
-			 * Talk nice!
+			 * Chat as it should be.
 			 */
 			BIG_MARKETING_TEXT: () => LocalizedString
 			/**
-			 * Random, small marketing text for test purposes.
+			 * Spacebar is a free, open-source and federated Discord alternative.
 			 */
 			SMALL_MARKETING_TEXT: () => LocalizedString
 			/**
-			 * Open Demo
+			 * Get Started
 			 */
-			CTA_BUTTON_DEMO: () => LocalizedString
+			CTA_BUTTON_DOCS: () => LocalizedString
 			/**
 			 * Contribute
 			 */
 			CTA_BUTTON_CONTRIBUTE: () => LocalizedString
 			/**
-			 * Get Started
+			 * Open Demo
 			 */
-			CTA_BUTTON_DOCS: () => LocalizedString
+			CTA_BUTTON_DEMO: () => LocalizedString
 		}
 	}
 }

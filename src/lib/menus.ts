@@ -14,6 +14,7 @@ export const mainMenu = [
 export const socialLinks = [
 	// When localizing, use LL.COMMON.GITHUB, LL.COMMON.TWITTER, etc.
 	new MenuItem('GitHub', `https://github.com/${projectUsername.github}`),
+	new MenuItem('Discord', `https://discord.gg/${projectUsername.social.discord}`),
 	new MenuItem('Twitter', `https://twitter.com/${projectUsername.social.twitter}`),
-	new MenuItem('Instagram', `https://instagram.com/${projectUsername.social.instagram}`)
+	new MenuItem('Instagram', `https://instagram.com/${projectUsername.social.instagram}`),
 ];

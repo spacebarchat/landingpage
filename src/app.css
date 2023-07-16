@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Font */
+@font-face {
+	font-family:"new-hero";
+	src:url("/fonts/1.woff2")
+	format("woff2"),url("/fonts/2.woff2")
+	format("woff"),url("/fonts/3.woff") format("opentype");
+	font-display:auto;font-style:normal;font-weight:800;font-stretch:normal;
+	}
+
+h1,h2,h3,h4,h5 { font-family: 'new-hero', sans-serif; letter-spacing: -0.05em;}
+/* End Font */
+
 .btn {
 	@apply rounded-full font-bold drop-shadow-md;
 }
@@ -39,4 +51,9 @@
 /* Other stuff */
 #ongoing-project-warning {
 	background: repeating-linear-gradient(45deg, #facc15, #facc15 10px, #dc2626 10px, #dc2626 20px);
+}
+
+#hero {
+	background-image: linear-gradient(180deg, rgba(1,132,253,1) 0%, rgba(0,92,177,0.95) 100%), url("bg.png");
+	background-repeat: repeat;
 }

@@ -11,7 +11,8 @@ export const projectDomain = 'spacebar.chat';
 export const projectUsername = {
 	social: {
 		twitter: 'spacebarchat',
-		instagram: 'spacebarchat'
+		instagram: 'spacebarchat',
+		discord: 'Ms5Ev7S6bF'
 	},
 	github: 'spacebarchat'
 };

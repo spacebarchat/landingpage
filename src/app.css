@@ -64,6 +64,12 @@ h5 {
   justify-content: center;
 }
 
+/* Tabs */
+.tab {
+  height: 2.8rem;
+  font-size: 1rem;
+}
+
 /* Other stuff */
 #ongoing-project-warning {
   background: repeating-linear-gradient(45deg, #facc15, #facc15 10px, #dc2626 10px, #dc2626 20px);

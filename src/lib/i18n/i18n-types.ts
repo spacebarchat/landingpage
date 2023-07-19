@@ -189,6 +189,32 @@ type RootTranslation = {
 			}
 		}
 	}
+	INSTANCES_PAGE: {
+		MENU: {
+			/**
+			 * O​n​l​y​ ​v​e​r​i​f​i​e​d
+			 */
+			ONLY_VERIFIED: string
+			/**
+			 * A​d​d​ ​y​o​u​r​ ​i​n​s​t​a​n​c​e
+			 */
+			ADD_YOUR_INSTANCE: string
+		}
+		INSTANCES_LIST: {
+			/**
+			 * T​h​e​r​e​ ​w​a​s​ ​a​n​ ​e​r​r​o​r​ ​w​h​i​l​e​ ​w​e​ ​t​r​i​e​d​ ​t​o​ ​l​o​a​d​ ​u​p​ ​t​h​e​ ​i​n​s​t​a​n​c​e​s​.​ ​P​l​e​a​s​e​ ​c​h​e​c​k​ ​i​t​ ​o​u​t​ ​l​a​t​e​r​ ​o​r​ ​s​e​n​d​ ​a​ ​m​e​s​s​a​g​e​ ​t​o​ ​o​u​r​ ​d​e​v​ ​t​e​a​m​.
+			 */
+			LOADING_FAILED: string
+			/**
+			 * T​h​e​r​e​ ​a​r​e​ ​n​o​ ​i​n​s​t​a​n​c​e​s​ ​r​e​g​i​s​t​e​r​e​d​ ​y​e​t​.
+			 */
+			NO_INSTANCES: string
+			/**
+			 * T​h​i​s​ ​i​s​ ​a​n​ ​o​f​f​i​c​i​a​l​l​y​ ​v​e​r​i​f​i​e​d​ ​i​n​s​t​a​n​c​e​.
+			 */
+			VERIFIED_BADGE: string
+		}
+	}
 }
 
 export type TranslationFunctions = {
@@ -366,6 +392,32 @@ export type TranslationFunctions = {
 				 */
 				DESCRIPTION: () => LocalizedString
 			}
+		}
+	}
+	INSTANCES_PAGE: {
+		MENU: {
+			/**
+			 * Only verified
+			 */
+			ONLY_VERIFIED: () => LocalizedString
+			/**
+			 * Add your instance
+			 */
+			ADD_YOUR_INSTANCE: () => LocalizedString
+		}
+		INSTANCES_LIST: {
+			/**
+			 * There was an error while we tried to load up the instances. Please check it out later or send a message to our dev team.
+			 */
+			LOADING_FAILED: () => LocalizedString
+			/**
+			 * There are no instances registered yet.
+			 */
+			NO_INSTANCES: () => LocalizedString
+			/**
+			 * This is an officially verified instance.
+			 */
+			VERIFIED_BADGE: () => LocalizedString
 		}
 	}
 }

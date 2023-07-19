@@ -74,6 +74,19 @@ const en = {
           'Spacebar matches every single feature available on Discord. Our client works with Spacebar and Discord servers seamlessly.'
       }
     }
+  },
+
+  INSTANCES_PAGE: {
+    MENU: {
+      ONLY_VERIFIED: 'Only verified',
+      ADD_YOUR_INSTANCE: 'Add your instance'
+    },
+    INSTANCES_LIST: {
+      LOADING_FAILED:
+        'There was an error while we tried to load up the instances. Please check it out later or send a message to our dev team.',
+      NO_INSTANCES: 'There are no instances registered yet.',
+      VERIFIED_BADGE: 'This is an officially verified instance.'
+    }
   }
 } satisfies BaseTranslation;
 

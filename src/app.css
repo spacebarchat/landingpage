@@ -86,7 +86,6 @@ h5 {
 }
 
 #page-heading {
-  @apply text-4xl font-bold text-left;
   background: linear-gradient(180deg, rgba(1, 132, 253, 1) 30%, rgba(0, 92, 177, 0.92) 100%),
     url('bg.png') repeat;
   animation: scroll-anim 240s linear infinite;
@@ -96,4 +95,15 @@ h5 {
   100% {
     background-position: -1000% 1000%;
   }
+}
+
+.verified-instance-symbol {
+  @apply indicator-item badge badge-success;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+.instance-list-item {
+  @apply bg-secondary hover:bg-opacity-50 shadow-md rounded-lg w-full px-5 py-2;
+  border: 1px solid #ffffff55;
 }

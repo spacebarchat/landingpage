@@ -41,6 +41,7 @@
 		"@fontsource/inter": "^5.0.5",
 		"@lottiefiles/svelte-lottie-player": "^0.3.0",
 		"@tailwindcss/typography": "^0.5.9",
+		"axios": "^1.4.0",
 		"daisyui": "^3.2.1"
 	}
 }

@@ -1,37 +1,53 @@
-<script>
+<script lang="ts">
+  export let verifiedonly: boolean = false;
+
+  import { getInstanceList, projectLogo } from '$lib/options';
   import Icon from '@iconify/svelte';
+  import LL from '$lib/i18n/i18n-svelte';
+
+  const instanceList = getInstanceList();
 </script>
 
-<div class="overflow-x-auto">
-  <table class="table">
-    <tbody>
-      <tr class="hover">
-        <td class="w-full">
-          <div class="flex items-center space-x-3">
-            <div class="avatar">
-              <div class="mask mask-squircle w-12 h-12">
-                <img
-                  src="/tailwind-css-component-profile-2@56w.png"
-                  alt="Avatar Tailwind CSS Component"
-                />
+{#await instanceList}
+  <span class="loading loading-dots loading-xl" />
+{:then instanceListItems}
+  {#if instanceListItems.length === 0}
+    <p>{$LL.INSTANCES_PAGE.INSTANCES_LIST.NO_INSTANCES()}</p>
+  {/if}
+  <div class="join join-vertical w-full">
+    {#each instanceListItems as item}
+      {#if (verifiedonly && item.verified) || !verifiedonly}
+        <a href={item.url} target="_blank" rel="noopener noreferrer">
+          <div class="instance-list-item border-bottom join-item">
+            <div class="flex items-center content-between space-x-3">
+              <div class="basis-1/3 flex items-center">
+                <div class="avatar rounded-full inline shadow-lg border">
+                  <div class="mask mask-circle w-16 h-16">
+                    <img src={item.image} alt="{item.name} logo" />
+                  </div>
+                </div>
+                <div
+                  class={item.verified
+                    ? 'tooltip tooltip-success tooltip-right inline flex items-center'
+                    : 'inline flex items-center'}
+                  data-tip={$LL.INSTANCES_PAGE.INSTANCES_LIST.VERIFIED_BADGE()}
+                >
+                  <div class="font-bold text-xl inline ml-4">{item.name}</div>
+                  {#if item.verified}
+                    <span class="inline ml-1"><Icon icon="bxs:badge-check" width="22" /> </span>
+                  {/if}
+                </div>
               </div>
-            </div>
-            <div>
-              <div class="font-bold">Spacebar</div>
-              <div class="text-sm opacity-50">Official Spacebar instance.</div>
-              <span class="badge badge-success badge-md">https://spacebar.chat</span>
+              <div class="basis-1/3">
+                <div class="opacity-50">{item.description}</div>
+              </div>
+              <div class="basis-1/3 text-right">{item.url}</div>
             </div>
           </div>
-        </td>
-        <th>
-          <div class="join">
-            <button class="btn btn-primary join-item">Open</button>
-            <button class="btn btn-primary join-item"
-              ><Icon icon="fa6-solid:copy" width="20px" /></button
-            >
-          </div>
-        </th>
-      </tr>
-    </tbody>
-  </table>
-</div>
+        </a>
+      {/if}
+    {/each}
+  </div>
+{:catch error}
+  <p>{$LL.INSTANCES_PAGE.INSTANCES_LIST.LOADING_FAILED()}</p>
+{/await}

@@ -111,15 +111,19 @@
     <p>{$LL.META.COPYRIGHT_DISCLAIMER()}</p>
   </div>
   <div>
-    <span class="footer-title">Header</span>
-    <a href="#top" class="link link-hover">Option 1</a>
+    <span class="footer-title">Quick Menus</span>
+    <a href="#top" class="link link-hover">Project list</a>
+    <a href="#top" class="link link-hover">Useful links</a>
+    <a href="#top" class="link link-hover">Branding info</a>
   </div>
   <div>
-    <span class="footer-title">Header</span>
-    <a href="#top" class="link link-hover">Option 2</a>
+    <span class="footer-title">Spacebar</span>
+    <a href="#top" class="link link-hover">License</a>
+    <a href="#top" class="link link-hover">Code of Conduct</a>
   </div>
   <div>
-    <span class="footer-title">Header</span>
-    <a href="#top" class="link link-hover">Option 3</a>
+    <span class="footer-title">Updates</span>
+    <a href="#top" class="link link-hover">Blog</a>
+    <a href="#top" class="link link-hover">Releases</a>
   </div>
 </footer>

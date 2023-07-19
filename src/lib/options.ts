@@ -1,6 +1,9 @@
 // Considering Fosscord project rename, this file should be updated to reflect the new name. This will also update the logo usage.
 // Branding (colors) should be updated through the theming files on tailwind.config.js.
 
+import type Instance from './types/instance';
+import axios from 'axios';
+
 /*
  *	Meta
  */
@@ -18,6 +21,10 @@ export const projectUsername = {
 };
 
 export const repoList = ['server', 'client', 'landingpage', 'docs'];
+
+// Needs to be changed to the prod URL as soon as https://github.com/spacebarchat/community-instances/pull/68 gets merged.
+export const instanceListURL =
+  'https://raw.githubusercontent.com/BRGustavoRibeiro/community-instances/patch-1/instances.json';
 
 export const projectLogo = {
   wordmark: {
@@ -40,6 +47,22 @@ export const projectLogo = {
  */
 export const getFullURLForSubdomain = (subdomain: string, path?: string) =>
   `https://${subdomain}.${projectDomain}${path ? `/${path}` : ''}`;
+
+export const getInstanceList = async (): Promise<Instance[]> => {
+  let final: Instance[] = [];
+
+  await axios
+    .get(instanceListURL)
+    .then((response) => {
+      final = response.data;
+      return response.data;
+    })
+    .catch(() => {
+      final = [];
+    });
+
+  return final;
+};
 
 /*
  *	Main Instance

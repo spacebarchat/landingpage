@@ -1,0 +1,56 @@
+html,
+body {
+	background-color: #000115;
+
+	font-family: 'Inter', sans-serif;
+	color: white;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.inner {
+	margin: 30px;
+}
+
+#text {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#logo {
+	max-width: 50%;
+	margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+	#logo {
+		max-width: 100%;
+	}
+}
+
+a,
+a:visited {
+	color: #0185ff;
+}
+
+.links {
+	margin-top: 20px;
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+}

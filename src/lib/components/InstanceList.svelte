@@ -1,12 +1,16 @@
 <script lang="ts">
   export let verifiedonly: boolean = false;
 
-  import { getInstanceList, projectLogo } from '$lib/options';
+  import { getInstanceList, BRANDING_RESOURCES } from '$lib/options';
   import Icon from '@iconify/svelte';
   import LL from '$lib/i18n/i18n-svelte';
 
   const instanceList = getInstanceList();
 </script>
+
+{#await instanceList}
+
+{/await}
 
 {#await instanceList}
   <span class="loading loading-dots loading-xl" />

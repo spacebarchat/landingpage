@@ -1,6 +1,6 @@
 <script lang="ts">
   import { LL } from '$lib/i18n/i18n-svelte';
-  import { getFullURLForSubdomain, mainInstanceURL, projectLogo } from '$lib/options';
+  import { getFullURLForSubdomain, OFFICIAL_INSTANCE_URL, BRANDING_RESOURCES } from '$lib/options';
   import { mainMenu, socialLinks } from '$lib/menus';
   import Icon from '@iconify/svelte';
   import '@fontsource-variable/inter';
@@ -11,7 +11,7 @@
   <title>{$LL.PROJECT_NAME()} | {$LL.PROJECT_META_SLOGAN()}</title>
 
   <!-- We need to insert a PNG and ICO equivalent here. -->
-  <link rel="icon" href={projectLogo.icons.app} type="image/svg+xml" />
+  <link rel="icon" href={BRANDING_RESOURCES.ICONS.APP} type="image/svg+xml" />
 </svelte:head>
 
 <a href="#warning">
@@ -47,7 +47,7 @@
       </div>
       <a href="/" class="normal-case text-xl">
         <img
-          src={projectLogo.wordmark.white}
+          src={BRANDING_RESOURCES.WORDMARK.WHITE}
           width="w-16"
           class="max-h-7"
           alt={$LL.PROJECT_NAME()}
@@ -71,7 +71,7 @@
       </ul>
     </div>
     <div class="navbar-end">
-      <a href={mainInstanceURL} class="btn btn-accent drop-shadow-lg border-white font-bold"
+      <a href={OFFICIAL_INSTANCE_URL} class="btn btn-accent drop-shadow-lg border-white font-bold"
         >{$LL.COMMON.SIGN_IN()}
         <div class="badge badge-error ml-2 badge-xs p-3">
           {$LL.NAVBAR.DEMO_ALPHA_WARNING_BADGE()}
@@ -107,7 +107,7 @@
 
 <footer class="footer p-10 bg-darkblue text-base-content sticky top-[100vh]">
   <div>
-    <img src={projectLogo.wordmark.white} width="w-32" class="max-h-7" alt={$LL.PROJECT_NAME()} />
+    <img src={BRANDING_RESOURCES.WORDMARK.WHITE} width="w-32" class="max-h-7" alt={$LL.PROJECT_NAME()} />
     <p>{$LL.META.COPYRIGHT_DISCLAIMER()}</p>
   </div>
   <div>

@@ -4,7 +4,7 @@
   export let icon: string;
 
   import { LL } from '$lib/i18n/i18n-svelte';
-  import { getFullURLForSubdomain, mainInstanceURL } from '$lib/options';
+  import { getFullURLForSubdomain, OFFICIAL_INSTANCE_URL } from '$lib/options';
   import Icon from '@iconify/svelte';
 </script>
 

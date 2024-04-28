@@ -1,6 +1,6 @@
 <script lang="ts">
   import { LL } from '$lib/i18n/i18n-svelte';
-  import { getFullURLForSubdomain, mainInstanceURL } from '$lib/options';
+  import { getFullURLForSubdomain, OFFICIAL_INSTANCE_URL } from '$lib/options';
   import Icon from '@iconify/svelte';
 </script>
 
@@ -22,7 +22,7 @@
           <a href="/contribute" class="btn btn-ghost join-item border-[#ffffff80]">
             {$LL.MAIN_PAGE.PAGE_HEADER.CTA_BUTTON_CONTRIBUTE()}
           </a>
-          <a href={mainInstanceURL} class="btn btn-ghost join-item border-[#ffffff80]">
+          <a href={OFFICIAL_INSTANCE_URL} class="btn btn-ghost join-item border-[#ffffff80]">
             {$LL.MAIN_PAGE.PAGE_HEADER.CTA_BUTTON_DEMO()}
           </a>
         </div>

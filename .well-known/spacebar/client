@@ -1,6 +1,6 @@
 {
   "api": {
-    "baseUrl": "https://old.server.spacebar.chat",
+    "baseUrl": "https://api.rory.server.spacebar.chat",
     "apiVersions": {
       "default": "9",
       "active": [
@@ -12,10 +12,10 @@
     }
   },
   "cdn": {
-    "baseUrl": "https://cdn.old.server.spacebar.chat"
+    "baseUrl": "https://cdn.rory.server.spacebar.chat"
   },
   "gateway": {
-    "baseUrl": "wss://gateway.old.server.spacebar.chat",
+    "baseUrl": "wss://gateway.rory.server.spacebar.chat",
     "encoding": [
       "etf",
       "json"
@@ -27,6 +27,6 @@
     ]
   },
   "admin": {
-    "baseUrl": "https://admin.old.server.spacebar.chat"
+    "baseUrl": "https://admin.rory.server.spacebar.chat"
   }
 }

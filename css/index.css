@@ -37,6 +37,19 @@ body {
 	margin-bottom: 50px;
 }
 
+#join_button {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #0185ff;
+	border: thick solid #0185ff;
+	border-radius: 20px;
+	font-size: 36px;
+	color: white !important;
+	text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
 	#logo {
 		max-width: 100%;
@@ -54,3 +67,4 @@ a:visited {
 	gap: 20px;
 	flex-wrap: wrap;
 }
+

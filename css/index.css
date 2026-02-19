@@ -38,6 +38,7 @@ body {
 }
 
 #join_button {
+	margin-top: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 50px;
@@ -67,4 +68,3 @@ a:visited {
 	gap: 20px;
 	flex-wrap: wrap;
 }
-
